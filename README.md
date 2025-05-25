@@ -226,4 +226,4 @@ For support, please open an issue in the GitHub repository or contact the develo
 
 ---
 
-**Built with ❤️ for the Wasserstoff AI Intern Task**
+**Built with ❤️ By Pranav**
