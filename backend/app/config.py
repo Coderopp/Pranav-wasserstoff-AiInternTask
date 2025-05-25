@@ -10,6 +10,10 @@ class Settings(BaseSettings):
     # Database settings
     DATA_DIR: str = "data"
     
+    # Railway deployment settings
+    PORT: int = int(os.getenv("PORT", "8000"))
+    RAILWAY_ENVIRONMENT: Optional[str] = None
+    
     # Vector store settings
     QDRANT_URL: str = "https://98d48a76-767d-4679-8373-777ef2d36207.us-west-2-0.aws.cloud.qdrant.io:6333"
     QDRANT_COLLECTION: str = "vectorstore"
@@ -26,6 +30,9 @@ class Settings(BaseSettings):
     # LLM settings
     GROQ_API_KEY: Optional[str] = None
     LLM_MODEL: str = "llama3-70b-8192"
+    
+    # CORS settings for Railway deployment
+    ALLOWED_ORIGINS: list = ["*"]  # Configure appropriately for production
     
     model_config = {
         "env_file": ".env"
