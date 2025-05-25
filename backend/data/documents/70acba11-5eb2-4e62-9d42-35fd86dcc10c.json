@@ -1,0 +1,4154 @@
+{
+  "id": "70acba11-5eb2-4e62-9d42-35fd86dcc10c",
+  "full_text": "--- Page 1 ---\n\nResponse Surface Methods\n(Ref to Sec 6.8 and Ch 11, D.C. Montgomery)\nProf. Sayak Roychowdhury\n\n\n--- Page 2 ---\n\nCentre Points in Factorial Design\n\u2022 Linearity assumption may not be adequate at times\n\u2022 In 2\ud835\udc56\ufffd\ufffd\ufffd models, adding interaction terms helps in approximating the curvature\n\ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udefc\ufffd\ufffd\ufffd0 + \u0dcd\n\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc56\ufffd\ufffd\ufffd\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd + \u0dcd\n\ud835\udc56\n\u0dcd\n\ud835\udc56\ufffd\ufffd\ufffd(\ud835\udc56<\ud835\udc56\ufffd\ufffd\ufffd)\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd + \ud835\udf16\n\u2022 When the linear model with interaction terms is not sufficient, a logical \nconclusion is to use the quadratic model\n\ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udefc\ufffd\ufffd\ufffd0 + \u03c3\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc56\ufffd\ufffd\ufffd\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd + \u03c3\ud835\udc56 \u03c3\ud835\udc56\ufffd\ufffd\ufffd(\ud835\udc56<\ud835\udc56\ufffd\ufffd\ufffd) \ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd + \u03c3\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc56\ufffd\ufffd\ufffd\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\n2 + \ud835\udf16\nThis is called the second order response surface model\n\n\n--- Page 3 ---\n\nCentre Points in Factorial Design\n\u2022 To account for the curvature and second order effects, adding centre points in \nthe design is necessary\n\n\n--- Page 4 ---\n\nExample (11.1), Centre Points\nxi1\nxi2\nx1\nx2\ny\n30\n150\n-1\n-1\n39.3\n30\n160\n-1\n1\n40\n40\n150\n1\n-1\n40.9\n40\n160\n1\n1\n41.5\n35\n155\n0\n0\n40.3\n35\n155\n0\n0\n40.5\n35\n155\n0\n0\n40.7\n35\n155\n0\n0\n40.2\n35\n155\n0\n0\n40.6\nCentre points\n\n\n--- Page 5 ---\n\nANOVA of Factorial Designs\n\u2022 Sum of squares of 2\ud835\udc56\ufffd\ufffd\ufffd designs can be calculated by  \n                                                      \ud835\udc46\ud835\udc46\ud835\udc38\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc50\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f =\n\ud835\udc36\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd 2\n2\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\n \n \n \n \n \n\ud835\udc37\ufffd\ufffd\ufffd\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc50\ud835\udc5f\ufffd\ufffd\ufffd =\n2 \ud835\udc36\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\n\ud835\udc5a\ufffd\ufffd\ufffd2\ud835\udc56\ufffd\ufffd\ufffd\n\n\n--- Page 6 ---\n\nCentre Points in Factorial Design\n\u2022 Let \u0d24\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc38\ufffd\ufffd\ufffd is the average of the responses at all the factorial points and \u0d24\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc36 is the \naverage of the responses at the centre points\n\u2022 If \u0d24\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc38\ufffd\ufffd\ufffd \u2212 \u0d24\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc36 is small, then the centre points lie near the plane created by the \nfactorial points, and there is no significant curvature in the middle\n\n\n--- Page 7 ---\n\nCentre Points in Factorial Design\n\u2022 Presence of curvature indicates the necessity of quadratic terms \ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\n\u2022 Hypothesis testing:   \ud835\udc3b0: \u03c3\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc56\ufffd\ufffd\ufffd\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd = 0; \n\ud835\udc3b1: \u03c3\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc56\ufffd\ufffd\ufffd\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd \u2260 0with \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc36 centre points and \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc38\ufffd\ufffd\ufffd \nfactorial points\n\u2022 t-test can be used to compare the means of factorial points and centre points. If \nsignificance is found, then adding the quadratic term will render a better fit.\n\u2022 Signficance may also be determined using ANOVA\n\u2022 \ud835\udc46\ud835\udc46\ud835\udc43\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc43\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc50 =\n\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc38\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc36 \u0d24\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc38\ufffd\ufffd\ufffd\u2212 \u0d24\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc36 2\n\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc38\ufffd\ufffd\ufffd+\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc36\n with 1 degree of freedom\n\u2022 If the centre point is replicated \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc36 times, and factorial points are unreplicated then the \nerror will sum of square will have \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc36 \u2212 1 degree of freedom\n\u2022 \ud835\udc3f\ufffd\ufffd\ufffd\ud835\udc46\ud835\udc38 =\n\ud835\udc46\ud835\udc46\ud835\udc38\n\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc36\u22121 =\n\u03c3\ud835\udc36\ud835\udc52\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc52\ud835\udc43\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd \ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\u2212 \u0d24\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc36 2\n\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc36\u22121\n      (Ref. to example 6.7)\n\u2022 If significance is found, then factorial design with centre points is not sufficient, as there will \nbe more parameters in the model than the number of runs\n\u2022 Centre points are added when factors are quantitative.\n\n\n--- Page 8 ---\n\nCenter Points with Factorial Designs (Sec 6.8, DOE book)\n\u2022 The second order response surface model :\n\ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udefc\ufffd\ufffd\ufffd0 + \u0dcd\n\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc56\ufffd\ufffd\ufffd\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd + \u0dcd\n\ud835\udc56\n\u0dcd\n\ud835\udc56\ufffd\ufffd\ufffd(\ud835\udc56<\ud835\udc56\ufffd\ufffd\ufffd)\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd + \u0dcd\n\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc56\ufffd\ufffd\ufffd\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\n2 + \ud835\udf16\nTo provide protection against curvature, in the 2\ud835\udc56\ufffd\ufffd\ufffd factorial design, a few center \npoints are added. \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56 = 0, (\ud835\udc56 = 1, . . \ud835\udc56\ufffd\ufffd\ufffd)\n\u2022 Central Composite Design: 2\ud835\udc56\ufffd\ufffd\ufffd factorial design with axial runs and center \npoints. \nDesign and Analysis of Experiment, D.C. Montgomery\n\n\n--- Page 9 ---\n\nCentral Composite Design\nBLOCK\nX1\nX2\n1\n-1\n-1\n1\n1\n-1\n1\n-1\n1\n1\n1\n1\n1\n0\n0\n1\n0\n0\n2\n-1.414\n0\n2\n1.414\n0\n2\n0\n-1.414\n2\n0\n1.414\n2\n0\n0\n2\n0\n0\nhttps://www.itl.nist.gov/div898/handbook/pri/section3/pri336\n1.htm\n\n\n--- Page 10 ---\n\nCentral Composite Design (CCD)\n\u2022 CCD is one of the more popular designs for 2nd order response surface \nmodels. Another choice is Box-Behnken design.\n 1. CCD has 2\ud835\udc56\ufffd\ufffd\ufffd factorial runs, 2\ud835\udc56\ufffd\ufffd\ufffd axial runs and \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc36 centre  runs\n 2. Two parameters to be mentioned, distance \ud835\udefc of the axial points, \nnumber of  centre runs \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc36\n3. The parameters are chosen based on rotatability, (ref sec 11.4.2)\n    i.e. \ud835\udc46\ufffd\ufffd\ufffd \u0ddc\ud835\udc5f\ufffd\ufffd\ufffd \ud835\udc5f\ufffd\ufffd\ufffd\n should be same at all points \ud835\udc99 placed at the same distance \nfrom the design centre.\n4. Generally \ud835\udefc = \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc38\ufffd\ufffd\ufffd\n1\n4 and \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc36 = 3 to 5 is chosen\n\n\n--- Page 11 ---\n\nCentral Composite Design (CCD)\n\u2022 The experiment was conducted to find the optimal formulation of a two-\ncomponent admixture to improve the workabilty of cement grouts. The factors \nwere the water-to-cement ratio, the percent of black liquor added, and the \npercent of SNF added. The response variable is plasticity. The left side of the \ntable shows the coded factors \ud835\udc5f\ufffd\ufffd\ufffd1 \u2212 \ud835\udc5f\ufffd\ufffd\ufffd3. The axial points were chosen at \u00b11.68 \nin coded units to make the design rotatable. The coded levels are found as \n(actual level \u2212 center value)/(half-range). For example, x2 = (BlackLiq: \u2212 \n0.150)/0.03.\n(Source: Design and Analysis of Experiments with R,\nJohn Lawson)\n\n\n--- Page 12 ---\n\nCentral Composite Design (CCD)\n\n\n--- Page 13 ---\n\nBox Behnken Design\n\u2022 CCD requires 5 levels (\u2212\ud835\udefc, \u22121, 0, +1, +\ud835\udefc) for each factor, Box and Behnken \n(1960) developed some three level designs.\n\u2022  BBD allows estimation of the general quadratic model. \n\u2022 BBD consists of 22 factorials in each pair of factors \n   with all other factors held constant at their mid-level and a \n   few center points.\n\u2022  No Box-Behnken design exists for only two factors.\nSource:\nDesign and Analysis of Experiments with R,\nJohn Lawson\n\n\n--- Page 14 ---\n\nBox Behnken Design\n\u2022 Box-Behnken designs have two advantages over CCDs. \n\u2022 BBD only require that factors be varied over three levels, reducing experimental cost for \nbuilding prototypes.\n\u2022 BBD usually (except for the 5-factor case) require less total runs than the CCD.\n\u2022 A disadvantage of a Box-Behnken design compared to a CCD is that it cannot \nbe built up in two steps beginning with a 2\ud835\udc56\ufffd\ufffd\ufffd design.\n\u2022 BBD should be used if the experimenter is reasonably sure that a linear model \nwill not adequately represent the relationship between the factors and the \nresponse, and he or she wants to save a few runs.\n\u2022 BBD is not rotatable, but close enough to being rotatable and having uniform \nprecision for practical use. \n\n\n--- Page 15 ---\n\nBBD Example\n\u2022 As an example of a Box-Behnken design, consider the experiment performed\n  by Anderson (2003). He experimented with a scale model trebuchet (medieval\nmissile launcher) that was issued to all engineering students at the South\nDakota School of Mines and Technology for hands-on experimentation. He\nwanted to determine the settings that would allow him to toss an object a\ngiven distance.\n\n\n--- Page 16 ---\n\nBBD Example\n\n\n--- Page 17 ---\n\nResponse Surface Method (Ch11, DOE, Montgomery)\n\u2022 Mathematical and statistical methods to analyze the influence of factors over \nthe response variable and optimize the same\n\u2022 \ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udc50\ufffd\ufffd\ufffd \ud835\udc5f\ufffd\ufffd\ufffd1, \ud835\udc5f\ufffd\ufffd\ufffd2 + \ud835\udf16\n\u2022 Expected response \ud835\udc37\ufffd\ufffd\ufffd \ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udc50\ufffd\ufffd\ufffd \ud835\udc5f\ufffd\ufffd\ufffd1, \ud835\udc5f\ufffd\ufffd\ufffd2 = \ud835\udf02\n\u2022 Surface representing \ud835\udf02 is the response surface\nDesign and Analysis of Experiment, D.C. Montgomery\n\n\n--- Page 18 ---\n\nRSM is sequential\n\u2022 In RSM, if the initial conditions are far from optimal, we rapidly try to move \ntowards optimal. A path of improvement towards general vicinity of optimum \nis followed.\n\u2022 Once a region of optimal is found, more elaborate models, e.g. second order \nmodels are fitted.\n\u2022 Similar to \u201chill climbing\u201d\n\u2022 Steepest ascent for maximization\n\u2022 Steepest descent for minimization\nDesign and Analysis of Experiment, D.C. Montgomery\n\n\n--- Page 19 ---\n\nSteepest Ascent in First Order Model\n\n\n--- Page 20 ---\n\nSteepest Ascent (Or Descent)\nAssume \ud835\udc5f\ufffd\ufffd\ufffd1 = \ud835\udc5f\ufffd\ufffd\ufffd2 = \u22ef = \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd = 0 as the origin O\n1. Choose a step size in one of the process variables, \u0394\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd, usually the one we   \n       know the most about, or with largest | \u1218\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd|\n2. Step size in the other variables: \u0394\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56 =\n\u0de1\ud835\udefd\ud835\udc56\n\u0de1\ud835\udefd\ud835\udc56\ufffd\ufffd\ufffd\u0394\ud835\udc65\ud835\udc56\ufffd\ufffd\ufffd  \ud835\udc56 = 1,2, \u2026 \ud835\udc56\ufffd\ufffd\ufffd, \ud835\udc56 \u2260 \ud835\udc56\ufffd\ufffd\ufffd\n3. Start from O and increment by the step size, i.e. for \ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\u210e iteration the point of \nevaluation will by \ud835\udc42 + \ud835\udc56 \u2217 \u0394\n4. Convert step size \u0394\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56 from coded variables to natural variables and evaluate   \n     the point\n5. Continue until the increase (or decrease in case of minimization) in response \n     stops.\n\n\n--- Page 21 ---\n\nExample (11.1), Steepest Ascent\nxi1\nxi2\nx1\nx2\ny\n30\n150\n-1\n-1\n39.3\n30\n160\n-1\n1\n40\n40\n150\n1\n-1\n40.9\n40\n160\n1\n1\n41.5\n35\n155\n0\n0\n40.3\n35\n155\n0\n0\n40.5\n35\n155\n0\n0\n40.7\n35\n155\n0\n0\n40.2\n35\n155\n0\n0\n40.6\n\ud835\udc5f\ufffd\ufffd\ufffd = 40.44 + 0.775\ud835\udc5f\ufffd\ufffd\ufffd1 + 0.325\ud835\udc5f\ufffd\ufffd\ufffd2\nStart from (\ud835\udc5f\ufffd\ufffd\ufffd1 = 0, \ud835\udc5f\ufffd\ufffd\ufffd2 = 0) and take the\npath of steepest ascent\nFor 0.775 units increment in \ud835\udc5f\ufffd\ufffd\ufffd1, move \ud835\udc5f\ufffd\ufffd\ufffd2 by\n0.325 units\nOr \u0394\ud835\udc5f\ufffd\ufffd\ufffd1 = 1 and \u0394\ud835\udc5f\ufffd\ufffd\ufffd2 = (0.325)/(0.775)  \n\n\n--- Page 22 ---\n\nSteepest Ascent\n\n\n--- Page 23 ---\n\nFor 2nd Order Model\n\u2022 \u0ddc\ud835\udc5f\ufffd\ufffd\ufffd = \u0de2\n\ud835\udefc\ufffd\ufffd\ufffd0 + \ud835\udc7f\u2032\ud835\udc83 + \ud835\udc7f\u2032\ud835\udc69\ud835\udc7f\n where \ud835\udc7f =\n\ud835\udc651\n\ud835\udc652..\n\ud835\udc65\ud835\udc56\ufffd\ufffd\ufffd\n  \ud835\udc83 =\n\u0de1\ud835\udefd1\n\u0de1\ud835\udefd2..\n\u0de1\ud835\udefd\ud835\udc56\ufffd\ufffd\ufffd\n  \ud835\udc69 =\n\u1218\ud835\udefc\ufffd\ufffd\ufffd11\n\u0de1\ud835\udefd12\n2\n.\n\u0de1\ud835\udefd1\ud835\udc56\ufffd\ufffd\ufffd\n2\n.\n\u1218\ud835\udefc\ufffd\ufffd\ufffd22\n.\n\u0de1\ud835\udefd2\ud835\udc56\ufffd\ufffd\ufffd\n2\n \n\u2026 \u2026 \u2026 \u2026 \n\u1218\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\n\u2022\n\ud835\udf4f \u0ddc\ud835\udc65\ufffd\ufffd\ufffd\n\ud835\udf4f\ud835\udc99 = \ud835\udc83 + \ud835\udfce\ufffd\ufffd\ufffd\ud835\udc69\ud835\udc7f = \ud835\udfce\n\u2022 \ud835\udc7f\ud835\udc94 = \u2212\n\ud835\udfce\ufffd\ufffd\ufffd\n\ud835\udfce\ufffd\ufffd\ufffd \ud835\udc69\u2212\ud835\udfce\ufffd\ufffd\ufffd\ud835\udc83\n\u2022 \u0ddd\ud835\udc99\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd = \u1218\ud835\udefc\ufffd\ufffd\ufffd0 +\n1\n2 \ud835\udc7f\ud835\udc94\u2032\ud835\udc83\n\n\n--- Page 24 ---\n\nResponse Surface and Contour Plots\n\n\n--- Page 25 ---\n\nCanonical Form\n\u2022 Canonical form of second order model\n\u2022 For 2-3 factor models, it is easy to characterize\n     response surface (maxima, minima or saddle \n     Point)\n\u2022 For more variables, canonical analysis is helpful\n\n\n--- Page 26 ---\n\nCanonical Analysis\n\u2022 Transform the model to a coordinate system with origin at \ud835\udc4b\ud835\udc5f\ufffd\ufffd\ufffd and rotate the \naxes to make them parallel to the principal axes of the response surface\n\u2022 \u0ddc\ud835\udc5f\ufffd\ufffd\ufffd = \u0ddc\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd + \ud835\udf061\ud835\udc5f\ufffd\ufffd\ufffd1\n2 + \u22ef + \ud835\udf06\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\n2\n\u2022 \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56s are the transformed variables and \ud835\udf06\ud835\udc56s are eigenvalues of \ud835\udc69.\n\u2022 \ud835\udf06\ud835\udc56s all positive:  \ud835\udc4b\ud835\udc5f\ufffd\ufffd\ufffd is point of minimum response\n\u2022 \ud835\udf06\ud835\udc56s all negative:  \ud835\udc4b\ud835\udc5f\ufffd\ufffd\ufffd is point of maximum response\n\u2022 \ud835\udf06\ud835\udc56s mixed signs:  \ud835\udc4b\ud835\udc5f\ufffd\ufffd\ufffd is saddle point\n\u2022 Surface is steepest in the \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56 direction for which |\ud835\udf06\ud835\udc56| is greatest.\n\n\n--- Page 27 ---\n\nMultiple Response \nOptimization\nProf. Sayak Roychowdhury\n\n\n--- Page 28 ---\n\nMultiple Response Optimization\n\u2022 When there are multiple responses (y\u2019s) to be optimized\n\u2022 If number of decision variables are limited to 2 or 3, overlay contour plot may \nbe used\n\u2022 Constrained optimization: where one response is set as objective while the \nvalues of others are constrained to desirable range.\n\u2022 Desirability function approach: Proposed by Derringer and Suich (1980). \nConvert each response \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56 to individual desirability values \ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56 such that \n   \ud835\udfce \u2264 \ud835\udc85\ud835\udc8a \u2264 \ud835\udfce\ufffd\ufffd\ufffd (0 means unacceptable and 1 means on target).\n\u2022 Then the overall desirability is to be maximized:\n\u2022 \ud835\udc37 = \ud835\udc50\ufffd\ufffd\ufffd1\ud835\udc50\ufffd\ufffd\ufffd2 \u2026 \ud835\udc50\ufffd\ufffd\ufffd\ud835\udc5a\n1\n\ud835\udc5a  for \ud835\udc56\ufffd\ufffd\ufffd responses.\n\n\n--- Page 29 ---\n\nMultiple Response Example\n\u2022 A chemical engineer is interested in determining the operating conditions that \nmaximize the yield of a process (\ud835\udc99\ufffd\ufffd\ufffd\ud835\udfce\ufffd\ufffd\ufffd). \n\u2022 Two controllable variables influence process yield: reaction time (\ud835\udc99\ud835\udfce\ufffd\ufffd\ufffd) and \nreaction temperature (\ud835\udc99\ud835\udfce\ufffd\ufffd\ufffd). \n\u2022 The engineer is currently operating the process with a reaction time of 35 \nminutes and a temperature of 155\u00b0F, result in yields of around 40%.\n\u2022 It is unlikely that this region contains the optimum, she fits a first-order model \nand applies the method of steepest ascent.\n\u2022 In the optimal region found using steepest ascent a CCD is created with \nexperimental runs. \n\u2022 2 additional responses, viscocity (\ud835\udc5f\ufffd\ufffd\ufffd2) and molecular weight (\ud835\udc5f\ufffd\ufffd\ufffd3) are also \nrecorded.\n\n\n--- Page 30 ---\n\nMultiple Response Example\nSource: Montgomery, D. C. (2017). Design and analysis of experiments. John wiley \n& sons.\n\n\n--- Page 31 ---\n\nOverlay Contour Plot\n\ud835\udc5f\ufffd\ufffd\ufffd1 \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc50\ufffd\ufffd\ufffd \u2265  78.5,\n 62 \u2264 \ud835\udc5f\ufffd\ufffd\ufffd2 \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc50\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd \u2264  68, \nand \ud835\udc5f\ufffd\ufffd\ufffd3 \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc50\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc5f \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc50\ufffd\ufffd\ufffd\u210e\ud835\udc5f\ufffd\ufffd\ufffd \ud835\udc3f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd \u2264  3400\nSource: Montgomery, D. C. (2017). Design and analysis of \nexperiments. John wiley & sons.\n\n\n--- Page 32 ---\n\nConstrained Optimization\n\u2022 When there are more than 3 design variables, overlaying contour plots \nbecomes cumbersome, as the contour plot is two dimensional, and \ud835\udc56\ufffd\ufffd\ufffd \u2212 2 of \nthe design variables must be held constant to construct the graph. \n\u2022 A popular approach is to formulate and solve the problem as a constrained \noptimization problem.\n \n \n \n                          \ud835\udc3f\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd \ud835\udc5f\ufffd\ufffd\ufffd1\n                            subject to: \n                                                         62 \u2264 \ud835\udc5f\ufffd\ufffd\ufffd2 \u2264  68, \n \ud835\udc5f\ufffd\ufffd\ufffd3 \u2264  3400\n\n\n--- Page 33 ---\n\nMultiple Response (Desirability Function Approach)\n\u2022 When the target  \ud835\udc46\ufffd\ufffd\ufffd is maximum value for response \ud835\udc5f\ufffd\ufffd\ufffd:\n \n\ud835\udc50\ufffd\ufffd\ufffd =\n0 \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc5f\ufffd\ufffd\ufffd < \ud835\udc3f\n\ud835\udc65\ufffd\ufffd\ufffd\u2212\ud835\udc3f\n\ud835\udc46\ufffd\ufffd\ufffd\u2212\ud835\udc3f\n\ud835\udc5f\n \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc3f \u2264 \ud835\udc5f\ufffd\ufffd\ufffd \u2264 \ud835\udc46\ufffd\ufffd\ufffd\n1 \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc5f\ufffd\ufffd\ufffd > \ud835\udc46\ufffd\ufffd\ufffd\n\ud835\udc5f > 1 puts more emphasis on the response.\n\u2022 When the target  \ud835\udc46\ufffd\ufffd\ufffd is minimum value for response \ud835\udc5f\ufffd\ufffd\ufffd:\n \n\ud835\udc50\ufffd\ufffd\ufffd =\n1 \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc5f\ufffd\ufffd\ufffd < \ud835\udc46\ufffd\ufffd\ufffd\n\ud835\udc46\ufffd\ufffd\ufffd\u2212\ud835\udc65\ufffd\ufffd\ufffd\n\ud835\udc46\ufffd\ufffd\ufffd\u2212\ud835\udc46\ufffd\ufffd\ufffd\n\ud835\udc5f\n \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc46\ufffd\ufffd\ufffd \u2264 \ud835\udc5f\ufffd\ufffd\ufffd \u2264 \ud835\udc46\ufffd\ufffd\ufffd\n0 \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc5f\ufffd\ufffd\ufffd > \ud835\udc46\ufffd\ufffd\ufffd\n\n\n--- Page 34 ---\n\nMultiple Response (Desirability Function Approach)\n\u2022 When the target  \ud835\udc46\ufffd\ufffd\ufffd is between lower limit \ud835\udc3f and upper limit \ud835\udc46\ufffd\ufffd\ufffd for response \ud835\udc5f\ufffd\ufffd\ufffd:\n \n\ud835\udc50\ufffd\ufffd\ufffd =\n0 \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc5f\ufffd\ufffd\ufffd < \ud835\udc3f\n\ud835\udc65\ufffd\ufffd\ufffd\u2212\ud835\udc3f\n\ud835\udc46\ufffd\ufffd\ufffd\u2212\ud835\udc3f\n\ud835\udc5f1  \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc3f \u2264 \ud835\udc5f\ufffd\ufffd\ufffd \u2264 \ud835\udc46\ufffd\ufffd\ufffd\n\ud835\udc46\ufffd\ufffd\ufffd\u2212\ud835\udc65\ufffd\ufffd\ufffd\n\ud835\udc46\ufffd\ufffd\ufffd\u2212\ud835\udc46\ufffd\ufffd\ufffd\n\ud835\udc5f2  \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc46\ufffd\ufffd\ufffd \u2264 \ud835\udc5f\ufffd\ufffd\ufffd \u2264 \ud835\udc46\ufffd\ufffd\ufffd\n0 \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc5f\ufffd\ufffd\ufffd > \ud835\udc46\ufffd\ufffd\ufffd\n\n\n--- Page 35 ---\n\nMultiple Response (Desirability Function Approach)\nDesign and Analysis of Experiment, D.C. Montgomery\n\n\n--- Page 36 ---\n\nExperimental Designs for Fitting Response Surface\n\u2022 According to \u201cDesign and Analysis of Experiment, D.C. Montgomery\u201d, the following \nproperties are considered important for experimental designs meant for response \nsurface optimization\n1.\nReasonable spread of datapoints in the region of interest\n2.\nAllows model adequacy, including lack of fit to be investigated\n3.\nAllows experiments to be performed in blocks\n4.\nAllows design of higher order to be performed sequentially\n5.\nProvides an internal estimate of error\n6.\nPrecise estimates of model coefficients\n7.\nReasonable robustness against outliers and missing values\n8.\nGood profile of prediction variance\n9.\nDoes not require a large number of runs\n10. Does not require too many levels of each factor\n11. Simplicity of calculation of model parameters\n12. Rotatability: For 2nd order design, variance of the predicted response should be same at all \npoints at the same distance from the design centre.",
+  "pages": [
+    {
+      "page_number": 1,
+      "paragraphs": [
+        {
+          "text": "Response Surface Methods",
+          "position": {
+            "page": 0,
+            "paragraph_index": 0,
+            "rect": [
+              231.5,
+              204.30999755859375,
+              884.103271484375,
+              264.30999755859375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "(Ref to Sec 6.8 and Ch 11, D.C. Montgomery)",
+          "position": {
+            "page": 0,
+            "paragraph_index": 1,
+            "rect": [
+              343.82000732421875,
+              266.71002197265625,
+              772.1201171875,
+              290.71002197265625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Prof. Sayak Roychowdhury",
+          "position": {
+            "page": 0,
+            "paragraph_index": 2,
+            "rect": [
+              430.1300048828125,
+              332.1400146484375,
+              685.529052734375,
+              356.1400146484375
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Response Surface Methods\n(Ref to Sec 6.8 and Ch 11, D.C. Montgomery)\nProf. Sayak Roychowdhury\n"
+    },
+    {
+      "page_number": 2,
+      "paragraphs": [
+        {
+          "text": "Centre Points in Factorial Design",
+          "position": {
+            "page": 1,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              592.7379150390625,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Linearity assumption may not be adequate at times \u2022  In  2 \ud835\udc56\udc58   models, adding interaction terms helps in approximating the curvature",
+          "position": {
+            "page": 1,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              90.91856384277344,
+              906.3225708007812,
+              164.25999450683594
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5f\udc66 = \ud835\udefc\udefd 0  + \u0dcd",
+          "position": {
+            "page": 1,
+            "paragraph_index": 2,
+            "rect": [
+              240.02000427246094,
+              194.54315185546875,
+              397.387939453125,
+              228.2871551513672
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56\udc57=1",
+          "position": {
+            "page": 1,
+            "paragraph_index": 3,
+            "rect": [
+              360.2900085449219,
+              236.11224365234375,
+              397.4136962890625,
+              256.5122375488281
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56\udc58",
+          "position": {
+            "page": 1,
+            "paragraph_index": 4,
+            "rect": [
+              372.2900085449219,
+              158.80224609375,
+              384.6316223144531,
+              179.20223999023438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udefc\udefd \ud835\udc56\udc57 \ud835\udc5f\udc65 \ud835\udc56\udc57  + \u0dcd",
+          "position": {
+            "page": 1,
+            "paragraph_index": 5,
+            "rect": [
+              402.1700134277344,
+              194.54315185546875,
+              521.8279418945312,
+              228.2871551513672
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56",
+          "position": {
+            "page": 1,
+            "paragraph_index": 6,
+            "rect": [
+              499.3699951171875,
+              236.11224365234375,
+              506.5219421386719,
+              256.5122375488281
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u0dcd",
+          "position": {
+            "page": 1,
+            "paragraph_index": 7,
+            "rect": [
+              538.27001953125,
+              194.54315185546875,
+              575.367919921875,
+              222.5271453857422
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56\udc57(\ud835\udc56<\ud835\udc56\udc57)",
+          "position": {
+            "page": 1,
+            "paragraph_index": 8,
+            "rect": [
+              526.6300048828125,
+              236.11224365234375,
+              587.0568237304688,
+              256.5122375488281
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udefc\udefd \ud835\udc56\ud835\udc56\udc57 \ud835\udc5f\udc65 \ud835\udc56 \ud835\udc5f\udc65 \ud835\udc56\udc57  + \ud835\udf16",
+          "position": {
+            "page": 1,
+            "paragraph_index": 9,
+            "rect": [
+              591.6699829101562,
+              194.54315185546875,
+              719.0518798828125,
+              228.2871551513672
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  When the linear model with interaction terms is not sufficient, a logical",
+          "position": {
+            "page": 1,
+            "paragraph_index": 10,
+            "rect": [
+              23.760000228881836,
+              261.58856201171875,
+              854.475341796875,
+              293.8899841308594
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "conclusion is to use the quadratic model",
+          "position": {
+            "page": 1,
+            "paragraph_index": 11,
+            "rect": [
+              41.7599983215332,
+              296.1700134277344,
+              499.3951110839844,
+              324.1300048828125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5f\udc66 = \ud835\udefc\udefd 0  + \u03c3 \ud835\udc56\udc57=1",
+          "position": {
+            "page": 1,
+            "paragraph_index": 12,
+            "rect": [
+              172.22000122070312,
+              337.6518249511719,
+              349.2637023925781,
+              372.5718078613281
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56\udc58 \ud835\udefc\udefd \ud835\udc56\udc57 \ud835\udc5f\udc65 \ud835\udc56\udc57  + \u03c3 \ud835\udc56  \u03c3 \ud835\udc56\udc57(\ud835\udc56<\ud835\udc56\udc57)  \ud835\udefc\udefd \ud835\udc56\ud835\udc56\udc57 \ud835\udc5f\udc65 \ud835\udc56 \ud835\udc5f\udc65 \ud835\udc56\udc57  + \u03c3 \ud835\udc56\udc57=1",
+          "position": {
+            "page": 1,
+            "paragraph_index": 13,
+            "rect": [
+              312.260009765625,
+              333.2935485839844,
+              725.1837158203125,
+              373.8918151855469
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56\udc58 \ud835\udefc\udefd \ud835\udc56\udc57\ud835\udc56\udc57 \ud835\udc5f\udc65 \ud835\udc56\udc57",
+          "position": {
+            "page": 1,
+            "paragraph_index": 14,
+            "rect": [
+              688.030029296875,
+              333.2935485839844,
+              786.9124755859375,
+              372.09222412109375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2  + \ud835\udf16",
+          "position": {
+            "page": 1,
+            "paragraph_index": 15,
+            "rect": [
+              781.6599731445312,
+              327.55181884765625,
+              840.9906616210938,
+              366.81182861328125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "This is called the second order response surface model",
+          "position": {
+            "page": 1,
+            "paragraph_index": 16,
+            "rect": [
+              23.760000228881836,
+              383.0699768066406,
+              643.5071411132812,
+              411.02996826171875
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Centre Points in Factorial Design\n\u2022 Linearity assumption may not be adequate at times\n\u2022 In 2\ud835\udc56\ufffd\ufffd\ufffd models, adding interaction terms helps in approximating the curvature\n\ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udefc\ufffd\ufffd\ufffd0 + \u0dcd\n\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc56\ufffd\ufffd\ufffd\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd + \u0dcd\n\ud835\udc56\n\u0dcd\n\ud835\udc56\ufffd\ufffd\ufffd(\ud835\udc56<\ud835\udc56\ufffd\ufffd\ufffd)\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd + \ud835\udf16\n\u2022 When the linear model with interaction terms is not sufficient, a logical \nconclusion is to use the quadratic model\n\ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udefc\ufffd\ufffd\ufffd0 + \u03c3\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc56\ufffd\ufffd\ufffd\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd + \u03c3\ud835\udc56 \u03c3\ud835\udc56\ufffd\ufffd\ufffd(\ud835\udc56<\ud835\udc56\ufffd\ufffd\ufffd) \ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd + \u03c3\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc56\ufffd\ufffd\ufffd\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\n2 + \ud835\udf16\nThis is called the second order response surface model\n"
+    },
+    {
+      "page_number": 3,
+      "paragraphs": [
+        {
+          "text": "Centre Points in Factorial Design",
+          "position": {
+            "page": 2,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              592.7379150390625,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  To account for the curvature and second order effects, adding centre points in",
+          "position": {
+            "page": 2,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              372.7285461425781,
+              930.9461059570312,
+              405.02996826171875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "the design is necessary",
+          "position": {
+            "page": 2,
+            "paragraph_index": 2,
+            "rect": [
+              41.7599983215332,
+              407.30999755859375,
+              302.11334228515625,
+              435.2699890136719
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Centre Points in Factorial Design\n\u2022 To account for the curvature and second order effects, adding centre points in \nthe design is necessary\n"
+    },
+    {
+      "page_number": 4,
+      "paragraphs": [
+        {
+          "text": "Example (11.1), Centre Points",
+          "position": {
+            "page": 3,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              543.6318359375,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "xi1 xi2 x1 x2 y",
+          "position": {
+            "page": 3,
+            "paragraph_index": 1,
+            "rect": [
+              32.61600112915039,
+              116.39999389648438,
+              325.2632751464844,
+              140.39999389648438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "30 150 -1 -1 39.3",
+          "position": {
+            "page": 3,
+            "paragraph_index": 2,
+            "rect": [
+              77.73600006103516,
+              145.70001220703125,
+              383.8040466308594,
+              169.70001220703125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "30 160 -1 1 40",
+          "position": {
+            "page": 3,
+            "paragraph_index": 3,
+            "rect": [
+              77.73600006103516,
+              175.010009765625,
+              383.8040466308594,
+              199.010009765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "40 150 1 -1 40.9",
+          "position": {
+            "page": 3,
+            "paragraph_index": 4,
+            "rect": [
+              77.73600006103516,
+              204.30999755859375,
+              383.8040466308594,
+              228.30999755859375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "40 160 1 1 41.5",
+          "position": {
+            "page": 3,
+            "paragraph_index": 5,
+            "rect": [
+              77.73600006103516,
+              233.6199951171875,
+              383.8040466308594,
+              257.6199951171875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "35 155 0 0 40.3",
+          "position": {
+            "page": 3,
+            "paragraph_index": 6,
+            "rect": [
+              77.73600006103516,
+              262.9200134277344,
+              383.8040466308594,
+              286.9200134277344
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "35 155 0 0 40.5",
+          "position": {
+            "page": 3,
+            "paragraph_index": 7,
+            "rect": [
+              77.73600006103516,
+              292.2200012207031,
+              383.8040466308594,
+              316.2200012207031
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "35 155 0 0 40.7",
+          "position": {
+            "page": 3,
+            "paragraph_index": 8,
+            "rect": [
+              77.73600006103516,
+              321.5119934082031,
+              383.80999755859375,
+              345.5360107421875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "35 155 0 0 40.2",
+          "position": {
+            "page": 3,
+            "paragraph_index": 9,
+            "rect": [
+              77.73600006103516,
+              350.81201171875,
+              383.80999755859375,
+              374.8360290527344
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "35 155 0 0 40.6",
+          "position": {
+            "page": 3,
+            "paragraph_index": 10,
+            "rect": [
+              77.73600006103516,
+              380.1600036621094,
+              383.8040466308594,
+              404.1600036621094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Centre points",
+          "position": {
+            "page": 3,
+            "paragraph_index": 11,
+            "rect": [
+              457.489990234375,
+              317.74200439453125,
+              588.5436401367188,
+              341.7660217285156
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Example (11.1), Centre Points\nxi1\nxi2\nx1\nx2\ny\n30\n150\n-1\n-1\n39.3\n30\n160\n-1\n1\n40\n40\n150\n1\n-1\n40.9\n40\n160\n1\n1\n41.5\n35\n155\n0\n0\n40.3\n35\n155\n0\n0\n40.5\n35\n155\n0\n0\n40.7\n35\n155\n0\n0\n40.2\n35\n155\n0\n0\n40.6\nCentre points\n"
+    },
+    {
+      "page_number": 5,
+      "paragraphs": [
+        {
+          "text": "ANOVA of Factorial Designs",
+          "position": {
+            "page": 4,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              505.2350158691406,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Sum of squares of  2 \ud835\udc56\udc58  designs can be calculated by",
+          "position": {
+            "page": 4,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              90.96356201171875,
+              621.6885986328125,
+              124.06000518798828
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc46\ud835\udc46 \ud835\udc38\udc39\ud835\udc4e\ud835\udc50\ud835\udc5f\udc61\ud835\udc5a\udc5c\ud835\udc5f  =",
+          "position": {
+            "page": 4,
+            "paragraph_index": 2,
+            "rect": [
+              23.760000228881836,
+              146.6818084716797,
+              507.6580810546875,
+              180.40182495117188
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc36\ud835\udc5a\udc5c\ud835\udc5a\udc5b\ud835\udc5f\udc61\ud835\udc5f\ud835\udc4e\ud835\udc5f\udc60\ud835\udc5f\udc61   2",
+          "position": {
+            "page": 4,
+            "paragraph_index": 3,
+            "rect": [
+              523.8499755859375,
+              131.48240661621094,
+              632.0214233398438,
+              156.522216796875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 \ud835\udc56\udc58 \ud835\udc5a\udc5b",
+          "position": {
+            "page": 4,
+            "paragraph_index": 4,
+            "rect": [
+              555.5499877929688,
+              163.2824249267578,
+              592.3180541992188,
+              187.00222778320312
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc37\udc38\ud835\udc50\udc53\ud835\udc50\udc53\ud835\udc50\udc52\ud835\udc50\ud835\udc5f\udc61 =",
+          "position": {
+            "page": 4,
+            "paragraph_index": 5,
+            "rect": [
+              23.760000228881836,
+              201.6231689453125,
+              505.2760009765625,
+              230.38601684570312
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 \ud835\udc36\ud835\udc5a\udc5c\ud835\udc5a\udc5b\ud835\udc5f\udc60\ud835\udc5f\udc61\ud835\udc5f\ud835\udc4e\ud835\udc5f\udc60\ud835\udc5f\udc61",
+          "position": {
+            "page": 4,
+            "paragraph_index": 6,
+            "rect": [
+              513.0499877929688,
+              191.08224487304688,
+              632.3168334960938,
+              211.48223876953125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5a\udc5b2 \ud835\udc56\udc58",
+          "position": {
+            "page": 4,
+            "paragraph_index": 7,
+            "rect": [
+              558.6699829101562,
+              218.2237548828125,
+              594.9207153320312,
+              241.99221801757812
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "ANOVA of Factorial Designs\n\u2022 Sum of squares of 2\ud835\udc56\ufffd\ufffd\ufffd designs can be calculated by  \n                                                      \ud835\udc46\ud835\udc46\ud835\udc38\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc50\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f =\n\ud835\udc36\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd 2\n2\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\n \n \n \n \n \n\ud835\udc37\ufffd\ufffd\ufffd\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc50\ud835\udc5f\ufffd\ufffd\ufffd =\n2 \ud835\udc36\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\n\ud835\udc5a\ufffd\ufffd\ufffd2\ud835\udc56\ufffd\ufffd\ufffd\n"
+    },
+    {
+      "page_number": 6,
+      "paragraphs": [
+        {
+          "text": "Centre Points in Factorial Design",
+          "position": {
+            "page": 5,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              592.7379150390625,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Let  \u0d24\ud835\udc5f\udc66 \ud835\udc38\udc39  is the average of the responses at all the factorial points and  \u0d24\ud835\udc5f\udc66 \ud835\udc36  is the",
+          "position": {
+            "page": 5,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              346.4485778808594,
+              911.432861328125,
+              382.05224609375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "average of the responses at the centre points",
+          "position": {
+            "page": 5,
+            "paragraph_index": 2,
+            "rect": [
+              41.7599983215332,
+              377.6700134277344,
+              554.2420654296875,
+              405.6300048828125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  If  \u0d24\ud835\udc5f\udc66 \ud835\udc38\udc39  \u2212 \u0d24\ud835\udc5f\udc66 \ud835\udc36  is small, then the centre points lie near the plane created by the",
+          "position": {
+            "page": 5,
+            "paragraph_index": 3,
+            "rect": [
+              23.760000228881836,
+              410.28857421875,
+              893.4474487304688,
+              447.5718078613281
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "factorial points, and there is no significant curvature in the middle",
+          "position": {
+            "page": 5,
+            "paragraph_index": 4,
+            "rect": [
+              41.7599983215332,
+              441.49200439453125,
+              789.0044555664062,
+              469.47601318359375
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Centre Points in Factorial Design\n\u2022 Let \u0d24\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc38\ufffd\ufffd\ufffd is the average of the responses at all the factorial points and \u0d24\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc36 is the \naverage of the responses at the centre points\n\u2022 If \u0d24\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc38\ufffd\ufffd\ufffd \u2212 \u0d24\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc36 is small, then the centre points lie near the plane created by the \nfactorial points, and there is no significant curvature in the middle\n"
+    },
+    {
+      "page_number": 7,
+      "paragraphs": [
+        {
+          "text": "Centre Points in Factorial Design",
+          "position": {
+            "page": 6,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              592.7379150390625,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Presence of curvature indicates the necessity of quadratic terms  \ud835\udefc\udefd \ud835\udc56\udc57\ud835\udc56\udc57 \u2022  Hypothesis testing:    \ud835\udc3b 0 : \u03c3 \ud835\udc56\udc57=1",
+          "position": {
+            "page": 6,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              87.501708984375,
+              699.0110473632812,
+              152.4023895263672
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56\udc58 \ud835\udefc\udefd \ud835\udc56\udc57\ud835\udc56\udc57  = 0;  \ud835\udc3b 1 : \u03c3 \ud835\udc56\udc57=1",
+          "position": {
+            "page": 6,
+            "paragraph_index": 2,
+            "rect": [
+              298.4599914550781,
+              119.16239166259766,
+              531.3473510742188,
+              152.76202392578125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56\udc58 \ud835\udefc\udefd \ud835\udc56\udc57\ud835\udc56\udc57  \u2260 0 with  \ud835\udc56\udc5b \ud835\udc36  centre points and  \ud835\udc56\udc5b \ud835\udc38\udc39",
+          "position": {
+            "page": 6,
+            "paragraph_index": 3,
+            "rect": [
+              499.6099853515625,
+              119.16239166259766,
+              898.0857543945312,
+              152.76202392578125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "factorial points",
+          "position": {
+            "page": 6,
+            "paragraph_index": 4,
+            "rect": [
+              41.7599983215332,
+              146.35000610351562,
+              187.46673583984375,
+              170.35000610351562
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  t-test can be used to compare the means of factorial points and centre points. If",
+          "position": {
+            "page": 6,
+            "paragraph_index": 5,
+            "rect": [
+              23.760000228881836,
+              172.86343383789062,
+              823.0095825195312,
+              200.58999633789062
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "significance is found, then adding the quadratic term will render a better fit.",
+          "position": {
+            "page": 6,
+            "paragraph_index": 6,
+            "rect": [
+              41.7599983215332,
+              196.73199462890625,
+              779.2354736328125,
+              220.75599670410156
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Signficance may also be determined using ANOVA",
+          "position": {
+            "page": 6,
+            "paragraph_index": 7,
+            "rect": [
+              23.760000228881836,
+              223.17343139648438,
+              525.1587524414062,
+              250.89999389648438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \ud835\udc46\ud835\udc46 \ud835\udc43\ud835\udc5f\udc62\ud835\udc5f\ud835\udc50\udc52\ud835\udc43\udc44\ud835\udc5f\udc62\ud835\udc4e\ud835\udc50\udc51\ud835\udc5f\ud835\udc4e\ud835\udc5f\udc61\ud835\udc56\ud835\udc50  =",
+          "position": {
+            "page": 6,
+            "paragraph_index": 8,
+            "rect": [
+              23.760000228881836,
+              260.013427734375,
+              223.26968383789062,
+              291.9920349121094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5a\udc5b \ud835\udc38\udc39 \ud835\udc5a\udc5b \ud835\udc36  \u0d24\ud835\udc65\udc66 \ud835\udc38\udc39 \u2212 \u0d24\ud835\udc65\udc66 \ud835\udc36  2",
+          "position": {
+            "page": 6,
+            "paragraph_index": 9,
+            "rect": [
+              229.82000732421875,
+              250.13922119140625,
+              352.89404296875,
+              275.1923828125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5a\udc5b \ud835\udc38\udc39 +\ud835\udc5a\udc5b \ud835\udc36  with 1 degree of freedom",
+          "position": {
+            "page": 6,
+            "paragraph_index": 10,
+            "rect": [
+              263.4200134277344,
+              263.739990234375,
+              607.5819702148438,
+              300.65924072265625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  If the centre point is replicated  \ud835\udc56\udc5b \ud835\udc36  times, and factorial points are unreplicated then the",
+          "position": {
+            "page": 6,
+            "paragraph_index": 11,
+            "rect": [
+              23.760000228881836,
+              297.33343505859375,
+              889.4915161132812,
+              327.87237548828125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "error will sum of square will have  \ud835\udc56\udc5b \ud835\udc36  \u2212 1  degree of freedom",
+          "position": {
+            "page": 6,
+            "paragraph_index": 12,
+            "rect": [
+              41.7599983215332,
+              320.5333557128906,
+              625.380126953125,
+              349.4773864746094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \ud835\udc3f\udc40\ud835\udc46 \ud835\udc38  =",
+          "position": {
+            "page": 6,
+            "paragraph_index": 13,
+            "rect": [
+              23.760000228881836,
+              354.59344482421875,
+              111.88968658447266,
+              386.572021484375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc46\ud835\udc46 \ud835\udc38 \ud835\udc5a\udc5b \ud835\udc36 \u22121   =",
+          "position": {
+            "page": 6,
+            "paragraph_index": 14,
+            "rect": [
+              118.55999755859375,
+              348.6523742675781,
+              187.74969482421875,
+              395.23919677734375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u03c3 \ud835\udc36\ud835\udc52\ud835\udc5a\udc5b\ud835\udc5f\udc61\ud835\udc5f\ud835\udc52\ud835\udc43\ud835\udc5a\udc5c\ud835\udc56\ud835\udc5a\udc5b\ud835\udc5f\udc61\ud835\udc5f\udc60  \ud835\udc65\udc66 \ud835\udc56 \u2212 \u0d24\ud835\udc65\udc66 \ud835\udc36  2",
+          "position": {
+            "page": 6,
+            "paragraph_index": 15,
+            "rect": [
+              199.5800018310547,
+              344.3592224121094,
+              386.73406982421875,
+              370.8524169921875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5a\udc5b \ud835\udc36 \u22121       (Ref. to example 6.7)",
+          "position": {
+            "page": 6,
+            "paragraph_index": 16,
+            "rect": [
+              271.2200012207031,
+              358.32000732421875,
+              619.4714965820312,
+              395.23919677734375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  If significance is found, then factorial design with centre points is not sufficient, as there will",
+          "position": {
+            "page": 6,
+            "paragraph_index": 17,
+            "rect": [
+              23.760000228881836,
+              391.9134521484375,
+              938.8336181640625,
+              419.6400146484375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "be more parameters in the model than the number of runs",
+          "position": {
+            "page": 6,
+            "paragraph_index": 18,
+            "rect": [
+              41.7599983215332,
+              415.79998779296875,
+              613.8988037109375,
+              439.79998779296875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Centre points are added when factors are quantitative.",
+          "position": {
+            "page": 6,
+            "paragraph_index": 19,
+            "rect": [
+              23.760000228881836,
+              442.17169189453125,
+              574.0703125,
+              469.9259948730469
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Centre Points in Factorial Design\n\u2022 Presence of curvature indicates the necessity of quadratic terms \ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\n\u2022 Hypothesis testing:   \ud835\udc3b0: \u03c3\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc56\ufffd\ufffd\ufffd\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd = 0; \n\ud835\udc3b1: \u03c3\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc56\ufffd\ufffd\ufffd\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd \u2260 0with \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc36 centre points and \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc38\ufffd\ufffd\ufffd \nfactorial points\n\u2022 t-test can be used to compare the means of factorial points and centre points. If \nsignificance is found, then adding the quadratic term will render a better fit.\n\u2022 Signficance may also be determined using ANOVA\n\u2022 \ud835\udc46\ud835\udc46\ud835\udc43\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc43\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc50 =\n\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc38\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc36 \u0d24\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc38\ufffd\ufffd\ufffd\u2212 \u0d24\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc36 2\n\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc38\ufffd\ufffd\ufffd+\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc36\n with 1 degree of freedom\n\u2022 If the centre point is replicated \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc36 times, and factorial points are unreplicated then the \nerror will sum of square will have \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc36 \u2212 1 degree of freedom\n\u2022 \ud835\udc3f\ufffd\ufffd\ufffd\ud835\udc46\ud835\udc38 =\n\ud835\udc46\ud835\udc46\ud835\udc38\n\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc36\u22121 =\n\u03c3\ud835\udc36\ud835\udc52\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc52\ud835\udc43\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd \ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\u2212 \u0d24\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc36 2\n\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc36\u22121\n      (Ref. to example 6.7)\n\u2022 If significance is found, then factorial design with centre points is not sufficient, as there will \nbe more parameters in the model than the number of runs\n\u2022 Centre points are added when factors are quantitative.\n"
+    },
+    {
+      "page_number": 8,
+      "paragraphs": [
+        {
+          "text": "Center Points with Factorial Designs (Sec 6.8, DOE book)",
+          "position": {
+            "page": 7,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              26.10199546813965,
+              921.8338623046875,
+              66.08599853515625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  The second order response surface model :",
+          "position": {
+            "page": 7,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              90.91856384277344,
+              530.9364624023438,
+              123.22000885009766
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5f\udc66 = \ud835\udefc\udefd 0  + \u0dcd",
+          "position": {
+            "page": 7,
+            "paragraph_index": 2,
+            "rect": [
+              151.55999755859375,
+              153.76182556152344,
+              308.8861083984375,
+              187.4818115234375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56\udc57=1",
+          "position": {
+            "page": 7,
+            "paragraph_index": 3,
+            "rect": [
+              271.82000732421875,
+              195.2822265625,
+              308.8236999511719,
+              215.68222045898438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56\udc58",
+          "position": {
+            "page": 7,
+            "paragraph_index": 4,
+            "rect": [
+              283.82000732421875,
+              118.0022201538086,
+              296.16162109375,
+              138.4022216796875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udefc\udefd \ud835\udc56\udc57 \ud835\udc5f\udc65 \ud835\udc56\udc57  + \u0dcd",
+          "position": {
+            "page": 7,
+            "paragraph_index": 5,
+            "rect": [
+              313.5799865722656,
+              153.76182556152344,
+              433.3561096191406,
+              187.4818115234375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56",
+          "position": {
+            "page": 7,
+            "paragraph_index": 6,
+            "rect": [
+              410.92999267578125,
+              195.2822265625,
+              418.0819396972656,
+              215.68222045898438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u0dcd",
+          "position": {
+            "page": 7,
+            "paragraph_index": 7,
+            "rect": [
+              449.69000244140625,
+              153.76182556152344,
+              486.756103515625,
+              181.72183227539062
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56\udc57(\ud835\udc56<\ud835\udc56\udc57)",
+          "position": {
+            "page": 7,
+            "paragraph_index": 8,
+            "rect": [
+              438.04998779296875,
+              195.2822265625,
+              498.476806640625,
+              215.68222045898438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udefc\udefd \ud835\udc56\ud835\udc56\udc57 \ud835\udc5f\udc65 \ud835\udc56 \ud835\udc5f\udc65 \ud835\udc56\udc57  + \u0dcd",
+          "position": {
+            "page": 7,
+            "paragraph_index": 9,
+            "rect": [
+              503.2099914550781,
+              153.76182556152344,
+              654.6561279296875,
+              187.4818115234375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56\udc57=1",
+          "position": {
+            "page": 7,
+            "paragraph_index": 10,
+            "rect": [
+              654.6699829101562,
+              182.68222045898438,
+              691.6737060546875,
+              203.08221435546875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56\udc58",
+          "position": {
+            "page": 7,
+            "paragraph_index": 11,
+            "rect": [
+              654.6699829101562,
+              131.20223999023438,
+              667.0115966796875,
+              151.60223388671875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udefc\udefd \ud835\udc56\udc57\ud835\udc56\udc57 \ud835\udc5f\udc65 \ud835\udc56\udc57",
+          "position": {
+            "page": 7,
+            "paragraph_index": 12,
+            "rect": [
+              696.4299926757812,
+              153.76182556152344,
+              753.4324340820312,
+              187.00222778320312
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2  + \ud835\udf16",
+          "position": {
+            "page": 7,
+            "paragraph_index": 13,
+            "rect": [
+              748.1799926757812,
+              142.48182678222656,
+              807.5106811523438,
+              181.72183227539062
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "To provide protection against curvature, in the  2 \ud835\udc56\udc58  factorial design, a few center  points are added.  \ud835\udc5f\udc65 \ud835\udc56  = 0, (\ud835\udc56 = 1, . . \ud835\udc56\udc58) \u2022  Central Composite Design:  2 \ud835\udc56\udc58  factorial design with axial runs and center",
+          "position": {
+            "page": 7,
+            "paragraph_index": 14,
+            "rect": [
+              23.760000228881836,
+              220.75222778320312,
+              925.0029907226562,
+              324.8499755859375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "points.",
+          "position": {
+            "page": 7,
+            "paragraph_index": 15,
+            "rect": [
+              41.7599983215332,
+              326.8719787597656,
+              125.630126953125,
+              354.8559875488281
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Design and Analysis of Experiment, D.C. Montgomery",
+          "position": {
+            "page": 7,
+            "paragraph_index": 17,
+            "rect": [
+              553.489990234375,
+              476.8739929199219,
+              942.3511352539062,
+              494.89801025390625
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Center Points with Factorial Designs (Sec 6.8, DOE book)\n\u2022 The second order response surface model :\n\ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udefc\ufffd\ufffd\ufffd0 + \u0dcd\n\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc56\ufffd\ufffd\ufffd\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd + \u0dcd\n\ud835\udc56\n\u0dcd\n\ud835\udc56\ufffd\ufffd\ufffd(\ud835\udc56<\ud835\udc56\ufffd\ufffd\ufffd)\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd + \u0dcd\n\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc56\ufffd\ufffd\ufffd\n\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\n2 + \ud835\udf16\nTo provide protection against curvature, in the 2\ud835\udc56\ufffd\ufffd\ufffd factorial design, a few center \npoints are added. \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56 = 0, (\ud835\udc56 = 1, . . \ud835\udc56\ufffd\ufffd\ufffd)\n\u2022 Central Composite Design: 2\ud835\udc56\ufffd\ufffd\ufffd factorial design with axial runs and center \npoints. \nDesign and Analysis of Experiment, D.C. Montgomery\n"
+    },
+    {
+      "page_number": 9,
+      "paragraphs": [
+        {
+          "text": "Central Composite Design",
+          "position": {
+            "page": 8,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              479.14080810546875,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "BLOCK X 1 X 2",
+          "position": {
+            "page": 8,
+            "paragraph_index": 1,
+            "rect": [
+              179.3300018310547,
+              107.0091781616211,
+              429.6600036621094,
+              122.3761215209961
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1 -1 -1",
+          "position": {
+            "page": 8,
+            "paragraph_index": 2,
+            "rect": [
+              196.49000549316406,
+              126.5191879272461,
+              428.5320129394531,
+              141.84283447265625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1 1 -1",
+          "position": {
+            "page": 8,
+            "paragraph_index": 3,
+            "rect": [
+              196.49000549316406,
+              149.584228515625,
+              428.5199890136719,
+              164.87461853027344
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1 -1 1",
+          "position": {
+            "page": 8,
+            "paragraph_index": 4,
+            "rect": [
+              196.49000549316406,
+              172.604248046875,
+              426.5999755859375,
+              187.89463806152344
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1 1 1",
+          "position": {
+            "page": 8,
+            "paragraph_index": 5,
+            "rect": [
+              196.49000549316406,
+              195.6142578125,
+              426.5999755859375,
+              210.90464782714844
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1 0 0",
+          "position": {
+            "page": 8,
+            "paragraph_index": 6,
+            "rect": [
+              196.49000549316406,
+              218.63424682617188,
+              426.5999755859375,
+              233.9246368408203
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1 0 0",
+          "position": {
+            "page": 8,
+            "paragraph_index": 7,
+            "rect": [
+              196.49000549316406,
+              241.65423583984375,
+              426.5999755859375,
+              256.94464111328125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 -1.414 0",
+          "position": {
+            "page": 8,
+            "paragraph_index": 8,
+            "rect": [
+              196.49000549316406,
+              264.66424560546875,
+              426.5999755859375,
+              279.95465087890625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 1.414 0",
+          "position": {
+            "page": 8,
+            "paragraph_index": 9,
+            "rect": [
+              196.49000549316406,
+              287.68426513671875,
+              426.5999755859375,
+              302.97467041015625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 0 -1.414",
+          "position": {
+            "page": 8,
+            "paragraph_index": 10,
+            "rect": [
+              196.49000549316406,
+              310.6942443847656,
+              438.1199645996094,
+              325.9846496582031
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 0 1.414",
+          "position": {
+            "page": 8,
+            "paragraph_index": 11,
+            "rect": [
+              196.49000549316406,
+              333.7142333984375,
+              436.3199768066406,
+              349.004638671875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 0 0",
+          "position": {
+            "page": 8,
+            "paragraph_index": 12,
+            "rect": [
+              196.49000549316406,
+              356.7342529296875,
+              426.5999755859375,
+              372.024658203125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 0 0",
+          "position": {
+            "page": 8,
+            "paragraph_index": 13,
+            "rect": [
+              196.49000549316406,
+              379.7442626953125,
+              426.5999755859375,
+              395.03466796875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri336 1.htm",
+          "position": {
+            "page": 8,
+            "paragraph_index": 14,
+            "rect": [
+              111.36000061035156,
+              436.60198974609375,
+              571.4918212890625,
+              476.2440185546875
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Central Composite Design\nBLOCK\nX1\nX2\n1\n-1\n-1\n1\n1\n-1\n1\n-1\n1\n1\n1\n1\n1\n0\n0\n1\n0\n0\n2\n-1.414\n0\n2\n1.414\n0\n2\n0\n-1.414\n2\n0\n1.414\n2\n0\n0\n2\n0\n0\nhttps://www.itl.nist.gov/div898/handbook/pri/section3/pri336\n1.htm\n"
+    },
+    {
+      "page_number": 10,
+      "paragraphs": [
+        {
+          "text": "Central Composite Design (CCD)",
+          "position": {
+            "page": 9,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              589.3909912109375,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  CCD is one of the more popular designs for 2 nd  order response surface",
+          "position": {
+            "page": 9,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              90.75180053710938,
+              898.8422241210938,
+              125.41000366210938
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "models. Another choice is Box-Behnken design.",
+          "position": {
+            "page": 9,
+            "paragraph_index": 2,
+            "rect": [
+              41.7599983215332,
+              127.80999755859375,
+              616.2033081054688,
+              157.80999755859375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1. CCD has  2 \ud835\udc56\udc58  factorial runs,  2\ud835\udc56\udc58  axial runs and  \ud835\udc56\udc5b \ud835\udc36  centre  runs  2. Two parameters to be mentioned, distance  \ud835\udefc  of the axial points,  number of  centre runs  \ud835\udc56\udc5b \ud835\udc36 3. The parameters are chosen based on  rotatability , (ref sec 11.4.2)",
+          "position": {
+            "page": 9,
+            "paragraph_index": 3,
+            "rect": [
+              23.760000228881836,
+              165.38880920410156,
+              845.7723388671875,
+              318.03997802734375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "i.e.  \ud835\udc46\udc49 \u0ddc\ud835\udc5f\udc66 \ud835\udc5f\udc65   should be same at all points  \ud835\udc99   placed at the same distance",
+          "position": {
+            "page": 9,
+            "paragraph_index": 4,
+            "rect": [
+              23.760000228881836,
+              332.58502197265625,
+              922.1221923828125,
+              363.41998291015625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "from the design centre.",
+          "position": {
+            "page": 9,
+            "paragraph_index": 5,
+            "rect": [
+              23.760000228881836,
+              367.02001953125,
+              308.4432678222656,
+              397.02001953125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "4. Generally  \ud835\udefc = \ud835\udc56\udc5b \ud835\udc38\udc39",
+          "position": {
+            "page": 9,
+            "paragraph_index": 6,
+            "rect": [
+              23.760000228881836,
+              420.6650390625,
+              277.52642822265625,
+              454.9988098144531
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1 4  and  \ud835\udc56\udc5b \ud835\udc36  = 3  to 5 is chosen",
+          "position": {
+            "page": 9,
+            "paragraph_index": 7,
+            "rect": [
+              292.1000061035156,
+              402.6390380859375,
+              603.790771484375,
+              455.9718322753906
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Central Composite Design (CCD)\n\u2022 CCD is one of the more popular designs for 2nd order response surface \nmodels. Another choice is Box-Behnken design.\n 1. CCD has 2\ud835\udc56\ufffd\ufffd\ufffd factorial runs, 2\ud835\udc56\ufffd\ufffd\ufffd axial runs and \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc36 centre  runs\n 2. Two parameters to be mentioned, distance \ud835\udefc of the axial points, \nnumber of  centre runs \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc36\n3. The parameters are chosen based on rotatability, (ref sec 11.4.2)\n    i.e. \ud835\udc46\ufffd\ufffd\ufffd \u0ddc\ud835\udc5f\ufffd\ufffd\ufffd \ud835\udc5f\ufffd\ufffd\ufffd\n should be same at all points \ud835\udc99 placed at the same distance \nfrom the design centre.\n4. Generally \ud835\udefc = \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc38\ufffd\ufffd\ufffd\n1\n4 and \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc36 = 3 to 5 is chosen\n"
+    },
+    {
+      "page_number": 11,
+      "paragraphs": [
+        {
+          "text": "Central Composite Design (CCD)",
+          "position": {
+            "page": 10,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              589.3578491210938,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  The experiment was conducted to find the optimal formulation of a two-",
+          "position": {
+            "page": 10,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              90.91856384277344,
+              865.8200073242188,
+              123.22000885009766
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "component admixture to improve the workabilty of cement grouts. The factors  were the water-to-cement ratio, the percent of black liquor added, and the  percent of SNF added. The response variable is plasticity. The left side of the  table shows the coded factors  \ud835\udc5f\udc651 \u2212 \ud835\udc5f\udc653 . The axial points were chosen at  \u00b11.68   in coded units to make the design rotatable. The coded levels are found as  (actual level \u2212 center value)/(half-range). For example, x2 = (BlackLiq: \u2212  0.150)/0.03.",
+          "position": {
+            "page": 10,
+            "paragraph_index": 2,
+            "rect": [
+              41.7599983215332,
+              125.5,
+              941.7105102539062,
+              334.92999267578125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "( Source: Design and Analysis of Experiments with R, John Lawson)",
+          "position": {
+            "page": 10,
+            "paragraph_index": 3,
+            "rect": [
+              23.760000228881836,
+              347.30999755859375,
+              624.2999267578125,
+              415.469970703125
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Central Composite Design (CCD)\n\u2022 The experiment was conducted to find the optimal formulation of a two-\ncomponent admixture to improve the workabilty of cement grouts. The factors \nwere the water-to-cement ratio, the percent of black liquor added, and the \npercent of SNF added. The response variable is plasticity. The left side of the \ntable shows the coded factors \ud835\udc5f\ufffd\ufffd\ufffd1 \u2212 \ud835\udc5f\ufffd\ufffd\ufffd3. The axial points were chosen at \u00b11.68 \nin coded units to make the design rotatable. The coded levels are found as \n(actual level \u2212 center value)/(half-range). For example, x2 = (BlackLiq: \u2212 \n0.150)/0.03.\n(Source: Design and Analysis of Experiments with R,\nJohn Lawson)\n"
+    },
+    {
+      "page_number": 12,
+      "paragraphs": [
+        {
+          "text": "Central Composite Design (CCD)",
+          "position": {
+            "page": 11,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              589.3578491210938,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Central Composite Design (CCD)\n"
+    },
+    {
+      "page_number": 13,
+      "paragraphs": [
+        {
+          "text": "Box Behnken Design",
+          "position": {
+            "page": 12,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              380.08489990234375,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  CCD requires 5 levels  (\u2212\ud835\udefc, \u22121, 0, +1, +\ud835\udefc)  for each factor, Box and Behnken",
+          "position": {
+            "page": 12,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              88.27854919433594,
+              901.5170288085938,
+              120.57999420166016
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "(1960) developed some three level designs.",
+          "position": {
+            "page": 12,
+            "paragraph_index": 2,
+            "rect": [
+              41.7599983215332,
+              119.5,
+              534.3157348632812,
+              147.4600067138672
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022   BBD allows estimation of the general quadratic model.  \u2022  BBD consists of  2 2  factorials in each pair of factors     with all other factors held constant at their mid-level and a     few center points. \u2022   No Box-Behnken design exists for only two factors.",
+          "position": {
+            "page": 12,
+            "paragraph_index": 3,
+            "rect": [
+              23.760000228881836,
+              151.99855041503906,
+              715.0045776367188,
+              331.92999267578125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Source:",
+          "position": {
+            "page": 12,
+            "paragraph_index": 4,
+            "rect": [
+              23.760000228881836,
+              414.8999938964844,
+              79.44982147216797,
+              432.8999938964844
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Design and Analysis of Experiments with R,",
+          "position": {
+            "page": 12,
+            "paragraph_index": 5,
+            "rect": [
+              23.760000228881836,
+              442.1400146484375,
+              343.86859130859375,
+              460.1400146484375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "John Lawson",
+          "position": {
+            "page": 12,
+            "paragraph_index": 6,
+            "rect": [
+              23.760000228881836,
+              469.40399169921875,
+              118.90118408203125,
+              487.40399169921875
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Box Behnken Design\n\u2022 CCD requires 5 levels (\u2212\ud835\udefc, \u22121, 0, +1, +\ud835\udefc) for each factor, Box and Behnken \n(1960) developed some three level designs.\n\u2022  BBD allows estimation of the general quadratic model. \n\u2022 BBD consists of 22 factorials in each pair of factors \n   with all other factors held constant at their mid-level and a \n   few center points.\n\u2022  No Box-Behnken design exists for only two factors.\nSource:\nDesign and Analysis of Experiments with R,\nJohn Lawson\n"
+    },
+    {
+      "page_number": 14,
+      "paragraphs": [
+        {
+          "text": "Box Behnken Design",
+          "position": {
+            "page": 13,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              380.08489990234375,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Box-Behnken designs have two advantages over CCDs.",
+          "position": {
+            "page": 13,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              90.91856384277344,
+              662.0185546875,
+              123.22000885009766
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  BBD only require that factors be varied over three levels, reducing experimental cost for",
+          "position": {
+            "page": 13,
+            "paragraph_index": 2,
+            "rect": [
+              59.7599983215332,
+              126.54342651367188,
+              935.64208984375,
+              154.26998901367188
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "building prototypes.",
+          "position": {
+            "page": 13,
+            "paragraph_index": 3,
+            "rect": [
+              77.76000213623047,
+              156.19000244140625,
+              273.9945983886719,
+              180.19000244140625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  BBD usually (except for the 5-factor case) require less total runs than the CCD.",
+          "position": {
+            "page": 13,
+            "paragraph_index": 4,
+            "rect": [
+              59.7599983215332,
+              183.42343139648438,
+              833.556396484375,
+              211.14999389648438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  A disadvantage of a Box-Behnken design compared to a CCD is that it cannot",
+          "position": {
+            "page": 13,
+            "paragraph_index": 5,
+            "rect": [
+              23.760000228881836,
+              218.98854064941406,
+              913.740234375,
+              251.2899932861328
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "be built up in two steps beginning with a  2 \ud835\udc56\udc58  design.",
+          "position": {
+            "page": 13,
+            "paragraph_index": 6,
+            "rect": [
+              41.7599983215332,
+              249.31222534179688,
+              625.7229614257812,
+              282.3699951171875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  BBD should be used if the experimenter is reasonably sure that a linear model",
+          "position": {
+            "page": 13,
+            "paragraph_index": 7,
+            "rect": [
+              23.760000228881836,
+              290.028564453125,
+              931.6729736328125,
+              322.3299865722656
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "will not adequately represent the relationship between the factors and the  response, and he or she wants to save a few runs.",
+          "position": {
+            "page": 13,
+            "paragraph_index": 8,
+            "rect": [
+              41.7599983215332,
+              324.5920104980469,
+              895.4978637695312,
+              382.8299865722656
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  BBD is not rotatable, but close enough to being rotatable and having uniform",
+          "position": {
+            "page": 13,
+            "paragraph_index": 9,
+            "rect": [
+              23.760000228881836,
+              390.72857666015625,
+              919.7901000976562,
+              423.0299987792969
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "precision for practical use.",
+          "position": {
+            "page": 13,
+            "paragraph_index": 10,
+            "rect": [
+              41.7599983215332,
+              425.30999755859375,
+              345.6313781738281,
+              453.2699890136719
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Box Behnken Design\n\u2022 Box-Behnken designs have two advantages over CCDs. \n\u2022 BBD only require that factors be varied over three levels, reducing experimental cost for \nbuilding prototypes.\n\u2022 BBD usually (except for the 5-factor case) require less total runs than the CCD.\n\u2022 A disadvantage of a Box-Behnken design compared to a CCD is that it cannot \nbe built up in two steps beginning with a 2\ud835\udc56\ufffd\ufffd\ufffd design.\n\u2022 BBD should be used if the experimenter is reasonably sure that a linear model \nwill not adequately represent the relationship between the factors and the \nresponse, and he or she wants to save a few runs.\n\u2022 BBD is not rotatable, but close enough to being rotatable and having uniform \nprecision for practical use. \n"
+    },
+    {
+      "page_number": 15,
+      "paragraphs": [
+        {
+          "text": "BBD Example",
+          "position": {
+            "page": 14,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              256.6444396972656,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  As an example of a Box-Behnken design, consider the experiment performed   by Anderson (2003). He experimented with a scale model trebuchet (medieval missile launcher) that was issued to all engineering students at the South Dakota School of Mines and Technology for hands-on experimentation. He wanted to determine the settings that would allow him to toss an object a given distance.",
+          "position": {
+            "page": 14,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              90.91856384277344,
+              923.6925048828125,
+              324.489990234375
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "BBD Example\n\u2022 As an example of a Box-Behnken design, consider the experiment performed\n  by Anderson (2003). He experimented with a scale model trebuchet (medieval\nmissile launcher) that was issued to all engineering students at the South\nDakota School of Mines and Technology for hands-on experimentation. He\nwanted to determine the settings that would allow him to toss an object a\ngiven distance.\n"
+    },
+    {
+      "page_number": 16,
+      "paragraphs": [
+        {
+          "text": "BBD Example",
+          "position": {
+            "page": 15,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              256.6444396972656,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "BBD Example\n"
+    },
+    {
+      "page_number": 17,
+      "paragraphs": [
+        {
+          "text": "Response Surface Method (Ch11, DOE, Montgomery)",
+          "position": {
+            "page": 16,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              26.10199546813965,
+              876.6119384765625,
+              66.08599853515625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Mathematical and statistical methods to analyze the influence of factors over",
+          "position": {
+            "page": 16,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              90.91856384277344,
+              922.0267944335938,
+              123.22000885009766
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "the response variable and optimize the same",
+          "position": {
+            "page": 16,
+            "paragraph_index": 2,
+            "rect": [
+              41.7599983215332,
+              125.5,
+              550.9271850585938,
+              153.4600067138672
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \ud835\udc5f\udc66 = \ud835\udc50\udc53 \ud835\udc5f\udc65 1 , \ud835\udc5f\udc65 2  + \ud835\udf16 \u2022  Expected response  \ud835\udc37\udc38 \ud835\udc5f\udc66 = \ud835\udc50\udc53 \ud835\udc5f\udc65 1 , \ud835\udc5f\udc65 2  = \ud835\udf02 \u2022  Surface representing  \ud835\udf02  is the response surface",
+          "position": {
+            "page": 16,
+            "paragraph_index": 3,
+            "rect": [
+              23.760000228881836,
+              161.4785614013672,
+              565.3832397460938,
+              274.3299865722656
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Design and Analysis of Experiment, D.C. Montgomery",
+          "position": {
+            "page": 16,
+            "paragraph_index": 5,
+            "rect": [
+              560.0900268554688,
+              460.5719909667969,
+              948.8118286132812,
+              478.5719909667969
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Response Surface Method (Ch11, DOE, Montgomery)\n\u2022 Mathematical and statistical methods to analyze the influence of factors over \nthe response variable and optimize the same\n\u2022 \ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udc50\ufffd\ufffd\ufffd \ud835\udc5f\ufffd\ufffd\ufffd1, \ud835\udc5f\ufffd\ufffd\ufffd2 + \ud835\udf16\n\u2022 Expected response \ud835\udc37\ufffd\ufffd\ufffd \ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udc50\ufffd\ufffd\ufffd \ud835\udc5f\ufffd\ufffd\ufffd1, \ud835\udc5f\ufffd\ufffd\ufffd2 = \ud835\udf02\n\u2022 Surface representing \ud835\udf02 is the response surface\nDesign and Analysis of Experiment, D.C. Montgomery\n"
+    },
+    {
+      "page_number": 18,
+      "paragraphs": [
+        {
+          "text": "RSM is sequential",
+          "position": {
+            "page": 17,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              333.6931457519531,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  In RSM, if the initial conditions are far from optimal, we rapidly try to move",
+          "position": {
+            "page": 17,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              90.91856384277344,
+              898.8759155273438,
+              123.22000885009766
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "towards optimal. A path of improvement towards general vicinity of optimum  is followed.",
+          "position": {
+            "page": 17,
+            "paragraph_index": 2,
+            "rect": [
+              41.7599983215332,
+              125.5,
+              927.4510498046875,
+              183.6999969482422
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Once a region of optimal is found, more elaborate models, e.g. second order",
+          "position": {
+            "page": 17,
+            "paragraph_index": 3,
+            "rect": [
+              23.760000228881836,
+              191.6968231201172,
+              914.47119140625,
+              224.0260009765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "models are fitted.",
+          "position": {
+            "page": 17,
+            "paragraph_index": 4,
+            "rect": [
+              41.7599983215332,
+              226.32998657226562,
+              242.88072204589844,
+              254.2899932861328
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Similar to \u201chill climbing\u201d \u2022  Steepest ascent for maximization \u2022  Steepest descent for minimization",
+          "position": {
+            "page": 17,
+            "paragraph_index": 5,
+            "rect": [
+              23.760000228881836,
+              262.1885681152344,
+              428.2059326171875,
+              375.02996826171875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Design and Analysis of Experiment, D.C. Montgomery",
+          "position": {
+            "page": 17,
+            "paragraph_index": 7,
+            "rect": [
+              394.17999267578125,
+              476.8739929199219,
+              783.0411376953125,
+              494.89801025390625
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "RSM is sequential\n\u2022 In RSM, if the initial conditions are far from optimal, we rapidly try to move \ntowards optimal. A path of improvement towards general vicinity of optimum \nis followed.\n\u2022 Once a region of optimal is found, more elaborate models, e.g. second order \nmodels are fitted.\n\u2022 Similar to \u201chill climbing\u201d\n\u2022 Steepest ascent for maximization\n\u2022 Steepest descent for minimization\nDesign and Analysis of Experiment, D.C. Montgomery\n"
+    },
+    {
+      "page_number": 19,
+      "paragraphs": [
+        {
+          "text": "Steepest Ascent in First Order Model",
+          "position": {
+            "page": 18,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              671.443603515625,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Steepest Ascent in First Order Model\n"
+    },
+    {
+      "page_number": 20,
+      "paragraphs": [
+        {
+          "text": "Steepest Ascent (Or Descent)",
+          "position": {
+            "page": 19,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              539.1249389648438,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Assume  \ud835\udc5f\udc65 1  = \ud835\udc5f\udc65 2  = \u22ef = \ud835\udc5f\udc65 \ud835\udc56\udc58  = 0  as the origin O 1. Choose a step size in one of the process variables,  \u0394\ud835\udc5f\udc65 \ud835\udc56\udc57 , usually the one we           know the most about, or with largest  |  \u1218 \ud835\udefc\udefd \ud835\udc56\udc57 |",
+          "position": {
+            "page": 19,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              91.84181213378906,
+              921.836669921875,
+              202.96221923828125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2. Step size in the other variables:  \u0394\ud835\udc5f\udc65 \ud835\udc56  =",
+          "position": {
+            "page": 19,
+            "paragraph_index": 2,
+            "rect": [
+              23.760000228881836,
+              218.71180725097656,
+              493.97808837890625,
+              252.43182373046875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u0de1\ud835\udefd \ud835\udc56",
+          "position": {
+            "page": 19,
+            "paragraph_index": 3,
+            "rect": [
+              520.25,
+              203.18356323242188,
+              539.6671752929688,
+              232.16773986816406
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u0de1\ud835\udefd \ud835\udc56\udc57 \u0394\ud835\udc65 \ud835\udc56\udc57    \ud835\udc56 = 1,2, \u2026 \ud835\udc56\udc58, \ud835\udc56 \u2260 \ud835\udc56\udc57",
+          "position": {
+            "page": 19,
+            "paragraph_index": 4,
+            "rect": [
+              501.7699890136719,
+              218.71180725097656,
+              790.028076171875,
+              265.1518249511719
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "3. Start from O and increment by the step size, i.e. for  \ud835\udc56 \ud835\udc5f\udc61\u210e  iteration the point of",
+          "position": {
+            "page": 19,
+            "paragraph_index": 5,
+            "rect": [
+              23.760000228881836,
+              263.9522399902344,
+              933.6758422851562,
+              297.010009765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "evaluation will by  \ud835\udc42 + \ud835\udc56 \u2217 \u0394",
+          "position": {
+            "page": 19,
+            "paragraph_index": 6,
+            "rect": [
+              64.31999969482422,
+              295.2718505859375,
+              373.94586181640625,
+              324.010009765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "4. Convert step size  \u0394\ud835\udc5f\udc65 \ud835\udc56  from coded variables to natural variables and evaluate         the point 5. Continue until the increase (or decrease in case of minimization) in response       stops.",
+          "position": {
+            "page": 19,
+            "paragraph_index": 7,
+            "rect": [
+              23.760000228881836,
+              332.0931396484375,
+              931.0516967773438,
+              471.5159912109375
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Steepest Ascent (Or Descent)\nAssume \ud835\udc5f\ufffd\ufffd\ufffd1 = \ud835\udc5f\ufffd\ufffd\ufffd2 = \u22ef = \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd = 0 as the origin O\n1. Choose a step size in one of the process variables, \u0394\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd, usually the one we   \n       know the most about, or with largest | \u1218\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd|\n2. Step size in the other variables: \u0394\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56 =\n\u0de1\ud835\udefd\ud835\udc56\n\u0de1\ud835\udefd\ud835\udc56\ufffd\ufffd\ufffd\u0394\ud835\udc65\ud835\udc56\ufffd\ufffd\ufffd  \ud835\udc56 = 1,2, \u2026 \ud835\udc56\ufffd\ufffd\ufffd, \ud835\udc56 \u2260 \ud835\udc56\ufffd\ufffd\ufffd\n3. Start from O and increment by the step size, i.e. for \ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\u210e iteration the point of \nevaluation will by \ud835\udc42 + \ud835\udc56 \u2217 \u0394\n4. Convert step size \u0394\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56 from coded variables to natural variables and evaluate   \n     the point\n5. Continue until the increase (or decrease in case of minimization) in response \n     stops.\n"
+    },
+    {
+      "page_number": 21,
+      "paragraphs": [
+        {
+          "text": "Example (11.1), Steepest Ascent",
+          "position": {
+            "page": 20,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              589.392578125,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "xi1 xi2 x1 x2 y",
+          "position": {
+            "page": 20,
+            "paragraph_index": 1,
+            "rect": [
+              32.61600112915039,
+              116.39999389648438,
+              325.2632751464844,
+              140.39999389648438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "30 150 -1 -1 39.3",
+          "position": {
+            "page": 20,
+            "paragraph_index": 2,
+            "rect": [
+              77.73600006103516,
+              145.70001220703125,
+              383.8040466308594,
+              169.70001220703125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "30 160 -1 1 40",
+          "position": {
+            "page": 20,
+            "paragraph_index": 3,
+            "rect": [
+              77.73600006103516,
+              175.010009765625,
+              383.8040466308594,
+              199.010009765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "40 150 1 -1 40.9",
+          "position": {
+            "page": 20,
+            "paragraph_index": 4,
+            "rect": [
+              77.73600006103516,
+              204.30999755859375,
+              383.8040466308594,
+              228.30999755859375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "40 160 1 1 41.5",
+          "position": {
+            "page": 20,
+            "paragraph_index": 5,
+            "rect": [
+              77.73600006103516,
+              233.6199951171875,
+              383.8040466308594,
+              257.6199951171875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "35 155 0 0 40.3",
+          "position": {
+            "page": 20,
+            "paragraph_index": 6,
+            "rect": [
+              77.73600006103516,
+              262.9200134277344,
+              383.8040466308594,
+              286.9200134277344
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "35 155 0 0 40.5",
+          "position": {
+            "page": 20,
+            "paragraph_index": 7,
+            "rect": [
+              77.73600006103516,
+              292.2200012207031,
+              383.8040466308594,
+              316.2200012207031
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "35 155 0 0 40.7",
+          "position": {
+            "page": 20,
+            "paragraph_index": 8,
+            "rect": [
+              77.73600006103516,
+              321.5119934082031,
+              383.80999755859375,
+              345.5360107421875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "35 155 0 0 40.2",
+          "position": {
+            "page": 20,
+            "paragraph_index": 9,
+            "rect": [
+              77.73600006103516,
+              350.81201171875,
+              383.80999755859375,
+              374.8360290527344
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "35 155 0 0 40.6",
+          "position": {
+            "page": 20,
+            "paragraph_index": 10,
+            "rect": [
+              77.73600006103516,
+              380.1600036621094,
+              383.8040466308594,
+              404.1600036621094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5f\udc66 = 40.44 + 0.775\ud835\udc5f\udc65 1  + 0.325\ud835\udc5f\udc65 2",
+          "position": {
+            "page": 20,
+            "paragraph_index": 11,
+            "rect": [
+              527.280029296875,
+              138.8933563232422,
+              848.8673095703125,
+              167.8373565673828
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Start from  (\ud835\udc5f\udc65 1  = 0, \ud835\udc5f\udc65 2  = 0)  and take the path of steepest ascent For 0.775 units increment in  \ud835\udc5f\udc65 1 ,  move  \ud835\udc5f\udc65 2  by 0.325 units Or  \u0394\ud835\udc5f\udc65 1  = 1  and  \u0394\ud835\udc5f\udc65 2  = (0.325)/(0.775)",
+          "position": {
+            "page": 20,
+            "paragraph_index": 12,
+            "rect": [
+              467.1600036621094,
+              196.54202270507812,
+              891.7132568359375,
+              340.6820373535156
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Example (11.1), Steepest Ascent\nxi1\nxi2\nx1\nx2\ny\n30\n150\n-1\n-1\n39.3\n30\n160\n-1\n1\n40\n40\n150\n1\n-1\n40.9\n40\n160\n1\n1\n41.5\n35\n155\n0\n0\n40.3\n35\n155\n0\n0\n40.5\n35\n155\n0\n0\n40.7\n35\n155\n0\n0\n40.2\n35\n155\n0\n0\n40.6\n\ud835\udc5f\ufffd\ufffd\ufffd = 40.44 + 0.775\ud835\udc5f\ufffd\ufffd\ufffd1 + 0.325\ud835\udc5f\ufffd\ufffd\ufffd2\nStart from (\ud835\udc5f\ufffd\ufffd\ufffd1 = 0, \ud835\udc5f\ufffd\ufffd\ufffd2 = 0) and take the\npath of steepest ascent\nFor 0.775 units increment in \ud835\udc5f\ufffd\ufffd\ufffd1, move \ud835\udc5f\ufffd\ufffd\ufffd2 by\n0.325 units\nOr \u0394\ud835\udc5f\ufffd\ufffd\ufffd1 = 1 and \u0394\ud835\udc5f\ufffd\ufffd\ufffd2 = (0.325)/(0.775)  \n"
+    },
+    {
+      "page_number": 22,
+      "paragraphs": [
+        {
+          "text": "Steepest Ascent",
+          "position": {
+            "page": 21,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              306.10504150390625,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Steepest Ascent\n"
+    },
+    {
+      "page_number": 23,
+      "paragraphs": [
+        {
+          "text": "For 2 nd  Order Model",
+          "position": {
+            "page": 22,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              21.992000579833984,
+              381.8856201171875,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \u0ddc\ud835\udc5f\udc66 =  \u0de2 \ud835\udefc\udefd 0  + \ud835\udc7f \u2032 \ud835\udc83 + \ud835\udc7f \u2032 \ud835\udc69\ud835\udc7f",
+          "position": {
+            "page": 22,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              90.16181945800781,
+              301.49896240234375,
+              130.121826171875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "where  \ud835\udc7f =",
+          "position": {
+            "page": 22,
+            "paragraph_index": 2,
+            "rect": [
+              23.760000228881836,
+              191.30316162109375,
+              156.5060272216797,
+              220.06600952148438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc65 1 \ud835\udc65 2 . . \ud835\udc65 \ud835\udc56\udc58",
+          "position": {
+            "page": 22,
+            "paragraph_index": 3,
+            "rect": [
+              186.3800048828125,
+              175.00222778320312,
+              209.17532348632812,
+              257.2724304199219
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc83 =",
+          "position": {
+            "page": 22,
+            "paragraph_index": 4,
+            "rect": [
+              226.22000122070312,
+              191.30316162109375,
+              284.6860046386719,
+              220.06600952148438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u0de1\ud835\udefd 1 \u0de1\ud835\udefd 2 . . \u0de1\ud835\udefd \ud835\udc56\udc58",
+          "position": {
+            "page": 22,
+            "paragraph_index": 5,
+            "rect": [
+              311.4200134277344,
+              165.76223754882812,
+              335.2953186035156,
+              270.1124267578125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc69 =",
+          "position": {
+            "page": 22,
+            "paragraph_index": 6,
+            "rect": [
+              355.25,
+              191.30316162109375,
+              417.0760192871094,
+              220.06600952148438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u1218\ud835\udefc\udefd 11",
+          "position": {
+            "page": 22,
+            "paragraph_index": 7,
+            "rect": [
+              445.9700012207031,
+              138.5218048095703,
+              484.1737060546875,
+              176.80221557617188
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u0de1\ud835\udefd 12 2 .",
+          "position": {
+            "page": 22,
+            "paragraph_index": 8,
+            "rect": [
+              516.6500244140625,
+              129.2822265625,
+              587.4440307617188,
+              185.08221435546875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u0de1\ud835\udefd 1\ud835\udc56\udc58 2",
+          "position": {
+            "page": 22,
+            "paragraph_index": 9,
+            "rect": [
+              615.4299926757812,
+              129.2822265625,
+              649.2652587890625,
+              185.08221435546875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": ". \u1218\ud835\udefc\udefd 22 .",
+          "position": {
+            "page": 22,
+            "paragraph_index": 10,
+            "rect": [
+              462.8900146484375,
+              196.58316040039062,
+              587.4489135742188,
+              234.88755798339844
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u0de1\ud835\udefd 2\ud835\udc56\udc58 2",
+          "position": {
+            "page": 22,
+            "paragraph_index": 11,
+            "rect": [
+              615.4299926757812,
+              187.36224365234375,
+              649.2652587890625,
+              243.19223022460938
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2026 \u2026 \u2026 \u2026  \u1218\ud835\udefc\udefd \ud835\udc56\udc58\ud835\udc56\udc58",
+          "position": {
+            "page": 22,
+            "paragraph_index": 13,
+            "rect": [
+              451.3699951171875,
+              244.75181579589844,
+              655.131591796875,
+              283.0322265625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022",
+          "position": {
+            "page": 22,
+            "paragraph_index": 14,
+            "rect": [
+              23.760000228881836,
+              295.1885681152344,
+              33.548728942871094,
+              326.42510986328125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udf4f \u0ddc\ud835\udc65\udc66 \ud835\udf4f\ud835\udc99   = \ud835\udc83 + \ud835\udfce\udfd0\ud835\udc69\ud835\udc7f = \ud835\udfce",
+          "position": {
+            "page": 22,
+            "paragraph_index": 15,
+            "rect": [
+              41.7599983215332,
+              287.7122497558594,
+              263.9441223144531,
+              340.7518005371094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \ud835\udc7f\ud835\udc94 = \u2212",
+          "position": {
+            "page": 22,
+            "paragraph_index": 16,
+            "rect": [
+              23.760000228881836,
+              348.84857177734375,
+              132.4880828857422,
+              380.371826171875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udfce\udfcf \ud835\udfce\udfd0   \ud835\udc69 \u2212\ud835\udfce\udfcf \ud835\udc83",
+          "position": {
+            "page": 22,
+            "paragraph_index": 17,
+            "rect": [
+              137.16000366210938,
+              341.85223388671875,
+              219.66986083984375,
+              394.4118347167969
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \u0ddd\ud835\udc99\udc9a \ud835\udc5f\udc60  =  \u1218 \ud835\udefc\udefd 0  +",
+          "position": {
+            "page": 22,
+            "paragraph_index": 18,
+            "rect": [
+              23.760000228881836,
+              398.8518371582031,
+              161.76809692382812,
+              438.81182861328125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1 2   \ud835\udc7f \ud835\udc94\u2032 \ud835\udc83",
+          "position": {
+            "page": 22,
+            "paragraph_index": 19,
+            "rect": [
+              168.02000427246094,
+              394.5322265625,
+              232.26986694335938,
+              447.0918273925781
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "For 2nd Order Model\n\u2022 \u0ddc\ud835\udc5f\ufffd\ufffd\ufffd = \u0de2\n\ud835\udefc\ufffd\ufffd\ufffd0 + \ud835\udc7f\u2032\ud835\udc83 + \ud835\udc7f\u2032\ud835\udc69\ud835\udc7f\n where \ud835\udc7f =\n\ud835\udc651\n\ud835\udc652..\n\ud835\udc65\ud835\udc56\ufffd\ufffd\ufffd\n  \ud835\udc83 =\n\u0de1\ud835\udefd1\n\u0de1\ud835\udefd2..\n\u0de1\ud835\udefd\ud835\udc56\ufffd\ufffd\ufffd\n  \ud835\udc69 =\n\u1218\ud835\udefc\ufffd\ufffd\ufffd11\n\u0de1\ud835\udefd12\n2\n.\n\u0de1\ud835\udefd1\ud835\udc56\ufffd\ufffd\ufffd\n2\n.\n\u1218\ud835\udefc\ufffd\ufffd\ufffd22\n.\n\u0de1\ud835\udefd2\ud835\udc56\ufffd\ufffd\ufffd\n2\n \n\u2026 \u2026 \u2026 \u2026 \n\u1218\ud835\udefc\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\n\u2022\n\ud835\udf4f \u0ddc\ud835\udc65\ufffd\ufffd\ufffd\n\ud835\udf4f\ud835\udc99 = \ud835\udc83 + \ud835\udfce\ufffd\ufffd\ufffd\ud835\udc69\ud835\udc7f = \ud835\udfce\n\u2022 \ud835\udc7f\ud835\udc94 = \u2212\n\ud835\udfce\ufffd\ufffd\ufffd\n\ud835\udfce\ufffd\ufffd\ufffd \ud835\udc69\u2212\ud835\udfce\ufffd\ufffd\ufffd\ud835\udc83\n\u2022 \u0ddd\ud835\udc99\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd = \u1218\ud835\udefc\ufffd\ufffd\ufffd0 +\n1\n2 \ud835\udc7f\ud835\udc94\u2032\ud835\udc83\n"
+    },
+    {
+      "page_number": 24,
+      "paragraphs": [
+        {
+          "text": "Response Surface and Contour Plots",
+          "position": {
+            "page": 23,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              660.9571533203125,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Response Surface and Contour Plots\n"
+    },
+    {
+      "page_number": 25,
+      "paragraphs": [
+        {
+          "text": "Canonical Form",
+          "position": {
+            "page": 24,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              298.0150451660156,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Canonical form of second order model",
+          "position": {
+            "page": 24,
+            "paragraph_index": 2,
+            "rect": [
+              467.1600036621094,
+              135.71170043945312,
+              867.4088745117188,
+              163.4659881591797
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  For 2-3 factor models, it is easy to characterize      response surface (maxima, minima or saddle       Point)",
+          "position": {
+            "page": 24,
+            "paragraph_index": 3,
+            "rect": [
+              467.1600036621094,
+              193.36343383789062,
+              945.8291625976562,
+              278.69000244140625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  For more variables, canonical analysis is helpful",
+          "position": {
+            "page": 24,
+            "paragraph_index": 4,
+            "rect": [
+              467.1600036621094,
+              308.58343505859375,
+              953.2435302734375,
+              336.30999755859375
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Canonical Form\n\u2022 Canonical form of second order model\n\u2022 For 2-3 factor models, it is easy to characterize\n     response surface (maxima, minima or saddle \n     Point)\n\u2022 For more variables, canonical analysis is helpful\n"
+    },
+    {
+      "page_number": 26,
+      "paragraphs": [
+        {
+          "text": "Canonical Analysis",
+          "position": {
+            "page": 25,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              346.2961120605469,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Transform the model to a coordinate system with origin at  \ud835\udc4b \ud835\udc5f\udc60  and rotate the",
+          "position": {
+            "page": 25,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              91.03855895996094,
+              910.72021484375,
+              126.6422119140625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "axes to make them parallel to the principal axes of the response surface",
+          "position": {
+            "page": 25,
+            "paragraph_index": 2,
+            "rect": [
+              41.7599983215332,
+              125.5,
+              853.5104370117188,
+              153.4600067138672
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \u0ddc\ud835\udc5f\udc66 = \u0ddc\ud835\udc5f\udc66 \ud835\udc5f\udc60  + \ud835\udf06 1 \ud835\udc5f\udc64 1",
+          "position": {
+            "page": 25,
+            "paragraph_index": 3,
+            "rect": [
+              23.760000228881836,
+              162.7985382080078,
+              210.06370544433594,
+              200.08181762695312
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2  + \u22ef + \ud835\udf06 \ud835\udc56\udc58 \ud835\udc5f\udc64 \ud835\udc56\udc58",
+          "position": {
+            "page": 25,
+            "paragraph_index": 4,
+            "rect": [
+              201.5,
+              155.6818084716797,
+              364.35162353515625,
+              199.36221313476562
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2",
+          "position": {
+            "page": 25,
+            "paragraph_index": 5,
+            "rect": [
+              354.6499938964844,
+              161.20223999023438,
+              366.4537048339844,
+              181.60223388671875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \ud835\udc5f\udc64 \ud835\udc56 s are the transformed variables and  \ud835\udf06 \ud835\udc56 s are eigenvalues of  \ud835\udc69 . \u2022  \ud835\udf06 \ud835\udc56 s   all positive:   \ud835\udc4b \ud835\udc5f\udc60   is point of minimum   response \u2022  \ud835\udf06 \ud835\udc56 s   all negative:   \ud835\udc4b \ud835\udc5f\udc60   is point of maximum response \u2022  \ud835\udf06 \ud835\udc56 s   mixed signs:   \ud835\udc4b \ud835\udc5f\udc60   is saddle point \u2022  Surface is steepest in the  \ud835\udc5f\udc64 \ud835\udc56  direction for which  |\ud835\udf06 \ud835\udc56 |  is greatest.",
+          "position": {
+            "page": 25,
+            "paragraph_index": 6,
+            "rect": [
+              23.760000228881836,
+              202.97682189941406,
+              759.7342529296875,
+              399.57220458984375
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Canonical Analysis\n\u2022 Transform the model to a coordinate system with origin at \ud835\udc4b\ud835\udc5f\ufffd\ufffd\ufffd and rotate the \naxes to make them parallel to the principal axes of the response surface\n\u2022 \u0ddc\ud835\udc5f\ufffd\ufffd\ufffd = \u0ddc\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd + \ud835\udf061\ud835\udc5f\ufffd\ufffd\ufffd1\n2 + \u22ef + \ud835\udf06\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\n2\n\u2022 \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56s are the transformed variables and \ud835\udf06\ud835\udc56s are eigenvalues of \ud835\udc69.\n\u2022 \ud835\udf06\ud835\udc56s all positive:  \ud835\udc4b\ud835\udc5f\ufffd\ufffd\ufffd is point of minimum response\n\u2022 \ud835\udf06\ud835\udc56s all negative:  \ud835\udc4b\ud835\udc5f\ufffd\ufffd\ufffd is point of maximum response\n\u2022 \ud835\udf06\ud835\udc56s mixed signs:  \ud835\udc4b\ud835\udc5f\ufffd\ufffd\ufffd is saddle point\n\u2022 Surface is steepest in the \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56 direction for which |\ud835\udf06\ud835\udc56| is greatest.\n"
+    },
+    {
+      "page_number": 27,
+      "paragraphs": [
+        {
+          "text": "Multiple Response",
+          "position": {
+            "page": 26,
+            "paragraph_index": 0,
+            "rect": [
+              334.94000244140625,
+              165.42999267578125,
+              794.2445068359375,
+              225.42999267578125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Optimization",
+          "position": {
+            "page": 26,
+            "paragraph_index": 1,
+            "rect": [
+              403.25,
+              230.21200561523438,
+              712.585693359375,
+              290.23602294921875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Prof. Sayak Roychowdhury",
+          "position": {
+            "page": 26,
+            "paragraph_index": 2,
+            "rect": [
+              430.1300048828125,
+              332.1400146484375,
+              685.529052734375,
+              356.1400146484375
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Multiple Response \nOptimization\nProf. Sayak Roychowdhury\n"
+    },
+    {
+      "page_number": 28,
+      "paragraphs": [
+        {
+          "text": "Multiple Response Optimization",
+          "position": {
+            "page": 27,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              588.02294921875,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  When there are multiple responses (y\u2019s) to be optimized \u2022  If number of decision variables are limited to 2 or 3,  overlay contour plot  may",
+          "position": {
+            "page": 27,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              90.91856384277344,
+              931.932373046875,
+              163.5399932861328
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "be used",
+          "position": {
+            "page": 27,
+            "paragraph_index": 2,
+            "rect": [
+              41.7599983215332,
+              165.82000732421875,
+              130.9912872314453,
+              193.78001403808594
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Constrained optimization : where one response is set as objective while the",
+          "position": {
+            "page": 27,
+            "paragraph_index": 3,
+            "rect": [
+              23.760000228881836,
+              201.6568145751953,
+              904.3525390625,
+              233.98599243164062
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "values of others are constrained to desirable range.",
+          "position": {
+            "page": 27,
+            "paragraph_index": 4,
+            "rect": [
+              41.7599983215332,
+              236.29000854492188,
+              622.78125,
+              264.25
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Desirability function approach:  Proposed by Derringer and Suich (1980).",
+          "position": {
+            "page": 27,
+            "paragraph_index": 5,
+            "rect": [
+              23.760000228881836,
+              272.1485900878906,
+              872.2102661132812,
+              304.45001220703125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Convert each response  \ud835\udc5f\udc66 \ud835\udc56   to individual desirability values  \ud835\udc50\udc51 \ud835\udc56   such that",
+          "position": {
+            "page": 27,
+            "paragraph_index": 6,
+            "rect": [
+              41.7599983215332,
+              306.07183837890625,
+              836.6663818359375,
+              338.11224365234375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udfce \u2264 \ud835\udc85 \ud835\udc8a  \u2264 \ud835\udfce\udfcf   (0 means unacceptable and 1 means on target).",
+          "position": {
+            "page": 27,
+            "paragraph_index": 7,
+            "rect": [
+              23.760000228881836,
+              346.29180908203125,
+              723.2789916992188,
+              380.0118103027344
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Then the overall desirability is to be maximized:",
+          "position": {
+            "page": 27,
+            "paragraph_index": 8,
+            "rect": [
+              59.7599983215332,
+              378.23345947265625,
+              540.469970703125,
+              405.96002197265625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \ud835\udc37 = \ud835\udc50\udc51 1 \ud835\udc50\udc51 2  \u2026 \ud835\udc50\udc51 \ud835\udc5a",
+          "position": {
+            "page": 27,
+            "paragraph_index": 9,
+            "rect": [
+              59.7599983215332,
+              418.9134521484375,
+              242.00222778320312,
+              450.89202880859375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1 \ud835\udc5a   for  \ud835\udc56\udc5a  responses.",
+          "position": {
+            "page": 27,
+            "paragraph_index": 10,
+            "rect": [
+              253.22000122070312,
+              407.3592224121094,
+              442.59063720703125,
+              446.6400146484375
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Multiple Response Optimization\n\u2022 When there are multiple responses (y\u2019s) to be optimized\n\u2022 If number of decision variables are limited to 2 or 3, overlay contour plot may \nbe used\n\u2022 Constrained optimization: where one response is set as objective while the \nvalues of others are constrained to desirable range.\n\u2022 Desirability function approach: Proposed by Derringer and Suich (1980). \nConvert each response \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56 to individual desirability values \ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56 such that \n   \ud835\udfce \u2264 \ud835\udc85\ud835\udc8a \u2264 \ud835\udfce\ufffd\ufffd\ufffd (0 means unacceptable and 1 means on target).\n\u2022 Then the overall desirability is to be maximized:\n\u2022 \ud835\udc37 = \ud835\udc50\ufffd\ufffd\ufffd1\ud835\udc50\ufffd\ufffd\ufffd2 \u2026 \ud835\udc50\ufffd\ufffd\ufffd\ud835\udc5a\n1\n\ud835\udc5a  for \ud835\udc56\ufffd\ufffd\ufffd responses.\n"
+    },
+    {
+      "page_number": 29,
+      "paragraphs": [
+        {
+          "text": "Multiple Response Example",
+          "position": {
+            "page": 28,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              510.14459228515625,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  A chemical engineer is interested in determining the operating conditions that",
+          "position": {
+            "page": 28,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              88.27854919433594,
+              934.1614990234375,
+              120.57999420166016
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "maximize the yield of a process  (\ud835\udc99\udc9a \ud835\udfce\udfcf ) .",
+          "position": {
+            "page": 28,
+            "paragraph_index": 2,
+            "rect": [
+              41.7599983215332,
+              118.72181701660156,
+              477.85107421875,
+              150.76223754882812
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Two controllable variables influence process yield:  reaction time  (\ud835\udc99 \ud835\udfce\udfcf )  and",
+          "position": {
+            "page": 28,
+            "paragraph_index": 3,
+            "rect": [
+              23.760000228881836,
+              151.99855041503906,
+              888.1857299804688,
+              187.60223388671875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "reaction temperature  (\ud835\udc99 \ud835\udfce\udfd0 ) .",
+          "position": {
+            "page": 28,
+            "paragraph_index": 4,
+            "rect": [
+              41.7599983215332,
+              182.4418182373047,
+              363.85107421875,
+              214.48223876953125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  The engineer is currently operating the process with a reaction time of 35",
+          "position": {
+            "page": 28,
+            "paragraph_index": 5,
+            "rect": [
+              23.760000228881836,
+              215.86854553222656,
+              881.8482666015625,
+              248.1699981689453
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "minutes and a temperature of 155\u00b0F, result in yields of around 40%.",
+          "position": {
+            "page": 28,
+            "paragraph_index": 6,
+            "rect": [
+              41.7599983215332,
+              247.08999633789062,
+              807.6937866210938,
+              275.04998779296875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  It is unlikely that this region contains the optimum, she fits a first-order model",
+          "position": {
+            "page": 28,
+            "paragraph_index": 7,
+            "rect": [
+              23.760000228881836,
+              279.58856201171875,
+              932.8070678710938,
+              311.8899841308594
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "and applies the method of steepest ascent.",
+          "position": {
+            "page": 28,
+            "paragraph_index": 8,
+            "rect": [
+              41.7599983215332,
+              310.7919921875,
+              531.4642944335938,
+              338.7760009765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  In the optimal region found using steepest ascent a CCD is created with",
+          "position": {
+            "page": 28,
+            "paragraph_index": 9,
+            "rect": [
+              23.760000228881836,
+              343.3285827636719,
+              854.9227905273438,
+              375.6300048828125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "experimental runs.",
+          "position": {
+            "page": 28,
+            "paragraph_index": 10,
+            "rect": [
+              41.7599983215332,
+              374.5500183105469,
+              261.2760314941406,
+              402.510009765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  2 additional responses, viscocity  (\ud835\udc5f\udc66 2 )  and molecular weight  (\ud835\udc5f\udc66 3 )  are also",
+          "position": {
+            "page": 28,
+            "paragraph_index": 11,
+            "rect": [
+              23.760000228881836,
+              407.1685791015625,
+              876.1505737304688,
+              442.772216796875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "recorded.",
+          "position": {
+            "page": 28,
+            "paragraph_index": 12,
+            "rect": [
+              41.7599983215332,
+              438.3719787597656,
+              151.0498809814453,
+              466.3559875488281
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Multiple Response Example\n\u2022 A chemical engineer is interested in determining the operating conditions that \nmaximize the yield of a process (\ud835\udc99\ufffd\ufffd\ufffd\ud835\udfce\ufffd\ufffd\ufffd). \n\u2022 Two controllable variables influence process yield: reaction time (\ud835\udc99\ud835\udfce\ufffd\ufffd\ufffd) and \nreaction temperature (\ud835\udc99\ud835\udfce\ufffd\ufffd\ufffd). \n\u2022 The engineer is currently operating the process with a reaction time of 35 \nminutes and a temperature of 155\u00b0F, result in yields of around 40%.\n\u2022 It is unlikely that this region contains the optimum, she fits a first-order model \nand applies the method of steepest ascent.\n\u2022 In the optimal region found using steepest ascent a CCD is created with \nexperimental runs. \n\u2022 2 additional responses, viscocity (\ud835\udc5f\ufffd\ufffd\ufffd2) and molecular weight (\ud835\udc5f\ufffd\ufffd\ufffd3) are also \nrecorded.\n"
+    },
+    {
+      "page_number": 30,
+      "paragraphs": [
+        {
+          "text": "Multiple Response Example",
+          "position": {
+            "page": 29,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              510.14459228515625,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Source: Montgomery, D. C. (2017).  Design and analysis of experiments . John wiley  & sons.",
+          "position": {
+            "page": 29,
+            "paragraph_index": 2,
+            "rect": [
+              176.13999938964844,
+              463.9859924316406,
+              842.2640380859375,
+              509.8379821777344
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Multiple Response Example\nSource: Montgomery, D. C. (2017). Design and analysis of experiments. John wiley \n& sons.\n"
+    },
+    {
+      "page_number": 31,
+      "paragraphs": [
+        {
+          "text": "Overlay Contour Plot",
+          "position": {
+            "page": 30,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              390.88421630859375,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5f\udc66 1  \ud835\udc5f\udc66\ud835\udc56\ud835\udc50\udc52\ud835\udc56\udc59\ud835\udc50\udc51 \u2265  78.5 ,   62 \u2264 \ud835\udc5f\udc66 2  \ud835\udc5f\udc63\ud835\udc56\ud835\udc5f\udc60\ud835\udc50\ud835\udc56\udc5c\ud835\udc5f\udc60\ud835\udc56\ud835\udc5f\udc61\ud835\udc5f\udc66 \u2264  68 ,  and  \ud835\udc5f\udc66 3  \ud835\udc56\udc5a\ud835\udc56\udc5c\ud835\udc56\udc59\ud835\udc50\udc52\ud835\udc50\ud835\udc5f\udc62\ud835\udc56\udc59\ud835\udc4e\ud835\udc5f \ud835\udc5f\udc64\ud835\udc50\udc52\ud835\udc56\ud835\udc50\udc54\u210e\ud835\udc5f\udc61 \ud835\udc3f\udc40\ud835\udc56\udc5b \u2264  3400",
+          "position": {
+            "page": 30,
+            "paragraph_index": 2,
+            "rect": [
+              525.3599853515625,
+              164.79901123046875,
+              834.190185546875,
+              229.72434997558594
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Source: Montgomery, D. C. (2017).  Design and analysis of  experiments . John wiley & sons.",
+          "position": {
+            "page": 30,
+            "paragraph_index": 3,
+            "rect": [
+              267.7200012207031,
+              445.1219787597656,
+              737.3718872070312,
+              490.9739990234375
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Overlay Contour Plot\n\ud835\udc5f\ufffd\ufffd\ufffd1 \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc50\ufffd\ufffd\ufffd \u2265  78.5,\n 62 \u2264 \ud835\udc5f\ufffd\ufffd\ufffd2 \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc50\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd \u2264  68, \nand \ud835\udc5f\ufffd\ufffd\ufffd3 \ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc50\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc5f \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc50\ufffd\ufffd\ufffd\u210e\ud835\udc5f\ufffd\ufffd\ufffd \ud835\udc3f\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd \u2264  3400\nSource: Montgomery, D. C. (2017). Design and analysis of \nexperiments. John wiley & sons.\n"
+    },
+    {
+      "page_number": 32,
+      "paragraphs": [
+        {
+          "text": "Constrained Optimization",
+          "position": {
+            "page": 31,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              473.41253662109375,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  When there are more than 3 design variables, overlaying contour plots",
+          "position": {
+            "page": 31,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              90.91856384277344,
+              848.6320190429688,
+              123.22000885009766
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "becomes cumbersome, as the contour plot is two dimensional, and  \ud835\udc56\udc58 \u2212 2  of  the design variables must be held constant to construct the graph.",
+          "position": {
+            "page": 31,
+            "paragraph_index": 2,
+            "rect": [
+              41.7599983215332,
+              124.84181213378906,
+              911.563720703125,
+              183.6999969482422
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  A popular approach is to formulate and solve the problem as a constrained",
+          "position": {
+            "page": 31,
+            "paragraph_index": 3,
+            "rect": [
+              23.760000228881836,
+              191.6968231201172,
+              895.442138671875,
+              224.0260009765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "optimization problem.",
+          "position": {
+            "page": 31,
+            "paragraph_index": 4,
+            "rect": [
+              41.7599983215332,
+              226.32998657226562,
+              293.85968017578125,
+              254.2899932861328
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc3f\udc40\ud835\udc4e\ud835\udc5f\udc65 \ud835\udc5f\udc66 1",
+          "position": {
+            "page": 31,
+            "paragraph_index": 5,
+            "rect": [
+              23.760000228881836,
+              265.871826171875,
+              492.9337158203125,
+              297.9122314453125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "subject to:                                                            62 \u2264 \ud835\udc5f\udc66 2  \u2264  68 ,",
+          "position": {
+            "page": 31,
+            "paragraph_index": 6,
+            "rect": [
+              23.760000228881836,
+              306.7300109863281,
+              575.6710815429688,
+              380.2518005371094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5f\udc66 3  \u2264  3400",
+          "position": {
+            "page": 31,
+            "paragraph_index": 7,
+            "rect": [
+              410.69000244140625,
+              376.5318298339844,
+              549.1717529296875,
+              410.2518005371094
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Constrained Optimization\n\u2022 When there are more than 3 design variables, overlaying contour plots \nbecomes cumbersome, as the contour plot is two dimensional, and \ud835\udc56\ufffd\ufffd\ufffd \u2212 2 of \nthe design variables must be held constant to construct the graph. \n\u2022 A popular approach is to formulate and solve the problem as a constrained \noptimization problem.\n \n \n \n                          \ud835\udc3f\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd \ud835\udc5f\ufffd\ufffd\ufffd1\n                            subject to: \n                                                         62 \u2264 \ud835\udc5f\ufffd\ufffd\ufffd2 \u2264  68, \n \ud835\udc5f\ufffd\ufffd\ufffd3 \u2264  3400\n"
+    },
+    {
+      "page_number": 33,
+      "paragraphs": [
+        {
+          "text": "Multiple Response (Desirability Function Approach)",
+          "position": {
+            "page": 32,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              928.8268432617188,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  When the target   \ud835\udc46\udc47  is maximum value for response  \ud835\udc5f\udc66 :",
+          "position": {
+            "page": 32,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              91.03855895996094,
+              647.6315307617188,
+              123.34000396728516
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc50\udc51 =",
+          "position": {
+            "page": 32,
+            "paragraph_index": 2,
+            "rect": [
+              23.760000228881836,
+              175.72181701660156,
+              141.60809326171875,
+              204.4600067138672
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "0  \ud835\udc50\udc53\ud835\udc56\udc5c\ud835\udc5f \ud835\udc5f\udc66 < \ud835\udc3f",
+          "position": {
+            "page": 32,
+            "paragraph_index": 3,
+            "rect": [
+              181.10000610351562,
+              127.60182189941406,
+              614.6974487304688,
+              155.56182861328125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc65\udc66\u2212\ud835\udc3f \ud835\udc46\udc47\u2212\ud835\udc3f",
+          "position": {
+            "page": 32,
+            "paragraph_index": 4,
+            "rect": [
+              182.3000030517578,
+              167.08224487304688,
+              221.7762451171875,
+              217.96221923828125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5f",
+          "position": {
+            "page": 32,
+            "paragraph_index": 5,
+            "rect": [
+              236.05999755859375,
+              158.68222045898438,
+              246.85765075683594,
+              179.08221435546875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc50\udc53\ud835\udc56\udc5c\ud835\udc5f \ud835\udc3f \u2264 \ud835\udc5f\udc66 \u2264 \ud835\udc46\udc47",
+          "position": {
+            "page": 32,
+            "paragraph_index": 6,
+            "rect": [
+              253.33999633789062,
+              177.64183044433594,
+              627.272216796875,
+              205.60183715820312
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1  \ud835\udc50\udc53\ud835\udc56\udc5c\ud835\udc5f \ud835\udc5f\udc66 > \ud835\udc46\udc47",
+          "position": {
+            "page": 32,
+            "paragraph_index": 7,
+            "rect": [
+              177.13999938964844,
+              221.35182189941406,
+              618.6322021484375,
+              249.31182861328125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5f > 1  puts more emphasis on the response. \u2022  When the target   \ud835\udc46\udc47  is minimum value for response  \ud835\udc5f\udc66 :",
+          "position": {
+            "page": 32,
+            "paragraph_index": 8,
+            "rect": [
+              23.760000228881836,
+              258.6718444824219,
+              643.551513671875,
+              327.6099853515625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc50\udc51 =",
+          "position": {
+            "page": 32,
+            "paragraph_index": 9,
+            "rect": [
+              23.760000228881836,
+              380.0118408203125,
+              141.60809326171875,
+              408.75
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1  \ud835\udc50\udc53\ud835\udc56\udc5c\ud835\udc5f \ud835\udc5f\udc66 < \ud835\udc46\udc47",
+          "position": {
+            "page": 32,
+            "paragraph_index": 10,
+            "rect": [
+              184.22000122070312,
+              331.8531494140625,
+              619.4865112304688,
+              359.837158203125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc46\udc48\u2212\ud835\udc65\udc66 \ud835\udc46\udc48\u2212\ud835\udc46\udc47",
+          "position": {
+            "page": 32,
+            "paragraph_index": 11,
+            "rect": [
+              182.3000030517578,
+              371.3722229003906,
+              225.33934020996094,
+              422.2522277832031
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5f",
+          "position": {
+            "page": 32,
+            "paragraph_index": 12,
+            "rect": [
+              239.66000366210938,
+              362.97222900390625,
+              250.45765686035156,
+              383.3722229003906
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc50\udc53\ud835\udc56\udc5c\ud835\udc5f \ud835\udc46\udc47 \u2264 \ud835\udc5f\udc66 \u2264 \ud835\udc46\udc48",
+          "position": {
+            "page": 32,
+            "paragraph_index": 13,
+            "rect": [
+              256.94000244140625,
+              381.93182373046875,
+              635.29345703125,
+              409.8918151855469
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "0  \ud835\udc50\udc53\ud835\udc56\udc5c\ud835\udc5f \ud835\udc5f\udc66 > \ud835\udc46\udc48",
+          "position": {
+            "page": 32,
+            "paragraph_index": 14,
+            "rect": [
+              179.77999877929688,
+              425.61181640625,
+              623.8934326171875,
+              453.5718078613281
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Multiple Response (Desirability Function Approach)\n\u2022 When the target  \ud835\udc46\ufffd\ufffd\ufffd is maximum value for response \ud835\udc5f\ufffd\ufffd\ufffd:\n \n\ud835\udc50\ufffd\ufffd\ufffd =\n0 \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc5f\ufffd\ufffd\ufffd < \ud835\udc3f\n\ud835\udc65\ufffd\ufffd\ufffd\u2212\ud835\udc3f\n\ud835\udc46\ufffd\ufffd\ufffd\u2212\ud835\udc3f\n\ud835\udc5f\n \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc3f \u2264 \ud835\udc5f\ufffd\ufffd\ufffd \u2264 \ud835\udc46\ufffd\ufffd\ufffd\n1 \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc5f\ufffd\ufffd\ufffd > \ud835\udc46\ufffd\ufffd\ufffd\n\ud835\udc5f > 1 puts more emphasis on the response.\n\u2022 When the target  \ud835\udc46\ufffd\ufffd\ufffd is minimum value for response \ud835\udc5f\ufffd\ufffd\ufffd:\n \n\ud835\udc50\ufffd\ufffd\ufffd =\n1 \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc5f\ufffd\ufffd\ufffd < \ud835\udc46\ufffd\ufffd\ufffd\n\ud835\udc46\ufffd\ufffd\ufffd\u2212\ud835\udc65\ufffd\ufffd\ufffd\n\ud835\udc46\ufffd\ufffd\ufffd\u2212\ud835\udc46\ufffd\ufffd\ufffd\n\ud835\udc5f\n \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc46\ufffd\ufffd\ufffd \u2264 \ud835\udc5f\ufffd\ufffd\ufffd \u2264 \ud835\udc46\ufffd\ufffd\ufffd\n0 \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc5f\ufffd\ufffd\ufffd > \ud835\udc46\ufffd\ufffd\ufffd\n"
+    },
+    {
+      "page_number": 34,
+      "paragraphs": [
+        {
+          "text": "Multiple Response (Desirability Function Approach)",
+          "position": {
+            "page": 33,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              928.8268432617188,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  When the target   \ud835\udc46\udc47  is between lower limit  \ud835\udc3f  and upper limit  \ud835\udc46\udc48  for response  \ud835\udc5f\udc66 :",
+          "position": {
+            "page": 33,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              91.03855895996094,
+              924.1614990234375,
+              123.34000396728516
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc50\udc51 =",
+          "position": {
+            "page": 33,
+            "paragraph_index": 2,
+            "rect": [
+              23.760000228881836,
+              241.0318145751953,
+              141.60809326171875,
+              269.7699890136719
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "0  \ud835\udc50\udc53\ud835\udc56\udc5c\ud835\udc5f \ud835\udc5f\udc66 < \ud835\udc3f",
+          "position": {
+            "page": 33,
+            "paragraph_index": 3,
+            "rect": [
+              189.13999938964844,
+              163.36180114746094,
+              622.7374267578125,
+              191.32180786132812
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc65\udc66\u2212\ud835\udc3f \ud835\udc46\udc47\u2212\ud835\udc3f",
+          "position": {
+            "page": 33,
+            "paragraph_index": 4,
+            "rect": [
+              186.25999450683594,
+              202.82354736328125,
+              225.74937438964844,
+              253.75222778320312
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5f 1    \ud835\udc50\udc53\ud835\udc56\udc5c\ud835\udc5f \ud835\udc3f \u2264 \ud835\udc5f\udc66 \u2264 \ud835\udc46\udc47",
+          "position": {
+            "page": 33,
+            "paragraph_index": 5,
+            "rect": [
+              240.02000427246094,
+              192.76182556152344,
+              639.3922119140625,
+              241.39181518554688
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc46\udc48\u2212\ud835\udc65\udc66 \ud835\udc46\udc48\u2212\ud835\udc46\udc47",
+          "position": {
+            "page": 33,
+            "paragraph_index": 6,
+            "rect": [
+              182.3000030517578,
+              261.9122314453125,
+              225.33934020996094,
+              312.792236328125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5f 2    \ud835\udc50\udc53\ud835\udc56\udc5c\ud835\udc5f \ud835\udc46\udc47 \u2264 \ud835\udc5f\udc66 \u2264 \ud835\udc46\udc48",
+          "position": {
+            "page": 33,
+            "paragraph_index": 7,
+            "rect": [
+              239.66000366210938,
+              251.83180236816406,
+              643.4534301757812,
+              300.43182373046875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "0  \ud835\udc50\udc53\ud835\udc56\udc5c\ud835\udc5f \ud835\udc5f\udc66 > \ud835\udc46\udc48",
+          "position": {
+            "page": 33,
+            "paragraph_index": 8,
+            "rect": [
+              183.97999572753906,
+              316.1331481933594,
+              627.989990234375,
+              344.1171569824219
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Multiple Response (Desirability Function Approach)\n\u2022 When the target  \ud835\udc46\ufffd\ufffd\ufffd is between lower limit \ud835\udc3f and upper limit \ud835\udc46\ufffd\ufffd\ufffd for response \ud835\udc5f\ufffd\ufffd\ufffd:\n \n\ud835\udc50\ufffd\ufffd\ufffd =\n0 \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc5f\ufffd\ufffd\ufffd < \ud835\udc3f\n\ud835\udc65\ufffd\ufffd\ufffd\u2212\ud835\udc3f\n\ud835\udc46\ufffd\ufffd\ufffd\u2212\ud835\udc3f\n\ud835\udc5f1  \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc3f \u2264 \ud835\udc5f\ufffd\ufffd\ufffd \u2264 \ud835\udc46\ufffd\ufffd\ufffd\n\ud835\udc46\ufffd\ufffd\ufffd\u2212\ud835\udc65\ufffd\ufffd\ufffd\n\ud835\udc46\ufffd\ufffd\ufffd\u2212\ud835\udc46\ufffd\ufffd\ufffd\n\ud835\udc5f2  \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc46\ufffd\ufffd\ufffd \u2264 \ud835\udc5f\ufffd\ufffd\ufffd \u2264 \ud835\udc46\ufffd\ufffd\ufffd\n0 \n\ud835\udc50\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc5f \ud835\udc5f\ufffd\ufffd\ufffd > \ud835\udc46\ufffd\ufffd\ufffd\n"
+    },
+    {
+      "page_number": 35,
+      "paragraphs": [
+        {
+          "text": "Multiple Response (Desirability Function Approach)",
+          "position": {
+            "page": 34,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              928.8268432617188,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Design and Analysis of Experiment, D.C. Montgomery",
+          "position": {
+            "page": 34,
+            "paragraph_index": 2,
+            "rect": [
+              362.6600036621094,
+              477.7080078125,
+              751.3817138671875,
+              495.7080078125
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Multiple Response (Desirability Function Approach)\nDesign and Analysis of Experiment, D.C. Montgomery\n"
+    },
+    {
+      "page_number": 36,
+      "paragraphs": [
+        {
+          "text": "Experimental Designs for Fitting Response Surface",
+          "position": {
+            "page": 35,
+            "paragraph_index": 0,
+            "rect": [
+              23.760000228881836,
+              24.122013092041016,
+              904.2530517578125,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  According to \u201cDesign and Analysis of Experiment, D.C. Montgomery\u201d, the following",
+          "position": {
+            "page": 35,
+            "paragraph_index": 1,
+            "rect": [
+              23.760000228881836,
+              86.29667663574219,
+              917.7215576171875,
+              116.37999725341797
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "properties are considered important for experimental designs meant for response  surface optimization",
+          "position": {
+            "page": 35,
+            "paragraph_index": 2,
+            "rect": [
+              41.7599983215332,
+              112.17999267578125,
+              909.206298828125,
+              160.0599822998047
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1. Reasonable spread of datapoints in the region of interest",
+          "position": {
+            "page": 35,
+            "paragraph_index": 3,
+            "rect": [
+              59.7599983215332,
+              161.32000732421875,
+              602.1566772460938,
+              183.28001403808594
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2. Allows model adequacy, including lack of fit to be investigated",
+          "position": {
+            "page": 35,
+            "paragraph_index": 4,
+            "rect": [
+              59.7599983215332,
+              184.83999633789062,
+              647.2062377929688,
+              206.8000030517578
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "3. Allows experiments to be performed in blocks",
+          "position": {
+            "page": 35,
+            "paragraph_index": 5,
+            "rect": [
+              59.7599983215332,
+              208.34197998046875,
+              504.66485595703125,
+              230.32598876953125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "4. Allows design of higher order to be performed sequentially",
+          "position": {
+            "page": 35,
+            "paragraph_index": 6,
+            "rect": [
+              59.7599983215332,
+              231.79000854492188,
+              621.3644409179688,
+              253.75001525878906
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "5. Provides an internal estimate of error",
+          "position": {
+            "page": 35,
+            "paragraph_index": 7,
+            "rect": [
+              59.7599983215332,
+              255.30999755859375,
+              429.3462219238281,
+              277.2699890136719
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "6. Precise estimates of model coefficients",
+          "position": {
+            "page": 35,
+            "paragraph_index": 8,
+            "rect": [
+              59.7599983215332,
+              278.8299865722656,
+              442.79632568359375,
+              300.78997802734375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "7. Reasonable robustness against outliers and missing values",
+          "position": {
+            "page": 35,
+            "paragraph_index": 9,
+            "rect": [
+              59.7599983215332,
+              302.2300109863281,
+              613.0082397460938,
+              324.19000244140625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "8. Good profile of prediction variance",
+          "position": {
+            "page": 35,
+            "paragraph_index": 10,
+            "rect": [
+              59.7599983215332,
+              325.73199462890625,
+              407.0876159667969,
+              347.71600341796875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "9. Does not require a large number of runs",
+          "position": {
+            "page": 35,
+            "paragraph_index": 11,
+            "rect": [
+              59.7599983215332,
+              349.2900085449219,
+              453.6005859375,
+              371.25
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "10. Does not require too many levels of each factor 11. Simplicity of calculation of model parameters 12. Rotatability: For 2 nd  order design, variance of the predicted response should be same at all",
+          "position": {
+            "page": 35,
+            "paragraph_index": 12,
+            "rect": [
+              59.7599983215332,
+              372.69000244140625,
+              904.7124633789062,
+              441.69000244140625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "points at the same distance from the design centre.",
+          "position": {
+            "page": 35,
+            "paragraph_index": 13,
+            "rect": [
+              95.76000213623047,
+              438.2099914550781,
+              559.5546264648438,
+              460.16998291015625
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Experimental Designs for Fitting Response Surface\n\u2022 According to \u201cDesign and Analysis of Experiment, D.C. Montgomery\u201d, the following \nproperties are considered important for experimental designs meant for response \nsurface optimization\n1.\nReasonable spread of datapoints in the region of interest\n2.\nAllows model adequacy, including lack of fit to be investigated\n3.\nAllows experiments to be performed in blocks\n4.\nAllows design of higher order to be performed sequentially\n5.\nProvides an internal estimate of error\n6.\nPrecise estimates of model coefficients\n7.\nReasonable robustness against outliers and missing values\n8.\nGood profile of prediction variance\n9.\nDoes not require a large number of runs\n10. Does not require too many levels of each factor\n11. Simplicity of calculation of model parameters\n12. Rotatability: For 2nd order design, variance of the predicted response should be same at all \npoints at the same distance from the design centre. \n"
+    }
+  ],
+  "metadata": {
+    "filename": "Module11_ResponseSurfaceMethods.pdf",
+    "content_type": "application/pdf",
+    "file_size": 3257505,
+    "upload_date": "2025-05-22T22:49:45.001928",
+    "author": null,
+    "document_date": null,
+    "document_type": "pdf",
+    "processing_status": "indexing_failed",
+    "segment_count": 0,
+    "page_count": 36
+  }
+}

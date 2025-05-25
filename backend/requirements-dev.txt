@@ -1,0 +1,26 @@
+# Development-only dependencies
+-r requirements.txt
+
+# Additional development tools
+pre-commit>=3.6.0  # Git hooks for code quality
+pytest-xdist>=3.5.0  # Parallel test execution
+pytest-mock>=3.12.0  # Mocking utilities
+httpx>=0.27.0  # For testing HTTP clients
+faker>=24.0.0  # Generate fake data for tests
+
+# Documentation
+sphinx>=7.2.0  # Documentation generation
+sphinx-rtd-theme>=2.0.0  # Read the Docs theme
+
+# Debugging and profiling
+memory-profiler>=0.61.0  # Memory usage profiling
+line-profiler>=4.1.0  # Line-by-line profiling
+debugpy>=1.8.0  # Python debugger
+
+# Code quality and analysis
+bandit>=1.7.5  # Security linting
+safety>=3.0.0  # Check for known security vulnerabilities
+vulture>=2.11  # Find unused code
+
+# Environment management
+python-decouple>=3.8  # Environment variable management

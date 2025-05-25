@@ -1,0 +1,984 @@
+{
+  "id": "3450df76-552a-4f32-9b8c-cc244667fb7d",
+  "full_text": "--- Page 1 ---\n\nRandom Effects Model \nand\nNon Parametric \nMethod\nProf. Sayak Roychowdhury\n\n\n--- Page 2 ---\n\nRandom Effects Model\n\u2022 When a factor has a large number of factor levels, the \nexperimenter may choose \ud835\udc4e of these levels from the \npopulation of the levels.\n\u2022 The factor is assumed to be random\n\u2022 Statistical Model\n\ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd = \ud835\udf07 + \ud835\udf0f\ud835\udc56 + \ud835\udf16\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd ; \ud835\udc56 = 1, . . \ud835\udc4e, \ud835\udc56\ufffd\ufffd\ufffd = 1, . . \ud835\udc5b\nBoth \ud835\udf0f\ud835\udc56 and \ud835\udf16\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd are random variables\n\ud835\udf0f\ud835\udc56 ~ \ud835\udc40\ufffd\ufffd\ufffd(0, \ud835\udf0e\ud835\udf0f2) ;  \ud835\udf16\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd~ \ud835\udc40\ufffd\ufffd\ufffd(0, \ud835\udf0e2)\n\ud835\udf0e\ud835\udf0f2 and \ud835\udf0e2 are variance components\n\ud835\udc49 \ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd = \ud835\udf0e\ud835\udf0f2 + \ud835\udf0e2\n\n\n--- Page 3 ---\n\nRandom Effects Model\n\u2022 In fixed effects model, all \ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd are independent\n\u2022 In REM, \ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffds are only independent if they come from \ndifferent factor levels.\n\u2022 \ud835\udc36\ud835\udc5b\ufffd\ufffd\ufffd\ud835\udc63 \ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd, \ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\u2032 = \ud835\udf0e\ud835\udf0f2 when \ud835\udc56\ufffd\ufffd\ufffd \u2260 \ud835\udc56\ufffd\ufffd\ufffd\u2032\n\u2022 \ud835\udc36\ud835\udc5b\ufffd\ufffd\ufffd\ud835\udc63 \ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd, \ud835\udc66\ud835\udc56\u2032\ud835\udc56\ufffd\ufffd\ufffd\u2032 = 0 when \ud835\udc56 \u2260 \ud835\udc56\u2032\n\u2022 Observations within a specific factor level all have the \nsame covariance, since\n\u2022 before the experiment is conducted, we expect the \nobservations at that factor level to be similar as they all \nhave the same random component\n\n\n--- Page 4 ---\n\nAnalysis of Variance\n\u2022 Like fixed effects model\n\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc59 = \ud835\udc45\ufffd\ufffd\ufffd\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc52\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd + \ud835\udc45\ufffd\ufffd\ufffd\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc38\ud835\udc5f\ud835\udc5f\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\n\u2022 In stead of individual treatment effects as in fixed effects \nmodel, we are more interested in the population of \ntreatments\n\u2022 Hypothesis statement: \n\ud835\udc3b0: \ud835\udf0e\ud835\udf0f2 = 0; \ud835\udc3b1: \ud835\udf0e\ud835\udf0f2 > 0\nThe calculations for ANOVA are the same as that of fixed \neffects model.\nIf \ud835\udc38\ufffd\ufffd\ufffd0 > \ud835\udc38\ufffd\ufffd\ufffd1\u2212\ud835\udefc,\ud835\udc4e\u22121,\ud835\udc41\u2212\ud835\udc4e then reject the null hypothesis\n\n\n--- Page 5 ---\n\nEstimation of Model Parameters\n\u2022 It can be shown that\n\ud835\udc38 \ud835\udc40\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc52\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udf0e2 + \ud835\udc5b\ud835\udf0e\ud835\udf0f2\n\ud835\udc38 \ud835\udc40\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc38\ud835\udc5f\ud835\udc5f\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f = \ud835\udf0e2\n\u2022 Estimators of variance components are given by:\n\u0ddc\ud835\udf0e2 = \ud835\udc40\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc38\ud835\udc5f\ud835\udc5f\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\n\u0ddc\ud835\udf0e\ud835\udf0f2 = \ud835\udc40\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc52\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd \u2212 \ud835\udc40\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc38\ud835\udc5f\ud835\udc5f\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\n\ud835\udc5b\n\n\n--- Page 6 ---\n\nNon-parametric Method\n\u2022 Kruskal-Wallis Test:\nWhen normality assumption is not justified, experimenter \nmay resort to non-parametric methods , that do not \ndepend on normality assumption\n\u2022 Kruskal-Wallis Test, developed in 1952 is an alternative to \nANOVA\n\n\n--- Page 7 ---\n\nKruskal-Wallis Test\n\u2022 Steps:\n\u2022 Rank observations \ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd in ascending order, and \ud835\udc45\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd be the rank\n\u2022 In case of ties, assign average rank to each of the tied obs\n\u2022 Test statistic: \ud835\udc3b =\n1\n\ud835\udc45\ufffd\ufffd\ufffd2 [\u03c3\ud835\udc56=1\n\ud835\udc4e\n\ud835\udc45\ud835\udc56.2\n\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc56 \u2212\n\ud835\udc41 \ud835\udc41+1 2\n4\n] where \ud835\udc5b\ud835\udc56 is the \nnumber of observations in \ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\u210e treatment \n\u2022 \ud835\udc45\ud835\udc56. Is the sum of the observations in the \ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\u210e treatment row\n\u2022 \ud835\udc45\ufffd\ufffd\ufffd2 =\n1\n\ud835\udc41\u22121 [\u03c3\ud835\udc56=1\n\ud835\udc4e\n\u03c3\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc56 \ud835\udc45\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\n2 \u2212\n\ud835\udc41 \ud835\udc41+1 2\n4\n] is the variance of ranks\n\u2022 If \ud835\udc3b > \ud835\udf121\u2212\ud835\udefc,\ud835\udc4e\u22121\n2\n, hypothesis is rejected.",
+  "pages": [
+    {
+      "page_number": 1,
+      "paragraphs": [
+        {
+          "text": "Random Effects Model",
+          "position": {
+            "page": 0,
+            "paragraph_index": 0,
+            "rect": [
+              174.02000427246094,
+              61.30999755859375,
+              674.7120971679688,
+              115.30999755859375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "and",
+          "position": {
+            "page": 0,
+            "paragraph_index": 1,
+            "rect": [
+              377.5899963378906,
+              119.61200714111328,
+              459.1843566894531,
+              173.63600158691406
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Non Parametric",
+          "position": {
+            "page": 0,
+            "paragraph_index": 2,
+            "rect": [
+              249.41000366210938,
+              177.97000122070312,
+              599.550048828125,
+              231.97000122070312
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Method",
+          "position": {
+            "page": 0,
+            "paragraph_index": 3,
+            "rect": [
+              331.25,
+              236.27200317382812,
+              505.3440246582031,
+              290.2960205078125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Prof. Sayak Roychowdhury",
+          "position": {
+            "page": 0,
+            "paragraph_index": 4,
+            "rect": [
+              290.57000732421875,
+              332.1400146484375,
+              545.9693603515625,
+              356.1400146484375
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Random Effects Model \nand\nNon Parametric \nMethod\nProf. Sayak Roychowdhury\n"
+    },
+    {
+      "page_number": 2,
+      "paragraphs": [
+        {
+          "text": "Random Effects Model",
+          "position": {
+            "page": 1,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              418.3300476074219,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  When a factor has a large number of factor levels, the",
+          "position": {
+            "page": 1,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              90.91856384277344,
+              653.3411865234375,
+              123.22000885009766
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "experimenter may choose  \ud835\udc4e  of these levels from the  population of the levels.",
+          "position": {
+            "page": 1,
+            "paragraph_index": 2,
+            "rect": [
+              37.63199996948242,
+              124.84181213378906,
+              636.67333984375,
+              183.6999969482422
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  The factor is assumed to be random \u2022  Statistical Model",
+          "position": {
+            "page": 1,
+            "paragraph_index": 3,
+            "rect": [
+              19.607999801635742,
+              191.6968231201172,
+              444.8502502441406,
+              264.25
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc66 \ud835\udc56\ud835\udc56\udc57  = \ud835\udf07 + \ud835\udf0f \ud835\udc56  + \ud835\udf16 \ud835\udc56\ud835\udc56\udc57  ; \ud835\udc56 = 1, . . \ud835\udc4e, \ud835\udc56\udc57 = 1, . . \ud835\udc5b",
+          "position": {
+            "page": 1,
+            "paragraph_index": 4,
+            "rect": [
+              169.99000549316406,
+              276.79180908203125,
+              629.8615112304688,
+              310.5118103027344
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Both  \ud835\udf0f \ud835\udc56  and  \ud835\udf16 \ud835\udc56\ud835\udc56\udc57  are random variables",
+          "position": {
+            "page": 1,
+            "paragraph_index": 5,
+            "rect": [
+              38.71200180053711,
+              319.4931640625,
+              454.3460388183594,
+              354.0160217285156
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udf0f \ud835\udc56  ~ \ud835\udc40\udc41(0, \ud835\udf0e \ud835\udf0f 2 )  ;   \ud835\udf16 \ud835\udc56\ud835\udc56\udc57 ~ \ud835\udc40\udc41(0, \ud835\udf0e 2 )",
+          "position": {
+            "page": 1,
+            "paragraph_index": 6,
+            "rect": [
+              169.99000549316406,
+              358.4122314453125,
+              511.28448486328125,
+              396.4518127441406
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udf0e \ud835\udf0f 2   and  \ud835\udf0e 2   are variance components",
+          "position": {
+            "page": 1,
+            "paragraph_index": 7,
+            "rect": [
+              19.607999801635742,
+              395.19000244140625,
+              430.17156982421875,
+              436.6522216796875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc49 \ud835\udc66 \ud835\udc56\ud835\udc56\udc57  = \ud835\udf0e \ud835\udf0f 2   +  \ud835\udf0e 2",
+          "position": {
+            "page": 1,
+            "paragraph_index": 8,
+            "rect": [
+              258.94000244140625,
+              428.4119873046875,
+              459.8836975097656,
+              471.5771484375
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Random Effects Model\n\u2022 When a factor has a large number of factor levels, the \nexperimenter may choose \ud835\udc4e of these levels from the \npopulation of the levels.\n\u2022 The factor is assumed to be random\n\u2022 Statistical Model\n\ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd = \ud835\udf07 + \ud835\udf0f\ud835\udc56 + \ud835\udf16\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd ; \ud835\udc56 = 1, . . \ud835\udc4e, \ud835\udc56\ufffd\ufffd\ufffd = 1, . . \ud835\udc5b\nBoth \ud835\udf0f\ud835\udc56 and \ud835\udf16\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd are random variables\n\ud835\udf0f\ud835\udc56 ~ \ud835\udc40\ufffd\ufffd\ufffd(0, \ud835\udf0e\ud835\udf0f2) ;  \ud835\udf16\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd~ \ud835\udc40\ufffd\ufffd\ufffd(0, \ud835\udf0e2)\n\ud835\udf0e\ud835\udf0f2 and \ud835\udf0e2 are variance components\n\ud835\udc49 \ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd = \ud835\udf0e\ud835\udf0f2 + \ud835\udf0e2\n"
+    },
+    {
+      "page_number": 3,
+      "paragraphs": [
+        {
+          "text": "Random Effects Model",
+          "position": {
+            "page": 2,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              418.3300476074219,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  In fixed effects model, all  \ud835\udc66 \ud835\udc56\ud835\udc56\udc57  are independent",
+          "position": {
+            "page": 2,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              91.99855041503906,
+              554.9898681640625,
+              130.0600128173828
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  In REM,  \ud835\udc66 \ud835\udc56\ud835\udc56\udc57 s are only independent if they come from",
+          "position": {
+            "page": 2,
+            "paragraph_index": 2,
+            "rect": [
+              19.607999801635742,
+              134.7185516357422,
+              640.7438354492188,
+              170.32223510742188
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "different factor levels.",
+          "position": {
+            "page": 2,
+            "paragraph_index": 3,
+            "rect": [
+              37.63199996948242,
+              170.6199951171875,
+              286.09686279296875,
+              198.5800018310547
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \ud835\udc36\ud835\udc5b\udc5c\ud835\udc63 \ud835\udc66 \ud835\udc56\ud835\udc56\udc57 , \ud835\udc66 \ud835\udc56\ud835\udc56\udc57\u2032  = \ud835\udf0e \ud835\udf0f 2   when  \ud835\udc56\udc57 \u2260 \ud835\udc56\udc57 \u2032",
+          "position": {
+            "page": 2,
+            "paragraph_index": 4,
+            "rect": [
+              19.607999801635742,
+              203.98001098632812,
+              416.3600158691406,
+              247.15182495117188
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \ud835\udc36\ud835\udc5b\udc5c\ud835\udc63 \ud835\udc66 \ud835\udc56\ud835\udc56\udc57 , \ud835\udc66 \ud835\udc56\u2032\ud835\udc56\udc57\u2032  = 0  when  \ud835\udc56 \u2260 \ud835\udc56 \u2032",
+          "position": {
+            "page": 2,
+            "paragraph_index": 5,
+            "rect": [
+              19.607999801635742,
+              253.87222290039062,
+              399.5514831542969,
+              291.9118347167969
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Observations within a specific factor level all have the",
+          "position": {
+            "page": 2,
+            "paragraph_index": 6,
+            "rect": [
+              19.607999801635742,
+              296.2685852050781,
+              651.5518188476562,
+              328.57000732421875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "same covariance, since",
+          "position": {
+            "page": 2,
+            "paragraph_index": 7,
+            "rect": [
+              37.63199996948242,
+              330.8320007324219,
+              297.56304931640625,
+              358.8160095214844
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  before the experiment is conducted, we expect the",
+          "position": {
+            "page": 2,
+            "paragraph_index": 8,
+            "rect": [
+              19.607999801635742,
+              366.7285461425781,
+              622.8928833007812,
+              399.02996826171875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "observations at that factor level to be similar as they all  have the same random component",
+          "position": {
+            "page": 2,
+            "paragraph_index": 9,
+            "rect": [
+              37.63199996948242,
+              401.30999755859375,
+              671.1238403320312,
+              459.5099792480469
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Random Effects Model\n\u2022 In fixed effects model, all \ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd are independent\n\u2022 In REM, \ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffds are only independent if they come from \ndifferent factor levels.\n\u2022 \ud835\udc36\ud835\udc5b\ufffd\ufffd\ufffd\ud835\udc63 \ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd, \ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\u2032 = \ud835\udf0e\ud835\udf0f2 when \ud835\udc56\ufffd\ufffd\ufffd \u2260 \ud835\udc56\ufffd\ufffd\ufffd\u2032\n\u2022 \ud835\udc36\ud835\udc5b\ufffd\ufffd\ufffd\ud835\udc63 \ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd, \ud835\udc66\ud835\udc56\u2032\ud835\udc56\ufffd\ufffd\ufffd\u2032 = 0 when \ud835\udc56 \u2260 \ud835\udc56\u2032\n\u2022 Observations within a specific factor level all have the \nsame covariance, since\n\u2022 before the experiment is conducted, we expect the \nobservations at that factor level to be similar as they all \nhave the same random component\n"
+    },
+    {
+      "page_number": 4,
+      "paragraphs": [
+        {
+          "text": "Analysis of Variance",
+          "position": {
+            "page": 3,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              368.24859619140625,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Like fixed effects model",
+          "position": {
+            "page": 3,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              90.91856384277344,
+              303.3216857910156,
+              123.22000885009766
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc45\udc46\ud835\udc45\udc46 \ud835\udc45\udc47\ud835\udc59\udc5c\ud835\udc5f\udc61\ud835\udc4e\ud835\udc59  = \ud835\udc45\udc46\ud835\udc45\udc46 \ud835\udc45\udc47\ud835\udc5f\ud835\udc52\ud835\udc4e\ud835\udc5f\udc61\ud835\udc59\udc5a\ud835\udc52\ud835\udc59\udc5b\ud835\udc5f\udc61\ud835\udc5f\udc60  + \ud835\udc45\udc46\ud835\udc45\udc46 \ud835\udc38\ud835\udc5f\ud835\udc5f\ud835\udc59\udc5c\ud835\udc5f",
+          "position": {
+            "page": 3,
+            "paragraph_index": 2,
+            "rect": [
+              51.551998138427734,
+              134.8018035888672,
+              443.59686279296875,
+              168.52182006835938
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  In stead of individual treatment effects as in fixed effects",
+          "position": {
+            "page": 3,
+            "paragraph_index": 3,
+            "rect": [
+              19.607999801635742,
+              171.4385528564453,
+              685.69091796875,
+              203.74000549316406
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "model, we are more interested in the population of  treatments",
+          "position": {
+            "page": 3,
+            "paragraph_index": 4,
+            "rect": [
+              37.63199996948242,
+              206.00198364257812,
+              626.24951171875,
+              264.25
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Hypothesis statement:",
+          "position": {
+            "page": 3,
+            "paragraph_index": 5,
+            "rect": [
+              19.607999801635742,
+              272.1485900878906,
+              299.5913391113281,
+              304.45001220703125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc3b 0 : \ud835\udf0e \ud835\udf0f 2   = 0; \ud835\udc3b 1 : \ud835\udf0e \ud835\udf0f 2   > 0",
+          "position": {
+            "page": 3,
+            "paragraph_index": 6,
+            "rect": [
+              163.6300048828125,
+              306.05316162109375,
+              428.7750549316406,
+              348.31756591796875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "The calculations for ANOVA are the same as that of fixed  effects model. If  \ud835\udc38\udc39 0  > \ud835\udc38\udc39 1\u2212\ud835\udefc,\ud835\udc4e\u22121,\ud835\udc41\u2212\ud835\udc4e  then reject the null hypothesis",
+          "position": {
+            "page": 3,
+            "paragraph_index": 7,
+            "rect": [
+              19.607999801635742,
+              357.0299987792969,
+              665.6257934570312,
+              462.0299987792969
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Analysis of Variance\n\u2022 Like fixed effects model\n\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc59 = \ud835\udc45\ufffd\ufffd\ufffd\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc52\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd + \ud835\udc45\ufffd\ufffd\ufffd\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc38\ud835\udc5f\ud835\udc5f\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\n\u2022 In stead of individual treatment effects as in fixed effects \nmodel, we are more interested in the population of \ntreatments\n\u2022 Hypothesis statement: \n\ud835\udc3b0: \ud835\udf0e\ud835\udf0f2 = 0; \ud835\udc3b1: \ud835\udf0e\ud835\udf0f2 > 0\nThe calculations for ANOVA are the same as that of fixed \neffects model.\nIf \ud835\udc38\ufffd\ufffd\ufffd0 > \ud835\udc38\ufffd\ufffd\ufffd1\u2212\ud835\udefc,\ud835\udc4e\u22121,\ud835\udc41\u2212\ud835\udc4e then reject the null hypothesis\n"
+    },
+    {
+      "page_number": 5,
+      "paragraphs": [
+        {
+          "text": "Estimation of Model Parameters",
+          "position": {
+            "page": 4,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              588.7703857421875,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  It can be shown that",
+          "position": {
+            "page": 4,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              91.15855407714844,
+              269.5311279296875,
+              123.45999908447266
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc38 \ud835\udc40\ud835\udc45\udc46 \ud835\udc45\udc47\ud835\udc5f\ud835\udc52\ud835\udc4e\ud835\udc5f\udc61\ud835\udc59\udc5a\ud835\udc52\ud835\udc59\udc5b\ud835\udc5f\udc61\ud835\udc5f\udc60  = \ud835\udf0e 2   + \ud835\udc5b\ud835\udf0e \ud835\udf0f 2",
+          "position": {
+            "page": 4,
+            "paragraph_index": 2,
+            "rect": [
+              91.63200378417969,
+              124.84181213378906,
+              440.0837097167969,
+              168.76181030273438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc38 \ud835\udc40\ud835\udc45\udc46 \ud835\udc38\ud835\udc5f\ud835\udc5f\ud835\udc59\udc5c\ud835\udc5f  = \ud835\udf0e 2",
+          "position": {
+            "page": 4,
+            "paragraph_index": 3,
+            "rect": [
+              91.63200378417969,
+              170.9222412109375,
+              297.50372314453125,
+              208.96182250976562
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Estimators of variance components are given by:",
+          "position": {
+            "page": 4,
+            "paragraph_index": 4,
+            "rect": [
+              19.607999801635742,
+              211.66856384277344,
+              587.8731079101562,
+              243.9700164794922
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u0ddc\ud835\udf0e 2   = \ud835\udc40\ud835\udc45\udc46 \ud835\udc38\ud835\udc5f\ud835\udc5f\ud835\udc59\udc5c\ud835\udc5f",
+          "position": {
+            "page": 4,
+            "paragraph_index": 5,
+            "rect": [
+              271.4200134277344,
+              236.79202270507812,
+              411.021484375,
+              273.03240966796875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u0ddc\ud835\udf0e \ud835\udf0f 2   =   \ud835\udc40\ud835\udc45\udc46 \ud835\udc45\udc47\ud835\udc5f\ud835\udc52\ud835\udc4e\ud835\udc5f\udc61\ud835\udc59\udc5a\ud835\udc52\ud835\udc59\udc5b\ud835\udc5f\udc61  \u2212 \ud835\udc40\ud835\udc45\udc46 \ud835\udc38\ud835\udc5f\ud835\udc5f\ud835\udc59\udc5c\ud835\udc5f",
+          "position": {
+            "page": 4,
+            "paragraph_index": 6,
+            "rect": [
+              192.91000366210938,
+              298.2320251464844,
+              489.4139099121094,
+              343.83770751953125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5b",
+          "position": {
+            "page": 4,
+            "paragraph_index": 7,
+            "rect": [
+              363.8399963378906,
+              332.4133605957031,
+              377.623291015625,
+              356.4373779296875
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Estimation of Model Parameters\n\u2022 It can be shown that\n\ud835\udc38 \ud835\udc40\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc52\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udf0e2 + \ud835\udc5b\ud835\udf0e\ud835\udf0f2\n\ud835\udc38 \ud835\udc40\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc38\ud835\udc5f\ud835\udc5f\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f = \ud835\udf0e2\n\u2022 Estimators of variance components are given by:\n\u0ddc\ud835\udf0e2 = \ud835\udc40\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc38\ud835\udc5f\ud835\udc5f\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\n\u0ddc\ud835\udf0e\ud835\udf0f2 = \ud835\udc40\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc52\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd \u2212 \ud835\udc40\ud835\udc45\ufffd\ufffd\ufffd\ud835\udc38\ud835\udc5f\ud835\udc5f\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\n\ud835\udc5b\n"
+    },
+    {
+      "page_number": 6,
+      "paragraphs": [
+        {
+          "text": "Non-parametric Method",
+          "position": {
+            "page": 5,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              452.07861328125,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Kruskal-Wallis Test:",
+          "position": {
+            "page": 5,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              90.91856384277344,
+              254.1570281982422,
+              123.22000885009766
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "When normality assumption is not justified, experimenter",
+          "position": {
+            "page": 5,
+            "paragraph_index": 2,
+            "rect": [
+              38.71200180053711,
+              135.57998657226562,
+              702.0092163085938,
+              163.5399932861328
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "may resort to non-parametric methods , that do not  depend on normality assumption \u2022  Kruskal-Wallis Test, developed in 1952 is an alternative to",
+          "position": {
+            "page": 5,
+            "paragraph_index": 3,
+            "rect": [
+              19.607999801635742,
+              165.82000732421875,
+              693.366455078125,
+              264.25
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "ANOVA",
+          "position": {
+            "page": 5,
+            "paragraph_index": 4,
+            "rect": [
+              37.63199996948242,
+              266.5299987792969,
+              120.6344223022461,
+              294.489990234375
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Non-parametric Method\n\u2022 Kruskal-Wallis Test:\nWhen normality assumption is not justified, experimenter \nmay resort to non-parametric methods , that do not \ndepend on normality assumption\n\u2022 Kruskal-Wallis Test, developed in 1952 is an alternative to \nANOVA\n"
+    },
+    {
+      "page_number": 7,
+      "paragraphs": [
+        {
+          "text": "Kruskal-Wallis Test",
+          "position": {
+            "page": 6,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              342.8804626464844,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Steps:",
+          "position": {
+            "page": 6,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              90.91856384277344,
+              106.42976379394531,
+              123.22000885009766
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Rank observations  \ud835\udc66 \ud835\udc56\ud835\udc56\udc57  in ascending order, and  \ud835\udc45 \ud835\udc56\ud835\udc56\udc57  be the rank \u2022  In case of ties, assign average rank to each of the tied obs",
+          "position": {
+            "page": 6,
+            "paragraph_index": 2,
+            "rect": [
+              55.63199996948242,
+              127.3834228515625,
+              670.2821044921875,
+              187.26998901367188
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Test statistic:  \ud835\udc3b =",
+          "position": {
+            "page": 6,
+            "paragraph_index": 3,
+            "rect": [
+              55.63199996948242,
+              199.84170532226562,
+              246.64761352539062,
+              227.5959930419922
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1 \ud835\udc45\udc46 2  [\u03c3 \ud835\udc56=1",
+          "position": {
+            "page": 6,
+            "paragraph_index": 4,
+            "rect": [
+              264.94000244140625,
+              193.92236328125,
+              355.6111755371094,
+              237.6323699951172
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc4e \ud835\udc45 \ud835\udc56 . 2",
+          "position": {
+            "page": 6,
+            "paragraph_index": 5,
+            "rect": [
+              326.0199890136719,
+              189.98922729492188,
+              389.4440612792969,
+              215.7623748779297
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc59\udc5b \ud835\udc56   \u2212",
+          "position": {
+            "page": 6,
+            "paragraph_index": 6,
+            "rect": [
+              366.1199951171875,
+              202.9033660888672,
+              418.74761962890625,
+              242.79734802246094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc41 \ud835\udc41+1   2",
+          "position": {
+            "page": 6,
+            "paragraph_index": 7,
+            "rect": [
+              423.9599914550781,
+              189.98922729492188,
+              497.3240661621094,
+              211.44236755371094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "4 ]  where  \ud835\udc5b \ud835\udc56  is the",
+          "position": {
+            "page": 6,
+            "paragraph_index": 8,
+            "rect": [
+              455.8800048828125,
+              202.9033660888672,
+              664.2320556640625,
+              237.6323699951172
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "number of observations in  \ud835\udc56 \ud835\udc5f\udc61\u210e   treatment",
+          "position": {
+            "page": 6,
+            "paragraph_index": 9,
+            "rect": [
+              73.63200378417969,
+              229.89999389648438,
+              473.90582275390625,
+              262.6600036621094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \ud835\udc45 \ud835\udc56 .  Is the sum of the observations in the  \ud835\udc56 \ud835\udc5f\udc61\u210e   treatment row",
+          "position": {
+            "page": 6,
+            "paragraph_index": 10,
+            "rect": [
+              55.63199996948242,
+              261.3399963378906,
+              647.9961547851562,
+              296.91241455078125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \ud835\udc45\udc46 2   =",
+          "position": {
+            "page": 6,
+            "paragraph_index": 11,
+            "rect": [
+              55.63199996948242,
+              301.1120300292969,
+              123.35968780517578,
+              333.87200927734375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1",
+          "position": {
+            "page": 6,
+            "paragraph_index": 12,
+            "rect": [
+              143.11000061035156,
+              300.87237548828125,
+              153.24729919433594,
+              318.39239501953125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc41\u22121   [\u03c3 \ud835\udc56=1",
+          "position": {
+            "page": 6,
+            "paragraph_index": 13,
+            "rect": [
+              129.91000366210938,
+              308.91204833984375,
+              225.51730346679688,
+              345.9920349121094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc4e \u03c3 \ud835\udc56\udc57=1",
+          "position": {
+            "page": 6,
+            "paragraph_index": 14,
+            "rect": [
+              195.91000366210938,
+              305.1923828125,
+              278.1972961425781,
+              340.3524169921875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc59\udc5b \ud835\udc56  \ud835\udc45 \ud835\udc56\ud835\udc56\udc57",
+          "position": {
+            "page": 6,
+            "paragraph_index": 15,
+            "rect": [
+              246.5800018310547,
+              300.63201904296875,
+              311.44110107421875,
+              338.3123779296875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2  \u2212",
+          "position": {
+            "page": 6,
+            "paragraph_index": 16,
+            "rect": [
+              298.17999267578125,
+              300.15203857421875,
+              336.2696838378906,
+              333.87200927734375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc41 \ud835\udc41+1   2",
+          "position": {
+            "page": 6,
+            "paragraph_index": 17,
+            "rect": [
+              341.6199951171875,
+              296.9392395019531,
+              414.8840637207031,
+              318.39239501953125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "4 ]  is the variance of ranks",
+          "position": {
+            "page": 6,
+            "paragraph_index": 18,
+            "rect": [
+              373.55999755859375,
+              309.87200927734375,
+              658.05859375,
+              344.5577087402344
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  If  \ud835\udc3b > \ud835\udf12 1\u2212\ud835\udefc,\ud835\udc4e\u22121",
+          "position": {
+            "page": 6,
+            "paragraph_index": 19,
+            "rect": [
+              55.63199996948242,
+              344.033447265625,
+              227.91729736328125,
+              375.0523986816406
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 , hypothesis is rejected.",
+          "position": {
+            "page": 6,
+            "paragraph_index": 20,
+            "rect": [
+              156.7899932861328,
+              343.01239013671875,
+              468.1978454589844,
+              371.760009765625
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Kruskal-Wallis Test\n\u2022 Steps:\n\u2022 Rank observations \ud835\udc66\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd in ascending order, and \ud835\udc45\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd be the rank\n\u2022 In case of ties, assign average rank to each of the tied obs\n\u2022 Test statistic: \ud835\udc3b =\n1\n\ud835\udc45\ufffd\ufffd\ufffd2 [\u03c3\ud835\udc56=1\n\ud835\udc4e\n\ud835\udc45\ud835\udc56.2\n\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc56 \u2212\n\ud835\udc41 \ud835\udc41+1 2\n4\n] where \ud835\udc5b\ud835\udc56 is the \nnumber of observations in \ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\u210e treatment \n\u2022 \ud835\udc45\ud835\udc56. Is the sum of the observations in the \ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\u210e treatment row\n\u2022 \ud835\udc45\ufffd\ufffd\ufffd2 =\n1\n\ud835\udc41\u22121 [\u03c3\ud835\udc56=1\n\ud835\udc4e\n\u03c3\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc56 \ud835\udc45\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\n2 \u2212\n\ud835\udc41 \ud835\udc41+1 2\n4\n] is the variance of ranks\n\u2022 If \ud835\udc3b > \ud835\udf121\u2212\ud835\udefc,\ud835\udc4e\u22121\n2\n, hypothesis is rejected. \n"
+    }
+  ],
+  "metadata": {
+    "filename": "Module04_RandomEffectsModel.pdf",
+    "content_type": "application/pdf",
+    "file_size": 335926,
+    "upload_date": "2025-05-22T23:04:29.409318",
+    "author": null,
+    "document_date": null,
+    "document_type": "pdf",
+    "processing_status": "indexing_failed",
+    "segment_count": 0,
+    "page_count": 7
+  }
+}

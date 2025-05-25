@@ -1,0 +1,3772 @@
+{
+  "id": "237485c0-7fd1-4d4b-bf27-51290b22cd1c",
+  "full_text": "--- Page 1 ---\n\nFactorial Design\nProf. Sayak Roychowdhury\n\n\n--- Page 2 ---\n\nApplications\nProduct \nDevelop\nment\nDOE\nImprove\nment of \nExisting \nProduct\nProcess \nImprove\nment\nTroubles\nhooting\nService \nImprovem\nent\n\n\n--- Page 3 ---\n\nControllable Factors \ud835\udc651 , . . \ud835\udc65\ud835\udc56\ufffd\ufffd\ufffd (yeast, flour, wood\u2026)\nUncontrollable Factors \ud835\udc65\ufffd\ufffd\ufffd1 , . . \ud835\udc65\ufffd\ufffd\ufffd\ud835\udc5a (pizza maker at store, \ntaste preference of customer, environment)\nInput \nOutput \n\ud835\udc65\ufffd\ufffd\ufffd \nProcess\nProcess\n\n\n--- Page 4 ---\n\nControllable Factors \ud835\udc651 , . . \ud835\udc65\ud835\udc56\ufffd\ufffd\ufffd (yeast, flour, wood\u2026)\nUncontrollable Factors \ud835\udc65\ufffd\ufffd\ufffd1 , . . \ud835\udc65\ufffd\ufffd\ufffd\ud835\udc5a (pizza maker at store, \ntaste preference of customer, environment)\nInput \nOutput \n\ud835\udc65\ufffd\ufffd\ufffd \n(taste)\nModel\nModel\nY=f(x)\nOptimize!!!\n\n\n--- Page 5 ---\n\nSome Purposes of Experimentation\n\u2022 Determine \n\u2022 Which variables are most influential on the output (Screening)\n\u2022 Where to set the inputs to produce the output at the most \ndesirable level (Optimization)\n\u2022 Where to set the influential inputs to reduce the variability in \nthe output (Robustness)\n\u2022 Where to set the controllable inputs so that the effects of the \nuncontrollable inputs are minimized (Robustness)\n\u2022 Find the defining equation Y=f(x) in order to optimize the \nprocess\nPg \n5\n\n\n--- Page 6 ---\n\nSequence of Steps\n\u2022 Select factors and responses\n\u2022 Select experimental design\n\u2022 Run experiments\n\u2022 Fit model form\n\u2022 Determine significant factors\n\u2022 Set unimportant factors to economical settings and plan \nnext experiment\n\u2022 Optimize the model\n\n\n--- Page 7 ---\n\nSequence of Steps\n\u2022Select factors and responses\n\u2022 Select experimental design\n\u2022 Run experiments\n\u2022 Fit model form\n\u2022 Determine significant factors\n\u2022 Set unimportant factors to economical settings and plan \nnext experiment\n\u2022 Optimize the model\n\n\n--- Page 8 ---\n\nFactors, Levels  and Responses\n\u25aa Problem Definition\n\u25aa\nSelect the factor levels that make the  pizza delicious in taste and \nconsistent in shape.\n\u25aa Factors, Levels, and Ranges of Interest\nFactors\nLevels (low, high)\nResponses\nFlour\nCheap, Expensive\nTaste\nYeast\nLess, More\nConsistency\nOlive Oil\nVirgin, Extra Virgin\nKneading\nLess, More\nMixture\nOld, New\nWood\nUnknown, Hickory\n\n\n--- Page 9 ---\n\nPaper Helicopter\nFactors\nlow\nhigh\nA Body height\ncm\n1.5\n4\nB Foldover length cm\n0.5\n1.5\nC Tail length\ncm\n2\n5\nD Wing width\ncm\n2\n4\nE Wing length\ncm\n3\n6\nF Pitch angle\ndeg.\n0\n20\nG Paper type\nlined regular\n1 cm is 2 squares\nE\nD\nC\nB\nA\nF\n\n\n--- Page 10 ---\n\n\u25aa Problem Definition\n\u25aa\nSelect the factor levels that make the helicopter stay in the air as long as \npossible.  Maybe also, for the helicopter to spin many times before it \nlands. \n\u25aa Factors, Levels, and Ranges of Interest\nFactors, Levels  and Responses\n\n\n--- Page 11 ---\n\nSome factors levels and responses for cycling time to \nISE from Hostel?\nFactors, Levels  and Responses\n\n\n--- Page 12 ---\n\nSequence of Steps\n\u2022 Select factors and responses\n\u2022Select experimental design\n\u2022 Run experiments\n\u2022 Fit model form\n\u2022 Determine significant factors\n\u2022 Set unimportant factors to economical settings and plan \nnext experiment\n\u2022 Optimize the model\n\n\n--- Page 13 ---\n\nSelect Experimental Design\nhttp://www.itl.nist.gov/div898/handbook/pri/secti\non3/pri33.htm\nFull Factorial\nBox-Behnken\nPlackett-\nBurman \nLatin \nHypercube\nFractional \nFactorial\nCentral \nComposite\n\n\n--- Page 14 ---\n\nFactorial Design\n\u2022 For experiments that involve the study of the effects of two or \nmore factors, factorial designs are most efficient for this type \nof experiment. \n\u2022 Factorial design, means that in each complete trial or replicate \nof the experiment all possible combinations of the levels of \nthe factors are investigated. \n\u2022 For example, if there are \ud835\udc4e levels of factor A and \ud835\udc4e\ufffd\ufffd\ufffd levels of \nfactor B, each replicate contains all \ud835\udc4e\ud835\udc4e\ufffd\ufffd\ufffd treatment \ncombinations. \n\u2022 Factorial design are often said to be crossed design.\n\u2022 The effect of a factor is defined to be the change in response \nproduced by a change in the level of the factor. \n\u2022 This is frequently called a main effect because it refers to the \nprimary factors of interest in the experiment.\n\n\n--- Page 15 ---\n\nMain Effects\nRun\nFactor A\nFactor B\nResponse Y\n1\n+\n+\n40\n2\n-\n+\n20\n3\n+\n-\n30\n4\n-\n-\n10\n2 Factor 2 Level design without interaction\nB\n+\nB\n+\nB-\nB-\nA+\nA-\n10\n20\n30\n40\nY\nMain Effects:\n\ud835\udc52\ud835\udc34 = \u0d24\ud835\udc4c\ud835\udc34+ \u2212 \u0d24\ud835\udc4c\ud835\udc34\u2212 = 30 + 40\n2\n\u2212 10 + 20\n2\n= 20\n\ud835\udc52\ud835\udc34\ufffd\ufffd\ufffd = \u0d24\ud835\udc4c\ud835\udc34\ufffd\ufffd\ufffd+ \u2212 \u0d24\ud835\udc4c\ud835\udc34\ufffd\ufffd\ufffd\u2212 = 20 + 40\n2\n\u2212 10 + 30\n2\n= 10\n\n\n--- Page 16 ---\n\nMain Effects\n\ud835\udc34 =\nB  =\n\n\n--- Page 17 ---\n\nEffects\nRun\nFactor A\nFactor B\nAB\nResponse Y\n1\n+\n+\n+\n0\n2\n-\n+\n-\n20\n3\n+\n-\n-\n30\n4\n-\n-\n+\n10\n2 Factor 2 Level design with interaction (difference in response in\nthe levels of 1 factor is not the same for all the levels of other factors)\nMain Effects:\n\ud835\udc52\ud835\udc34 = \u0d24\ud835\udc4c\ud835\udc34+ \u2212 \u0d24\ud835\udc4c\ud835\udc34\u2212 = 30+0\n2\n\u2212 10+20\n2\n= 0* \n\ud835\udc52\ud835\udc34\ufffd\ufffd\ufffd = \u0d24\ud835\udc4c\ud835\udc34\ufffd\ufffd\ufffd+ \u2212 \u0d24\ud835\udc4c\ud835\udc34\ufffd\ufffd\ufffd\u2212 = 20 + 0\n2\n\u2212 10 + 30\n2\n= 10\n\ud835\udc52\ud835\udc34\ud835\udc34\ufffd\ufffd\ufffd = \u0d24\ud835\udc4c\ud835\udc34\ud835\udc34\ufffd\ufffd\ufffd+ \u2212 \u0d24\ud835\udc4c\ud835\udc34\ud835\udc34\ufffd\ufffd\ufffd\u2212 = 10 + 0\n2\n\u2212 20 + 30\n2\n= \u221220\nA+\nA-\nY\nB+\nB+\nB-\nB-\n\n\n--- Page 18 ---\n\nMain Effects with Interaction\n\ud835\udc34 =\nB  =\n\n\n--- Page 19 ---\n\nFactorial Design to Fitting Regression Lines\n\u2022 The linear regression model representation \n  \ud835\udc65\ufffd\ufffd\ufffd = \ud835\udefd0 + \ud835\udefd1\ud835\udc651 + \ud835\udefd2\ud835\udc652 + \ud835\udefd12\ud835\udc651\ud835\udc652 + \ud835\udf16\n                       Where \ud835\udf16~\ud835\udc41 0, \ud835\udf0e2\n\u2022 For 2 level factorial design \ud835\udefd\ud835\udc56\ufffd\ufffd\ufffd =\n\ud835\udc38\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc57\n2\n\u2022 True for both main and interaction effects\n\u2022 \ud835\udefd0 = \ud835\udc34\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc5f\ud835\udc4e\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52 \ud835\udc59\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd \ud835\udc4e\ud835\udc59\ud835\udc59 \ud835\udc5f\ud835\udc52\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc5f\ufffd\ufffd\ufffd\n\u2022 These estimates are equal to least square regression \nestimates.\n\n\n--- Page 20 ---\n\n2 Factor Factorial Design\n\u2022 Factor A has \ud835\udc4e levels, factor B has \ud835\udc4e\ufffd\ufffd\ufffd levels, each combination\n     replicated n times.\n\u2022 The experimental run order should be randomized\n\n\n--- Page 21 ---\n\nANOVA for factorial design\n\u2022 The effects model is given by\n\u2022 Testing hypothesis for equality of row treatments\n\ud835\udc3b0:  \ud835\udf0f1 = \ud835\udf0f2 = \u22ef = \ud835\udf0f\ud835\udc4e = 0  ;  \ud835\udc3b1: \ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd \ud835\udc59\ud835\udc52\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd 1 \ud835\udf0f\ud835\udc56 \u2260 0\n\u2022 Testing hypothesis for equality of column treatments\n\ud835\udc3b0:  \ud835\udefd1 = \ud835\udefd2 = \u22ef = \ud835\udefd\ud835\udc4e\ufffd\ufffd\ufffd = 0; \ud835\udc3b1: \ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd \ud835\udc59\ud835\udc52\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd 1 \ud835\udefd\ud835\udc56\ufffd\ufffd\ufffd \u2260 0\n\u2022 Testing hypothesis for interactions\n\ud835\udc3b0: \ud835\udf0f\ud835\udefd \ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd = 0 for all \ud835\udc56, \ud835\udc56\ufffd\ufffd\ufffd; \ud835\udc3b1: \ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd \ud835\udc59\ud835\udc52\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd 1 (\ud835\udf0f\ud835\udefd)\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\u2260 0\n\n\n--- Page 22 ---\n\n2 Factor Factorial Design ANOVA\nSource\nSS\nDof\nMS\nF\nF_crit\nA\nSSA\na-1\nSSA/(a-1)\nMSA/MSE\nF(0.95,a-1,ab(n-1))\nB\nSSB\nb-1\nSSB/(b-1)\nMSB/MSE\nF(0.95,b-1, ab(n-1))\nAB\nSSAB\n(a-1)(b-1)\nSSAB/((a-1)(b-1))\nMSAB/MSE\nF(0.95, (a-1)(b-1)\n, ab(n-1))\nError\nSSError\nab(n-1)\nSSError/ab(n-1)\nTotal\nSSTotal\nabn-1\nFor 22 design, a=2, b=2\n\ud835\udc46\ud835\udc46\ud835\udc47 = \ud835\udc46\ud835\udc46\ud835\udc34 + \ud835\udc46\ud835\udc46\ud835\udc34\ufffd\ufffd\ufffd + \ud835\udc46\ud835\udc46\ud835\udc34\ud835\udc34\ufffd\ufffd\ufffd + \ud835\udc46\ud835\udc46\ud835\udc38\n\n\n--- Page 23 ---\n\nCalculations\n\n\n--- Page 24 ---\n\nEstimators\n\u2022 \u0ddc\ud835\udf07 = \u0d24\ud835\udc65\ufffd\ufffd\ufffd \u2026\n\u2022 \u01b8\ud835\udf0f\ud835\udc56 = \u0d24\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56. . \u2212\u0d24\ud835\udc65\ufffd\ufffd\ufffd \u2026  for \ud835\udc56 = 1, . . , \ud835\udc4e\n\u2022 \u1218\ud835\udefd\ud835\udc56\ufffd\ufffd\ufffd = \u0d24\ud835\udc65\ufffd\ufffd\ufffd.\ud835\udc56\ufffd\ufffd\ufffd. \u2212 \u0d24\ud835\udc65\ufffd\ufffd\ufffd \u2026  for \ud835\udc56\ufffd\ufffd\ufffd = 1, . . , \ud835\udc4e\ufffd\ufffd\ufffd\n\u2022 \u0de2\n\ud835\udf0f\ud835\udefd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd = \u0d24\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd. \u2212 \u0d24\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56.. \u2212 \u0d24\ud835\udc65\ufffd\ufffd\ufffd.\ud835\udc56\ufffd\ufffd\ufffd. + \u0d24\ud835\udc65\ufffd\ufffd\ufffd \u2026\nfor \ud835\udc56 = 1, . . , \ud835\udc4e  , \ud835\udc56\ufffd\ufffd\ufffd = 1, . . , \ud835\udc4e\ufffd\ufffd\ufffd\nFitted  value \u0ddc\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd = \u0ddc\ud835\udf07 + \u01b8\ud835\udf0f\ud835\udc56 + \u1218\ud835\udefd\ud835\udc56\ufffd\ufffd\ufffd + \u0de2\n\ud835\udf0f\ud835\udefd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd = \u0d24\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd. \nResidual \ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd \u2212 \u0ddc\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\n \n\n\n--- Page 25 ---\n\nAdvantages of Factorial Designs (FD)\n\u2022 FDs are more efficient than one factor at a time \nexperiments\n\u2022 FDs can reveal interaction effects, to avoid deriving \nmisleading conclusions\n\u2022 FDs allow the effects of a factor to be estimated at several \nlevels of the other factors, yielding conclusions that are \nvalid over a range of experimental conditions\n\u2022 FDs make the regression model fitting  easy\n\n\n--- Page 26 ---\n\n22 Design\n\n\n--- Page 27 ---\n\n22 Design with n Replicates\n\n\n--- Page 28 ---\n\n23 Design\nDesign and Analysis of Experiments, D.C. Montgomery Ch 6.\n\n\n--- Page 29 ---\n\nOrthogonality\n1.\nExcept column I, every column has equal number of + and -.\n2.\nThe sum of products of any 2 columns is 0.\n3.\nThe product of any 2 columns results another column of the table\n\u2022 ## All of these are implied by Orthogonality\n\n\n--- Page 30 ---\n\nANOVA\n\u2022 Sum of squares of 2\ud835\udc56\ufffd\ufffd\ufffd designs can be calculated by  \n                                                      \ud835\udc46\ud835\udc46\ud835\udc38\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f =\n\ud835\udc34\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd 2\n2\ud835\udc57\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\n \n \n \n \n \n\ud835\udc38\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd =\n2 \ud835\udc34\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\n\ud835\udc5a\ufffd\ufffd\ufffd2\ud835\udc57\ufffd\ufffd\ufffd\n\n\n--- Page 31 ---\n\nVariance\n\u2022 If there are \ud835\udc59\ufffd\ufffd\ufffd replicates in each of the 2\ud835\udc56\ufffd\ufffd\ufffd runs, and if \n\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc561, \ud835\udc65\ufffd\ufffd\ufffd\ud835\udc562 \u2026 , \ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc5a\ufffd\ufffd\ufffd are the observations of the \ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\u210e run, then \nestimated variance of \ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\u210e run is:\n \ud835\udc46\ud835\udc56\n2 =\n1\n\ud835\udc5a\ufffd\ufffd\ufffd\u22121 \u03c3\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc5a\ufffd\ufffd\ufffd\n\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd \u2212 \u0d25\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\n2  for \ud835\udc56 = 1, . . , 2\ud835\udc56\ufffd\ufffd\ufffd\n\u2022 Overall variance estimate is given by:\n\ud835\udc462 =\n1\n2\ud835\udc56\ufffd\ufffd\ufffd(\ud835\udc59\ufffd\ufffd\ufffd \u2212 1) \u0dcd\n\ud835\udc56=1\n2\ud835\udc57\ufffd\ufffd\ufffd\n\u0dcd\n\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc5a\ufffd\ufffd\ufffd\n\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd \u2212 \u0d25\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\n2\n\n\n--- Page 32 ---\n\nVariance\n\u2022 Variance of each effect estimate:\n \ud835\udc49 \ud835\udc38\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udc49\n\ud835\udc34\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\n\ud835\udc5a\ufffd\ufffd\ufffd2\ud835\udc57\ufffd\ufffd\ufffd\u22121\n=\n1\n\ud835\udc5a\ufffd\ufffd\ufffd2\ud835\udc57\ufffd\ufffd\ufffd\u22121 2 \ud835\udc49(\ud835\udc36\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd)\n\u2022 \ud835\udc49 \ud835\udc36\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udc59\ufffd\ufffd\ufffd2\ud835\udc56\ufffd\ufffd\ufffd\ud835\udf0e2\n\u2022 \ud835\udf0e2 is estimated by \ud835\udc462\n\u2022 Standard error of effect:\n\ud835\udc46\ud835\udc38 \ud835\udc38\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd =\n2\ud835\udc46\n\ud835\udc59\ufffd\ufffd\ufffd2\ud835\udc56\ufffd\ufffd\ufffd\n\n\n--- Page 33 ---\n\nTest of Significance of Effect\n\u2022 To test the significance of estimated effects:\n\ud835\udc5f\ufffd\ufffd\ufffd0 =\n\ud835\udc38\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\n\ud835\udc46\ud835\udc38 \ud835\udc38\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\nCompare the test-statistic with \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udefc\n2,\ud835\udc41\u2212\ud835\udc5a\ufffd\ufffd\ufffd\n\ud835\udc41 = \ud835\udc46\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc59 \ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc5f \ud835\udc59\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd \ud835\udc5f\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\n\ud835\udc59\ufffd\ufffd\ufffd = \ud835\udc46\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc59 \ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc5f \ud835\udc59\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd \ud835\udc59\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc5f\ud835\udc4e\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc5f\ud835\udc5f\ufffd\ufffd\ufffd",
+  "pages": [
+    {
+      "page_number": 1,
+      "paragraphs": [
+        {
+          "text": "Factorial Design",
+          "position": {
+            "page": 0,
+            "paragraph_index": 0,
+            "rect": [
+              227.92999267578125,
+              230.21200561523438,
+              608.8141479492188,
+              290.23602294921875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Prof. Sayak Roychowdhury",
+          "position": {
+            "page": 0,
+            "paragraph_index": 1,
+            "rect": [
+              290.57000732421875,
+              332.1400146484375,
+              545.9693603515625,
+              356.1400146484375
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Factorial Design\nProf. Sayak Roychowdhury\n"
+    },
+    {
+      "page_number": 2,
+      "paragraphs": [
+        {
+          "text": "Applications",
+          "position": {
+            "page": 1,
+            "paragraph_index": 0,
+            "rect": [
+              38.928001403808594,
+              32.33200454711914,
+              254.69700622558594,
+              76.39600372314453
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Product  Develop",
+          "position": {
+            "page": 1,
+            "paragraph_index": 1,
+            "rect": [
+              355.9200134277344,
+              148.91000366210938,
+              425.5378112792969,
+              191.0299835205078
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "ment DOE",
+          "position": {
+            "page": 1,
+            "paragraph_index": 2,
+            "rect": [
+              221.52000427246094,
+              163.4219970703125,
+              410.6249084472656,
+              212.99000549316406
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Improve ment of  Existing  Product",
+          "position": {
+            "page": 1,
+            "paragraph_index": 3,
+            "rect": [
+              287.3800048828125,
+              260.6300048828125,
+              357.6185607910156,
+              346.70001220703125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Process  Improve",
+          "position": {
+            "page": 1,
+            "paragraph_index": 4,
+            "rect": [
+              416.3800048828125,
+              265.44000244140625,
+              499.2057800292969,
+              315.8399963378906
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "ment",
+          "position": {
+            "page": 1,
+            "paragraph_index": 5,
+            "rect": [
+              431.0199890136719,
+              318.1199951171875,
+              482.6190490722656,
+              342.1199951171875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Troubles hooting",
+          "position": {
+            "page": 1,
+            "paragraph_index": 6,
+            "rect": [
+              354.6000061035156,
+              405.3299865722656,
+              423.7402648925781,
+              447.45001220703125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Service",
+          "position": {
+            "page": 1,
+            "paragraph_index": 7,
+            "rect": [
+              225.6699981689453,
+              394.3420104980469,
+              288.6925048828125,
+              414.406005859375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Improvem",
+          "position": {
+            "page": 1,
+            "paragraph_index": 8,
+            "rect": [
+              213.19000244140625,
+              416.4700012207031,
+              296.53289794921875,
+              436.510009765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "ent",
+          "position": {
+            "page": 1,
+            "paragraph_index": 9,
+            "rect": [
+              241.38999938964844,
+              438.4259948730469,
+              268.38311767578125,
+              458.46600341796875
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Applications\nProduct \nDevelop\nment\nDOE\nImprove\nment of \nExisting \nProduct\nProcess \nImprove\nment\nTroubles\nhooting\nService \nImprovem\nent\n"
+    },
+    {
+      "page_number": 3,
+      "paragraphs": [
+        {
+          "text": "Controllable Factors  \ud835\udc65 1  , . . \ud835\udc65 \ud835\udc56\udc58  (yeast, flour, wood\u2026)",
+          "position": {
+            "page": 2,
+            "paragraph_index": 0,
+            "rect": [
+              130.8699951171875,
+              143.37188720703125,
+              631.1004028320312,
+              173.5977325439453
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Uncontrollable Factors  \ud835\udc65\udc66 1  , . . \ud835\udc65\udc66 \ud835\udc5a  (pizza maker at store,  taste preference of customer, environment)",
+          "position": {
+            "page": 2,
+            "paragraph_index": 1,
+            "rect": [
+              91.2239990234375,
+              437.46929931640625,
+              620.0140380859375,
+              492.847412109375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Input  Output",
+          "position": {
+            "page": 2,
+            "paragraph_index": 2,
+            "rect": [
+              31.200000762939453,
+              284.90325927734375,
+              649.9719848632812,
+              320.451416015625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc65\udc66",
+          "position": {
+            "page": 2,
+            "paragraph_index": 3,
+            "rect": [
+              608.97998046875,
+              313.7032775878906,
+              628.5399780273438,
+              340.4220275878906
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Process",
+          "position": {
+            "page": 2,
+            "paragraph_index": 4,
+            "rect": [
+              310.25,
+              293.873291015625,
+              383.6218566894531,
+              320.451416015625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Process",
+          "position": {
+            "page": 2,
+            "paragraph_index": 5,
+            "rect": [
+              38.928001403808594,
+              32.33200454711914,
+              172.73797607421875,
+              76.39600372314453
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Controllable Factors \ud835\udc651 , . . \ud835\udc65\ud835\udc56\ufffd\ufffd\ufffd (yeast, flour, wood\u2026)\nUncontrollable Factors \ud835\udc65\ufffd\ufffd\ufffd1 , . . \ud835\udc65\ufffd\ufffd\ufffd\ud835\udc5a (pizza maker at store, \ntaste preference of customer, environment)\nInput \nOutput \n\ud835\udc65\ufffd\ufffd\ufffd \nProcess\nProcess\n"
+    },
+    {
+      "page_number": 4,
+      "paragraphs": [
+        {
+          "text": "Controllable Factors  \ud835\udc65 1  , . . \ud835\udc65 \ud835\udc56\udc58  (yeast, flour, wood\u2026)",
+          "position": {
+            "page": 3,
+            "paragraph_index": 0,
+            "rect": [
+              130.8699951171875,
+              143.37188720703125,
+              631.1004028320312,
+              173.5977325439453
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Uncontrollable Factors  \ud835\udc65\udc66 1  , . . \ud835\udc65\udc66 \ud835\udc5a  (pizza maker at store,  taste preference of customer, environment)",
+          "position": {
+            "page": 3,
+            "paragraph_index": 1,
+            "rect": [
+              91.2239990234375,
+              437.46929931640625,
+              620.0140380859375,
+              492.847412109375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Input  Output",
+          "position": {
+            "page": 3,
+            "paragraph_index": 2,
+            "rect": [
+              31.200000762939453,
+              284.90325927734375,
+              649.9719848632812,
+              320.451416015625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc65\udc66",
+          "position": {
+            "page": 3,
+            "paragraph_index": 3,
+            "rect": [
+              598.4199829101562,
+              313.7032775878906,
+              618.0999755859375,
+              340.4220275878906
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "(taste)",
+          "position": {
+            "page": 3,
+            "paragraph_index": 4,
+            "rect": [
+              577.2999877929688,
+              342.5032958984375,
+              637.4202270507812,
+              369.0814208984375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Model",
+          "position": {
+            "page": 3,
+            "paragraph_index": 5,
+            "rect": [
+              38.928001403808594,
+              32.33200454711914,
+              153.525390625,
+              76.39600372314453
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Model Y=f(x)",
+          "position": {
+            "page": 3,
+            "paragraph_index": 6,
+            "rect": [
+              287.2300109863281,
+              283.6300048828125,
+              382.1437072753906,
+              319.6300048828125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Optimize!!!",
+          "position": {
+            "page": 3,
+            "paragraph_index": 7,
+            "rect": [
+              395.2099914550781,
+              225.10198974609375,
+              506.3374328613281,
+              249.12599182128906
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Controllable Factors \ud835\udc651 , . . \ud835\udc65\ud835\udc56\ufffd\ufffd\ufffd (yeast, flour, wood\u2026)\nUncontrollable Factors \ud835\udc65\ufffd\ufffd\ufffd1 , . . \ud835\udc65\ufffd\ufffd\ufffd\ud835\udc5a (pizza maker at store, \ntaste preference of customer, environment)\nInput \nOutput \n\ud835\udc65\ufffd\ufffd\ufffd \n(taste)\nModel\nModel\nY=f(x)\nOptimize!!!\n"
+    },
+    {
+      "page_number": 5,
+      "paragraphs": [
+        {
+          "text": "Some Purposes of Experimentation",
+          "position": {
+            "page": 4,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              639.9204711914062,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Determine",
+          "position": {
+            "page": 4,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              90.91856384277344,
+              164.9359588623047,
+              123.22000885009766
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Which variables are most influential on the output (Screening) \u2022  Where to set the inputs to produce the output at the most",
+          "position": {
+            "page": 4,
+            "paragraph_index": 2,
+            "rect": [
+              55.63199996948242,
+              126.54342651367188,
+              678.8213500976562,
+              185.23001098632812
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "desirable level (Optimization)",
+          "position": {
+            "page": 4,
+            "paragraph_index": 3,
+            "rect": [
+              73.63200378417969,
+              187.14999389648438,
+              359.30938720703125,
+              211.14999389648438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Where to set the influential inputs to reduce the variability in",
+          "position": {
+            "page": 4,
+            "paragraph_index": 4,
+            "rect": [
+              55.63199996948242,
+              214.29342651367188,
+              674.2098388671875,
+              242.01998901367188
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "the output (Robustness)",
+          "position": {
+            "page": 4,
+            "paragraph_index": 5,
+            "rect": [
+              73.63200378417969,
+              243.94000244140625,
+              309.02935791015625,
+              267.94000244140625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Where to set the controllable inputs so that the effects of the",
+          "position": {
+            "page": 4,
+            "paragraph_index": 6,
+            "rect": [
+              55.63199996948242,
+              271.1734313964844,
+              675.721923828125,
+              298.8999938964844
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "uncontrollable inputs are minimized (Robustness)",
+          "position": {
+            "page": 4,
+            "paragraph_index": 7,
+            "rect": [
+              73.63200378417969,
+              300.82000732421875,
+              555.245361328125,
+              324.82000732421875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Find the defining equation Y=f(x) in order to optimize the",
+          "position": {
+            "page": 4,
+            "paragraph_index": 8,
+            "rect": [
+              19.607999801635742,
+              363.6085510253906,
+              690.7237548828125,
+              395.90997314453125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "process",
+          "position": {
+            "page": 4,
+            "paragraph_index": 9,
+            "rect": [
+              37.63199996948242,
+              398.19000244140625,
+              123.86380004882812,
+              426.1499938964844
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Pg",
+          "position": {
+            "page": 4,
+            "paragraph_index": 10,
+            "rect": [
+              350.2099914550781,
+              509.555419921875,
+              360.6199951171875,
+              518.4591064453125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "5",
+          "position": {
+            "page": 4,
+            "paragraph_index": 11,
+            "rect": [
+              354.5299987792969,
+              519.1554565429688,
+              358.54998779296875,
+              528.0591430664062
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Some Purposes of Experimentation\n\u2022 Determine \n\u2022 Which variables are most influential on the output (Screening)\n\u2022 Where to set the inputs to produce the output at the most \ndesirable level (Optimization)\n\u2022 Where to set the influential inputs to reduce the variability in \nthe output (Robustness)\n\u2022 Where to set the controllable inputs so that the effects of the \nuncontrollable inputs are minimized (Robustness)\n\u2022 Find the defining equation Y=f(x) in order to optimize the \nprocess\nPg \n5\n"
+    },
+    {
+      "page_number": 6,
+      "paragraphs": [
+        {
+          "text": "Sequence of Steps",
+          "position": {
+            "page": 5,
+            "paragraph_index": 0,
+            "rect": [
+              38.928001403808594,
+              32.33200454711914,
+              362.9182434082031,
+              76.39600372314453
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Select factors and responses \u2022  Select experimental design \u2022  Run experiments \u2022  Fit model form \u2022  Determine significant factors \u2022  Set unimportant factors to economical settings and plan",
+          "position": {
+            "page": 5,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              90.91856384277344,
+              679.56787109375,
+              324.489990234375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "next experiment",
+          "position": {
+            "page": 5,
+            "paragraph_index": 2,
+            "rect": [
+              37.63199996948242,
+              326.7519836425781,
+              223.92042541503906,
+              354.7359924316406
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Optimize the model",
+          "position": {
+            "page": 5,
+            "paragraph_index": 3,
+            "rect": [
+              19.607999801635742,
+              362.6485900878906,
+              262.3323059082031,
+              394.95001220703125
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Sequence of Steps\n\u2022 Select factors and responses\n\u2022 Select experimental design\n\u2022 Run experiments\n\u2022 Fit model form\n\u2022 Determine significant factors\n\u2022 Set unimportant factors to economical settings and plan \nnext experiment\n\u2022 Optimize the model\n"
+    },
+    {
+      "page_number": 7,
+      "paragraphs": [
+        {
+          "text": "Sequence of Steps",
+          "position": {
+            "page": 6,
+            "paragraph_index": 0,
+            "rect": [
+              38.928001403808594,
+              32.33200454711914,
+              362.9182434082031,
+              76.39600372314453
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022 Select factors and responses",
+          "position": {
+            "page": 6,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              89.89527893066406,
+              496.9367980957031,
+              136.0600128173828
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Select experimental design \u2022  Run experiments \u2022  Fit model form \u2022  Determine significant factors \u2022  Set unimportant factors to economical settings and plan",
+          "position": {
+            "page": 6,
+            "paragraph_index": 2,
+            "rect": [
+              19.607999801635742,
+              144.1985626220703,
+              679.56787109375,
+              337.45001220703125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "next experiment",
+          "position": {
+            "page": 6,
+            "paragraph_index": 3,
+            "rect": [
+              37.63199996948242,
+              339.75,
+              223.9563751220703,
+              367.7099914550781
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Optimize the model",
+          "position": {
+            "page": 6,
+            "paragraph_index": 4,
+            "rect": [
+              19.607999801635742,
+              375.6085510253906,
+              262.3323059082031,
+              407.90997314453125
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Sequence of Steps\n\u2022Select factors and responses\n\u2022 Select experimental design\n\u2022 Run experiments\n\u2022 Fit model form\n\u2022 Determine significant factors\n\u2022 Set unimportant factors to economical settings and plan \nnext experiment\n\u2022 Optimize the model\n"
+    },
+    {
+      "page_number": 8,
+      "paragraphs": [
+        {
+          "text": "Factors, Levels  and Responses",
+          "position": {
+            "page": 7,
+            "paragraph_index": 0,
+            "rect": [
+              43.20000076293945,
+              34.311988830566406,
+              531.0735473632812,
+              74.29598999023438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u25aa  Problem Definition",
+          "position": {
+            "page": 7,
+            "paragraph_index": 1,
+            "rect": [
+              43.20000076293945,
+              112.64603424072266,
+              285.1953430175781,
+              144.77000427246094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u25aa Select the factor levels that make the  pizza delicious in taste and  consistent in shape.",
+          "position": {
+            "page": 7,
+            "paragraph_index": 2,
+            "rect": [
+              43.20000076293945,
+              150.70394897460938,
+              604.5658569335938,
+              197.7799835205078
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u25aa  Factors, Levels, and Ranges of Interest",
+          "position": {
+            "page": 7,
+            "paragraph_index": 3,
+            "rect": [
+              43.20000076293945,
+              205.7960205078125,
+              505.3125305175781,
+              237.9199981689453
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Factors Levels (low, high) Responses",
+          "position": {
+            "page": 7,
+            "paragraph_index": 4,
+            "rect": [
+              115.22000122070312,
+              246.67999267578125,
+              472.8703918457031,
+              262.6399841308594
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Flour Cheap, Expensive Taste",
+          "position": {
+            "page": 7,
+            "paragraph_index": 5,
+            "rect": [
+              115.22000122070312,
+              287.6499938964844,
+              436.9066162109375,
+              303.6099853515625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Yeast Less, More Consistency",
+          "position": {
+            "page": 7,
+            "paragraph_index": 6,
+            "rect": [
+              115.22000122070312,
+              328.5899963378906,
+              480.2392578125,
+              344.54998779296875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Olive Oil Virgin, Extra Virgin",
+          "position": {
+            "page": 7,
+            "paragraph_index": 7,
+            "rect": [
+              115.22000122070312,
+              355.0099792480469,
+              378.8498840332031,
+              370.969970703125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Kneading Less, More",
+          "position": {
+            "page": 7,
+            "paragraph_index": 8,
+            "rect": [
+              115.22000122070312,
+              395.9599914550781,
+              329.46649169921875,
+              411.91998291015625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Mixture Old, New",
+          "position": {
+            "page": 7,
+            "paragraph_index": 9,
+            "rect": [
+              115.22000122070312,
+              422.3600158691406,
+              319.0017395019531,
+              438.32000732421875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Wood Unknown, Hickory",
+          "position": {
+            "page": 7,
+            "paragraph_index": 10,
+            "rect": [
+              115.22000122070312,
+              448.7820129394531,
+              377.79510498046875,
+              464.74200439453125
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Factors, Levels  and Responses\n\u25aa Problem Definition\n\u25aa\nSelect the factor levels that make the  pizza delicious in taste and \nconsistent in shape.\n\u25aa Factors, Levels, and Ranges of Interest\nFactors\nLevels (low, high)\nResponses\nFlour\nCheap, Expensive\nTaste\nYeast\nLess, More\nConsistency\nOlive Oil\nVirgin, Extra Virgin\nKneading\nLess, More\nMixture\nOld, New\nWood\nUnknown, Hickory\n"
+    },
+    {
+      "page_number": 9,
+      "paragraphs": [
+        {
+          "text": "Paper Helicopter",
+          "position": {
+            "page": 8,
+            "paragraph_index": 0,
+            "rect": [
+              38.928001403808594,
+              32.33200454711914,
+              334.144775390625,
+              76.39600372314453
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Factors low high",
+          "position": {
+            "page": 8,
+            "paragraph_index": 1,
+            "rect": [
+              71.05985260009766,
+              130.42300415039062,
+              312.76580810546875,
+              154.04393005371094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "A Body height cm 1.5 4",
+          "position": {
+            "page": 8,
+            "paragraph_index": 2,
+            "rect": [
+              48.94261932373047,
+              153.33006286621094,
+              336.5137939453125,
+              176.95098876953125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "B Foldover length cm 0.5 1.5",
+          "position": {
+            "page": 8,
+            "paragraph_index": 3,
+            "rect": [
+              48.94261932373047,
+              174.6310577392578,
+              336.51092529296875,
+              198.25198364257812
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "C Tail length cm 2 5",
+          "position": {
+            "page": 8,
+            "paragraph_index": 4,
+            "rect": [
+              48.94261932373047,
+              195.93887329101562,
+              336.5137939453125,
+              219.55979919433594
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "D Wing width cm 2 4",
+          "position": {
+            "page": 8,
+            "paragraph_index": 5,
+            "rect": [
+              48.94261932373047,
+              217.20582580566406,
+              336.5137939453125,
+              240.82675170898438
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "E Wing length cm 3 6",
+          "position": {
+            "page": 8,
+            "paragraph_index": 6,
+            "rect": [
+              48.94261932373047,
+              238.51364135742188,
+              336.5137939453125,
+              262.13458251953125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "F Pitch angle deg. 0 20",
+          "position": {
+            "page": 8,
+            "paragraph_index": 7,
+            "rect": [
+              48.94261932373047,
+              259.82147216796875,
+              336.52685546875,
+              283.4424133300781
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "G Paper type lined regular",
+          "position": {
+            "page": 8,
+            "paragraph_index": 8,
+            "rect": [
+              48.94261932373047,
+              281.0884094238281,
+              333.51202392578125,
+              304.7093505859375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1 cm is 2 squares",
+          "position": {
+            "page": 8,
+            "paragraph_index": 9,
+            "rect": [
+              71.05985260009766,
+              323.7035217285156,
+              205.34304809570312,
+              347.324462890625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "E",
+          "position": {
+            "page": 8,
+            "paragraph_index": 10,
+            "rect": [
+              411.94000244140625,
+              140.62001037597656,
+              427.947998046875,
+              173.59600830078125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "D",
+          "position": {
+            "page": 8,
+            "paragraph_index": 11,
+            "rect": [
+              381.94000244140625,
+              260.6400146484375,
+              399.26800537109375,
+              293.6159973144531
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "C",
+          "position": {
+            "page": 8,
+            "paragraph_index": 12,
+            "rect": [
+              471.4599914550781,
+              284.6400146484375,
+              488.7879943847656,
+              317.6159973144531
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "B",
+          "position": {
+            "page": 8,
+            "paragraph_index": 13,
+            "rect": [
+              567.9600219726562,
+              404.6600036621094,
+              583.968017578125,
+              437.635986328125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "A",
+          "position": {
+            "page": 8,
+            "paragraph_index": 14,
+            "rect": [
+              538.8200073242188,
+              194.59420776367188,
+              554.843994140625,
+              227.6031951904297
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "F",
+          "position": {
+            "page": 8,
+            "paragraph_index": 15,
+            "rect": [
+              447.94000244140625,
+              224.75999450683594,
+              462.60400390625,
+              257.7359924316406
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Paper Helicopter\nFactors\nlow\nhigh\nA Body height\ncm\n1.5\n4\nB Foldover length cm\n0.5\n1.5\nC Tail length\ncm\n2\n5\nD Wing width\ncm\n2\n4\nE Wing length\ncm\n3\n6\nF Pitch angle\ndeg.\n0\n20\nG Paper type\nlined regular\n1 cm is 2 squares\nE\nD\nC\nB\nA\nF\n"
+    },
+    {
+      "page_number": 10,
+      "paragraphs": [
+        {
+          "text": "\u25aa  Problem Definition",
+          "position": {
+            "page": 9,
+            "paragraph_index": 0,
+            "rect": [
+              43.20000076293945,
+              112.64603424072266,
+              285.1953430175781,
+              144.77000427246094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u25aa Select the factor levels that make the helicopter stay in the air as long as  possible.  Maybe also, for the helicopter to spin many times before it  lands.",
+          "position": {
+            "page": 9,
+            "paragraph_index": 1,
+            "rect": [
+              43.20000076293945,
+              150.70394897460938,
+              661.427490234375,
+              221.7799835205078
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u25aa  Factors, Levels, and Ranges of Interest",
+          "position": {
+            "page": 9,
+            "paragraph_index": 2,
+            "rect": [
+              43.20000076293945,
+              229.7960205078125,
+              505.3125305175781,
+              261.91998291015625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Factors, Levels  and Responses",
+          "position": {
+            "page": 9,
+            "paragraph_index": 4,
+            "rect": [
+              43.20000076293945,
+              34.311988830566406,
+              531.0735473632812,
+              74.29598999023438
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "\u25aa Problem Definition\n\u25aa\nSelect the factor levels that make the helicopter stay in the air as long as \npossible.  Maybe also, for the helicopter to spin many times before it \nlands. \n\u25aa Factors, Levels, and Ranges of Interest\nFactors, Levels  and Responses\n"
+    },
+    {
+      "page_number": 11,
+      "paragraphs": [
+        {
+          "text": "Some factors levels and responses for cycling time to",
+          "position": {
+            "page": 10,
+            "paragraph_index": 0,
+            "rect": [
+              59.279998779296875,
+              237.79998779296875,
+              666.8529663085938,
+              265.7599792480469
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "ISE from Hostel?",
+          "position": {
+            "page": 10,
+            "paragraph_index": 1,
+            "rect": [
+              266.3299865722656,
+              271.3819885253906,
+              453.637451171875,
+              299.3659973144531
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Factors, Levels  and Responses",
+          "position": {
+            "page": 10,
+            "paragraph_index": 2,
+            "rect": [
+              43.20000076293945,
+              34.311988830566406,
+              531.0735473632812,
+              74.29598999023438
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Some factors levels and responses for cycling time to \nISE from Hostel?\nFactors, Levels  and Responses\n"
+    },
+    {
+      "page_number": 12,
+      "paragraphs": [
+        {
+          "text": "Sequence of Steps",
+          "position": {
+            "page": 11,
+            "paragraph_index": 0,
+            "rect": [
+              38.928001403808594,
+              32.33200454711914,
+              362.9182434082031,
+              76.39600372314453
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Select factors and responses \u2022 Select experimental design",
+          "position": {
+            "page": 11,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              90.91856384277344,
+              472.931884765625,
+              176.25999450683594
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Run experiments \u2022  Fit model form \u2022  Determine significant factors \u2022  Set unimportant factors to economical settings and plan",
+          "position": {
+            "page": 11,
+            "paragraph_index": 2,
+            "rect": [
+              19.607999801635742,
+              184.37681579589844,
+              679.56787109375,
+              337.45001220703125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "next experiment",
+          "position": {
+            "page": 11,
+            "paragraph_index": 3,
+            "rect": [
+              37.63199996948242,
+              339.75,
+              223.9563751220703,
+              367.7099914550781
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Optimize the model",
+          "position": {
+            "page": 11,
+            "paragraph_index": 4,
+            "rect": [
+              19.607999801635742,
+              375.6085510253906,
+              262.3323059082031,
+              407.90997314453125
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Sequence of Steps\n\u2022 Select factors and responses\n\u2022Select experimental design\n\u2022 Run experiments\n\u2022 Fit model form\n\u2022 Determine significant factors\n\u2022 Set unimportant factors to economical settings and plan \nnext experiment\n\u2022 Optimize the model\n"
+    },
+    {
+      "page_number": 13,
+      "paragraphs": [
+        {
+          "text": "Select Experimental Design",
+          "position": {
+            "page": 12,
+            "paragraph_index": 0,
+            "rect": [
+              38.928001403808594,
+              32.33200454711914,
+              516.7374267578125,
+              76.39600372314453
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "http://www.itl.nist.gov/div898/handbook/pri/secti on3/pri33.htm",
+          "position": {
+            "page": 12,
+            "paragraph_index": 1,
+            "rect": [
+              61.20000076293945,
+              137.37188720703125,
+              535.982177734375,
+              192.8013916015625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Full Factorial",
+          "position": {
+            "page": 12,
+            "paragraph_index": 2,
+            "rect": [
+              76.27200317382812,
+              257.0899963378906,
+              199.7398223876953,
+              281.0899963378906
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Box-Behnken",
+          "position": {
+            "page": 12,
+            "paragraph_index": 3,
+            "rect": [
+              248.02000427246094,
+              326.53997802734375,
+              375.9974060058594,
+              350.53997802734375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Plackett- Burman",
+          "position": {
+            "page": 12,
+            "paragraph_index": 4,
+            "rect": [
+              83.59200286865234,
+              368.71002197265625,
+              170.12451171875,
+              421.5160217285156
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Latin",
+          "position": {
+            "page": 12,
+            "paragraph_index": 5,
+            "rect": [
+              475.94000244140625,
+              338.71002197265625,
+              528.9097900390625,
+              362.71002197265625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Hypercube",
+          "position": {
+            "page": 12,
+            "paragraph_index": 6,
+            "rect": [
+              446.7799987792969,
+              367.510009765625,
+              552.609375,
+              391.510009765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Fractional  Factorial",
+          "position": {
+            "page": 12,
+            "paragraph_index": 7,
+            "rect": [
+              431.760009765625,
+              212.69000244140625,
+              533.6658325195312,
+              265.489990234375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Central",
+          "position": {
+            "page": 12,
+            "paragraph_index": 8,
+            "rect": [
+              392.6600036621094,
+              434.7359924316406,
+              468.23779296875,
+              458.7359924316406
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Composite",
+          "position": {
+            "page": 12,
+            "paragraph_index": 9,
+            "rect": [
+              375.5,
+              463.5360107421875,
+              479.96142578125,
+              487.5360107421875
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Select Experimental Design\nhttp://www.itl.nist.gov/div898/handbook/pri/secti\non3/pri33.htm\nFull Factorial\nBox-Behnken\nPlackett-\nBurman \nLatin \nHypercube\nFractional \nFactorial\nCentral \nComposite\n"
+    },
+    {
+      "page_number": 14,
+      "paragraphs": [
+        {
+          "text": "Factorial Design",
+          "position": {
+            "page": 13,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              299.52593994140625,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  For experiments that involve the study of the effects of two or",
+          "position": {
+            "page": 13,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              86.29667663574219,
+              697.2791748046875,
+              116.37999725341797
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "more factors, factorial designs are most efficient for this type  of experiment.",
+          "position": {
+            "page": 13,
+            "paragraph_index": 2,
+            "rect": [
+              37.63199996948242,
+              112.17999267578125,
+              685.639404296875,
+              160.0599822998047
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Factorial design, means that in each complete trial or replicate",
+          "position": {
+            "page": 13,
+            "paragraph_index": 3,
+            "rect": [
+              19.607999801635742,
+              161.7766876220703,
+              701.02880859375,
+              191.86000061035156
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "of the experiment all possible combinations of the levels of  the factors are investigated.",
+          "position": {
+            "page": 13,
+            "paragraph_index": 4,
+            "rect": [
+              37.63199996948242,
+              187.66000366210938,
+              665.7706298828125,
+              235.54600524902344
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  For example, if there are  \ud835\udc4e  levels of factor A and  \ud835\udc4e\udc4f  levels of",
+          "position": {
+            "page": 13,
+            "paragraph_index": 5,
+            "rect": [
+              19.607999801635742,
+              237.2866668701172,
+              663.32421875,
+              267.3699951171875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "factor B, each replicate contains all  \ud835\udc4e\ud835\udc4e\udc4f  treatment  combinations.",
+          "position": {
+            "page": 13,
+            "paragraph_index": 6,
+            "rect": [
+              37.63199996948242,
+              262.44525146484375,
+              558.329833984375,
+              311.04998779296875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Factorial design are often said to be crossed design. \u2022  The effect of a factor is defined to be the change in response",
+          "position": {
+            "page": 13,
+            "paragraph_index": 7,
+            "rect": [
+              19.607999801635742,
+              312.864990234375,
+              681.4207763671875,
+              374.7900085449219
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "produced by a change in the level of the factor.",
+          "position": {
+            "page": 13,
+            "paragraph_index": 8,
+            "rect": [
+              37.63199996948242,
+              370.5899963378906,
+              537.7581787109375,
+              396.6300048828125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  This is frequently called a  main effect  because it refers to the",
+          "position": {
+            "page": 13,
+            "paragraph_index": 9,
+            "rect": [
+              19.607999801635742,
+              398.3466491699219,
+              685.99560546875,
+              428.42999267578125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "primary factors of interest in the experiment.",
+          "position": {
+            "page": 13,
+            "paragraph_index": 10,
+            "rect": [
+              37.63199996948242,
+              424.2300109863281,
+              513.1859130859375,
+              450.27001953125
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Factorial Design\n\u2022 For experiments that involve the study of the effects of two or \nmore factors, factorial designs are most efficient for this type \nof experiment. \n\u2022 Factorial design, means that in each complete trial or replicate \nof the experiment all possible combinations of the levels of \nthe factors are investigated. \n\u2022 For example, if there are \ud835\udc4e levels of factor A and \ud835\udc4e\ufffd\ufffd\ufffd levels of \nfactor B, each replicate contains all \ud835\udc4e\ud835\udc4e\ufffd\ufffd\ufffd treatment \ncombinations. \n\u2022 Factorial design are often said to be crossed design.\n\u2022 The effect of a factor is defined to be the change in response \nproduced by a change in the level of the factor. \n\u2022 This is frequently called a main effect because it refers to the \nprimary factors of interest in the experiment.\n"
+    },
+    {
+      "page_number": 15,
+      "paragraphs": [
+        {
+          "text": "Main Effects",
+          "position": {
+            "page": 14,
+            "paragraph_index": 0,
+            "rect": [
+              38.928001403808594,
+              32.33200454711914,
+              255.7986297607422,
+              76.39600372314453
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Run Factor A Factor B Response Y",
+          "position": {
+            "page": 14,
+            "paragraph_index": 1,
+            "rect": [
+              43.20000076293945,
+              174.95001220703125,
+              553.717529296875,
+              192.95001220703125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1 + + 40",
+          "position": {
+            "page": 14,
+            "paragraph_index": 2,
+            "rect": [
+              43.20000076293945,
+              204.11199951171875,
+              487.5251770019531,
+              222.13600158691406
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 - + 20",
+          "position": {
+            "page": 14,
+            "paragraph_index": 3,
+            "rect": [
+              43.20000076293945,
+              233.32199096679688,
+              487.5251770019531,
+              251.3459930419922
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "3 + - 30",
+          "position": {
+            "page": 14,
+            "paragraph_index": 4,
+            "rect": [
+              43.20000076293945,
+              262.54998779296875,
+              487.5130310058594,
+              280.54998779296875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "4 - - 10",
+          "position": {
+            "page": 14,
+            "paragraph_index": 5,
+            "rect": [
+              43.20000076293945,
+              291.760009765625,
+              487.5130310058594,
+              309.760009765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 Factor 2 Level design  without  interaction",
+          "position": {
+            "page": 14,
+            "paragraph_index": 6,
+            "rect": [
+              43.20000076293945,
+              123.11328125,
+              468.3416748046875,
+              149.69140625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "B +",
+          "position": {
+            "page": 14,
+            "paragraph_index": 7,
+            "rect": [
+              95.16000366210938,
+              391.54876708984375,
+              104.52457427978516,
+              423.90216064453125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "B +",
+          "position": {
+            "page": 14,
+            "paragraph_index": 8,
+            "rect": [
+              253.44000244140625,
+              358.9587707519531,
+              262.8045654296875,
+              391.3070068359375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "B-",
+          "position": {
+            "page": 14,
+            "paragraph_index": 9,
+            "rect": [
+              100.05999755859375,
+              421.1187744140625,
+              114.09542846679688,
+              436.6669921875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "B-",
+          "position": {
+            "page": 14,
+            "paragraph_index": 10,
+            "rect": [
+              257.8299865722656,
+              381.78875732421875,
+              271.86541748046875,
+              397.33697509765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "A+ A-",
+          "position": {
+            "page": 14,
+            "paragraph_index": 11,
+            "rect": [
+              106.37000274658203,
+              457.0007629394531,
+              259.248046875,
+              472.5489807128906
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "10",
+          "position": {
+            "page": 14,
+            "paragraph_index": 12,
+            "rect": [
+              47.0880012512207,
+              429.73065185546875,
+              59.0880012512207,
+              443.01971435546875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "20",
+          "position": {
+            "page": 14,
+            "paragraph_index": 13,
+            "rect": [
+              47.0880012512207,
+              408.3966369628906,
+              59.0880012512207,
+              421.6856994628906
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "30",
+          "position": {
+            "page": 14,
+            "paragraph_index": 14,
+            "rect": [
+              47.0880012512207,
+              383.6466369628906,
+              59.0880012512207,
+              396.9356994628906
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "40",
+          "position": {
+            "page": 14,
+            "paragraph_index": 15,
+            "rect": [
+              47.0880012512207,
+              361.01666259765625,
+              59.0880012512207,
+              374.30572509765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Y",
+          "position": {
+            "page": 14,
+            "paragraph_index": 16,
+            "rect": [
+              14.877281188964844,
+              389.2779541015625,
+              41.455406188964844,
+              406.6099853515625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Main Effects:",
+          "position": {
+            "page": 14,
+            "paragraph_index": 17,
+            "rect": [
+              331.25,
+              330.93206787109375,
+              447.4420166015625,
+              353.12481689453125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc52 \ud835\udc34  =  \u0d24 \ud835\udc4c \ud835\udc34+  \u2212  \u0d24 \ud835\udc4c \ud835\udc34\u2212  =   30 + 40",
+          "position": {
+            "page": 14,
+            "paragraph_index": 18,
+            "rect": [
+              332.0899963378906,
+              354.3222351074219,
+              553.2063598632812,
+              393.56756591796875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 \u2212   10 + 20",
+          "position": {
+            "page": 14,
+            "paragraph_index": 19,
+            "rect": [
+              513.5499877929688,
+              354.3222351074219,
+              645.516357421875,
+              402.9522399902344
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 = 20",
+          "position": {
+            "page": 14,
+            "paragraph_index": 20,
+            "rect": [
+              605.8599853515625,
+              369.423583984375,
+              693.8896484375,
+              402.9522399902344
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc52 \ud835\udc34\udc35  =  \u0d24 \ud835\udc4c \ud835\udc34\udc35+  \u2212  \u0d24 \ud835\udc4c \ud835\udc34\udc35\u2212  =  20 + 40",
+          "position": {
+            "page": 14,
+            "paragraph_index": 21,
+            "rect": [
+              353.92999267578125,
+              423.23223876953125,
+              579.6303100585938,
+              462.4682312011719
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 \u2212  10 + 30",
+          "position": {
+            "page": 14,
+            "paragraph_index": 22,
+            "rect": [
+              539.9500122070312,
+              423.23223876953125,
+              671.9163818359375,
+              471.8282470703125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2",
+          "position": {
+            "page": 14,
+            "paragraph_index": 23,
+            "rect": [
+              632.260009765625,
+              451.7882385253906,
+              643.3563842773438,
+              471.8282470703125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "= 10",
+          "position": {
+            "page": 14,
+            "paragraph_index": 24,
+            "rect": [
+              353.92999267578125,
+              471.10821533203125,
+              396.70635986328125,
+              491.1482238769531
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Main Effects\nRun\nFactor A\nFactor B\nResponse Y\n1\n+\n+\n40\n2\n-\n+\n20\n3\n+\n-\n30\n4\n-\n-\n10\n2 Factor 2 Level design without interaction\nB\n+\nB\n+\nB-\nB-\nA+\nA-\n10\n20\n30\n40\nY\nMain Effects:\n\ud835\udc52\ud835\udc34 = \u0d24\ud835\udc4c\ud835\udc34+ \u2212 \u0d24\ud835\udc4c\ud835\udc34\u2212 = 30 + 40\n2\n\u2212 10 + 20\n2\n= 20\n\ud835\udc52\ud835\udc34\ufffd\ufffd\ufffd = \u0d24\ud835\udc4c\ud835\udc34\ufffd\ufffd\ufffd+ \u2212 \u0d24\ud835\udc4c\ud835\udc34\ufffd\ufffd\ufffd\u2212 = 20 + 40\n2\n\u2212 10 + 30\n2\n= 10\n"
+    },
+    {
+      "page_number": 16,
+      "paragraphs": [
+        {
+          "text": "Main Effects",
+          "position": {
+            "page": 15,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              236.56675720214844,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc34 =",
+          "position": {
+            "page": 15,
+            "paragraph_index": 2,
+            "rect": [
+              451.3900146484375,
+              140.09336853027344,
+              491.53759765625,
+              164.1173553466797
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "B  =",
+          "position": {
+            "page": 15,
+            "paragraph_index": 3,
+            "rect": [
+              445.2699890136719,
+              223.82327270507812,
+              486.8131408691406,
+              250.40139770507812
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Main Effects\n\ud835\udc34 =\nB  =\n"
+    },
+    {
+      "page_number": 17,
+      "paragraphs": [
+        {
+          "text": "Effects",
+          "position": {
+            "page": 16,
+            "paragraph_index": 0,
+            "rect": [
+              38.928001403808594,
+              32.33200454711914,
+              155.37677001953125,
+              76.39600372314453
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Run Factor A Factor B AB Response Y",
+          "position": {
+            "page": 16,
+            "paragraph_index": 1,
+            "rect": [
+              43.20000076293945,
+              174.95001220703125,
+              601.0276489257812,
+              192.95001220703125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1 + + + 0",
+          "position": {
+            "page": 16,
+            "paragraph_index": 2,
+            "rect": [
+              43.20000076293945,
+              204.11199951171875,
+              525.7152099609375,
+              222.13600158691406
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 - + - 20",
+          "position": {
+            "page": 16,
+            "paragraph_index": 3,
+            "rect": [
+              43.20000076293945,
+              233.32199096679688,
+              534.835205078125,
+              251.3459930419922
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "3 + - - 30",
+          "position": {
+            "page": 16,
+            "paragraph_index": 4,
+            "rect": [
+              43.20000076293945,
+              262.54998779296875,
+              534.8230590820312,
+              280.54998779296875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "4 - - + 10",
+          "position": {
+            "page": 16,
+            "paragraph_index": 5,
+            "rect": [
+              43.20000076293945,
+              291.760009765625,
+              534.8230590820312,
+              309.760009765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 Factor 2 Level design  with   interaction  (difference in response in the levels of 1 factor is not the same for all the levels of other factors)",
+          "position": {
+            "page": 16,
+            "paragraph_index": 6,
+            "rect": [
+              14.447999954223633,
+              103.9932861328125,
+              682.00830078125,
+              159.37139892578125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Main Effects: \ud835\udc52 \ud835\udc34  =  \u0d24 \ud835\udc4c \ud835\udc34+  \u2212  \u0d24 \ud835\udc4c \ud835\udc34\u2212  =   30+0",
+          "position": {
+            "page": 16,
+            "paragraph_index": 7,
+            "rect": [
+              349.25,
+              338.00994873046875,
+              519.627685546875,
+              387.44903564453125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 \u2212   10+20",
+          "position": {
+            "page": 16,
+            "paragraph_index": 8,
+            "rect": [
+              499.510009765625,
+              358.902587890625,
+              581.2177124023438,
+              391.66259765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 = 0 *",
+          "position": {
+            "page": 16,
+            "paragraph_index": 9,
+            "rect": [
+              557.1099853515625,
+              363.68994140625,
+              628.0,
+              391.66259765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc52 \ud835\udc34\udc35  =  \u0d24 \ud835\udc4c \ud835\udc34\udc35+  \u2212  \u0d24 \ud835\udc4c \ud835\udc34\udc35\u2212  =  20 + 0",
+          "position": {
+            "page": 16,
+            "paragraph_index": 10,
+            "rect": [
+              373.9700012207031,
+              389.489013671875,
+              567.0767822265625,
+              424.8890380859375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 \u2212  10 + 30",
+          "position": {
+            "page": 16,
+            "paragraph_index": 11,
+            "rect": [
+              536.3499755859375,
+              389.489013671875,
+              650.1467895507812,
+              433.1743469238281
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 = 10",
+          "position": {
+            "page": 16,
+            "paragraph_index": 12,
+            "rect": [
+              614.5,
+              403.16900634765625,
+              693.5867919921875,
+              433.1743469238281
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc52 \ud835\udc34\ud835\udc34\udc35  =  \u0d24 \ud835\udc4c \ud835\udc34\ud835\udc34\udc35+  \u2212  \u0d24 \ud835\udc4c \ud835\udc34\ud835\udc34\udc35\u2212  =  10 + 0",
+          "position": {
+            "page": 16,
+            "paragraph_index": 13,
+            "rect": [
+              355.489990234375,
+              451.551025390625,
+              572.1467895507812,
+              486.9510192871094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 \u2212  20 + 30",
+          "position": {
+            "page": 16,
+            "paragraph_index": 14,
+            "rect": [
+              541.3900146484375,
+              451.551025390625,
+              655.0668334960938,
+              495.23101806640625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 = \u221220",
+          "position": {
+            "page": 16,
+            "paragraph_index": 15,
+            "rect": [
+              619.5399780273438,
+              465.23101806640625,
+              712.0668334960938,
+              495.23101806640625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "A+ A-",
+          "position": {
+            "page": 16,
+            "paragraph_index": 16,
+            "rect": [
+              112.87000274658203,
+              482.5367736816406,
+              288.18804931640625,
+              498.0849914550781
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Y",
+          "position": {
+            "page": 16,
+            "paragraph_index": 17,
+            "rect": [
+              14.877281188964844,
+              404.72796630859375,
+              41.455406188964844,
+              422.05999755859375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "B+",
+          "position": {
+            "page": 16,
+            "paragraph_index": 18,
+            "rect": [
+              97.75199890136719,
+              374.5373840332031,
+              115.04358673095703,
+              390.1121826171875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "B+ B-",
+          "position": {
+            "page": 16,
+            "paragraph_index": 19,
+            "rect": [
+              95.13600158691406,
+              413.5873718261719,
+              304.1780700683594,
+              438.2569885253906
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "B-",
+          "position": {
+            "page": 16,
+            "paragraph_index": 20,
+            "rect": [
+              286.8999938964844,
+              363.66876220703125,
+              300.9554138183594,
+              379.21697998046875
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Effects\nRun\nFactor A\nFactor B\nAB\nResponse Y\n1\n+\n+\n+\n0\n2\n-\n+\n-\n20\n3\n+\n-\n-\n30\n4\n-\n-\n+\n10\n2 Factor 2 Level design with interaction (difference in response in\nthe levels of 1 factor is not the same for all the levels of other factors)\nMain Effects:\n\ud835\udc52\ud835\udc34 = \u0d24\ud835\udc4c\ud835\udc34+ \u2212 \u0d24\ud835\udc4c\ud835\udc34\u2212 = 30+0\n2\n\u2212 10+20\n2\n= 0* \n\ud835\udc52\ud835\udc34\ufffd\ufffd\ufffd = \u0d24\ud835\udc4c\ud835\udc34\ufffd\ufffd\ufffd+ \u2212 \u0d24\ud835\udc4c\ud835\udc34\ufffd\ufffd\ufffd\u2212 = 20 + 0\n2\n\u2212 10 + 30\n2\n= 10\n\ud835\udc52\ud835\udc34\ud835\udc34\ufffd\ufffd\ufffd = \u0d24\ud835\udc4c\ud835\udc34\ud835\udc34\ufffd\ufffd\ufffd+ \u2212 \u0d24\ud835\udc4c\ud835\udc34\ud835\udc34\ufffd\ufffd\ufffd\u2212 = 10 + 0\n2\n\u2212 20 + 30\n2\n= \u221220\nA+\nA-\nY\nB+\nB+\nB-\nB-\n"
+    },
+    {
+      "page_number": 18,
+      "paragraphs": [
+        {
+          "text": "Main Effects with Interaction",
+          "position": {
+            "page": 17,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              527.4249877929688,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc34 =",
+          "position": {
+            "page": 17,
+            "paragraph_index": 2,
+            "rect": [
+              427.3900146484375,
+              194.14202880859375,
+              467.5196838378906,
+              218.14202880859375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "B  =",
+          "position": {
+            "page": 17,
+            "paragraph_index": 3,
+            "rect": [
+              421.2699890136719,
+              277.8019104003906,
+              462.78265380859375,
+              304.4066162109375
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Main Effects with Interaction\n\ud835\udc34 =\nB  =\n"
+    },
+    {
+      "page_number": 19,
+      "paragraphs": [
+        {
+          "text": "Factorial Design to Fitting Regression Lines",
+          "position": {
+            "page": 18,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              26.10199546813965,
+              699.6846923828125,
+              66.08599853515625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  The linear regression model representation     \ud835\udc65\udc66 = \ud835\udefd 0  + \ud835\udefd 1 \ud835\udc65 1  + \ud835\udefd 2 \ud835\udc65 2  + \ud835\udefd 12 \ud835\udc65 1 \ud835\udc65 2  + \ud835\udf16",
+          "position": {
+            "page": 18,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              90.91856384277344,
+              533.4766845703125,
+              168.52182006835938
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Where  \ud835\udf16~\ud835\udc41 0, \ud835\udf0e 2",
+          "position": {
+            "page": 18,
+            "paragraph_index": 2,
+            "rect": [
+              19.607999801635742,
+              173.44223022460938,
+              372.7637023925781,
+              206.50001525878906
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  For 2 level factorial design  \ud835\udefd \ud835\udc56\udc57  =",
+          "position": {
+            "page": 18,
+            "paragraph_index": 3,
+            "rect": [
+              19.607999801635742,
+              225.7085418701172,
+              394.6880798339844,
+              262.9918212890625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc38\ud835\udc52\udc53\ud835\udc52\udc53\ud835\udc52\ud835\udc4e\udc50\ud835\udc5f\udc61 \ud835\udc57",
+          "position": {
+            "page": 18,
+            "paragraph_index": 4,
+            "rect": [
+              402.4800109863281,
+              216.55224609375,
+              479.45953369140625,
+              240.5924072265625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2",
+          "position": {
+            "page": 18,
+            "paragraph_index": 5,
+            "rect": [
+              435.4800109863281,
+              249.19223022460938,
+              447.2837219238281,
+              269.59222412109375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  True for both main and interaction effects \u2022  \ud835\udefd 0  = \ud835\udc34\ud835\udc5f\udc63\ud835\udc52\ud835\udc5f\ud835\udc4e\ud835\udc52\udc54\ud835\udc52 \ud835\udc59\udc5c\ud835\udc52\udc53 \ud835\udc4e\ud835\udc59\ud835\udc59 \ud835\udc5f\ud835\udc52\ud835\udc5f\udc60\ud835\udc59\udc5d\ud835\udc59\udc5c\ud835\udc59\udc5b\ud835\udc5f\udc60\ud835\udc52\ud835\udc5f\udc60 \u2022  These estimates are equal to least square regression",
+          "position": {
+            "page": 18,
+            "paragraph_index": 6,
+            "rect": [
+              19.607999801635742,
+              271.3085632324219,
+              637.1246948242188,
+              384.1499938964844
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "estimates.",
+          "position": {
+            "page": 18,
+            "paragraph_index": 7,
+            "rect": [
+              37.63199996948242,
+              386.42999267578125,
+              154.40530395507812,
+              414.3899841308594
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Factorial Design to Fitting Regression Lines\n\u2022 The linear regression model representation \n  \ud835\udc65\ufffd\ufffd\ufffd = \ud835\udefd0 + \ud835\udefd1\ud835\udc651 + \ud835\udefd2\ud835\udc652 + \ud835\udefd12\ud835\udc651\ud835\udc652 + \ud835\udf16\n                       Where \ud835\udf16~\ud835\udc41 0, \ud835\udf0e2\n\u2022 For 2 level factorial design \ud835\udefd\ud835\udc56\ufffd\ufffd\ufffd =\n\ud835\udc38\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc57\n2\n\u2022 True for both main and interaction effects\n\u2022 \ud835\udefd0 = \ud835\udc34\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc5f\ud835\udc4e\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52 \ud835\udc59\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd \ud835\udc4e\ud835\udc59\ud835\udc59 \ud835\udc5f\ud835\udc52\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc5f\ufffd\ufffd\ufffd\n\u2022 These estimates are equal to least square regression \nestimates.\n"
+    },
+    {
+      "page_number": 20,
+      "paragraphs": [
+        {
+          "text": "2 Factor Factorial Design",
+          "position": {
+            "page": 19,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              452.6043701171875,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Factor A has  \ud835\udc4e  levels, factor B has  \ud835\udc4e\udc4f  levels, each combination      replicated n times. \u2022  The experimental run order should be  randomized",
+          "position": {
+            "page": 19,
+            "paragraph_index": 2,
+            "rect": [
+              49.20000076293945,
+              359.10345458984375,
+              669.0939331054688,
+              443.6513977050781
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "2 Factor Factorial Design\n\u2022 Factor A has \ud835\udc4e levels, factor B has \ud835\udc4e\ufffd\ufffd\ufffd levels, each combination\n     replicated n times.\n\u2022 The experimental run order should be randomized\n"
+    },
+    {
+      "page_number": 21,
+      "paragraphs": [
+        {
+          "text": "ANOVA for factorial design",
+          "position": {
+            "page": 20,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              487.5030517578125,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  The effects model is given by",
+          "position": {
+            "page": 20,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              88.27854919433594,
+              364.61407470703125,
+              120.57999420166016
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Testing hypothesis for equality of row treatments \ud835\udc3b 0 :  \ud835\udf0f 1  = \ud835\udf0f 2  = \u22ef = \ud835\udf0f \ud835\udc4e  = 0   ;   \ud835\udc3b 1 : \ud835\udc4e\ud835\udc5f\udc61 \ud835\udc59\ud835\udc52\ud835\udc4e\ud835\udc5f\udc60\ud835\udc5f\udc61 1 \ud835\udf0f \ud835\udc56  \u2260 0 \u2022  Testing hypothesis for equality of column treatments \ud835\udc3b 0 :  \ud835\udefd 1  = \ud835\udefd 2  = \u22ef = \ud835\udefd \ud835\udc4e\udc4f  = 0 ;  \ud835\udc3b 1 : \ud835\udc4e\ud835\udc5f\udc61 \ud835\udc59\ud835\udc52\ud835\udc4e\ud835\udc5f\udc60\ud835\udc5f\udc61 1 \ud835\udefd \ud835\udc56\udc57  \u2260 0 \u2022  Testing hypothesis for interactions \ud835\udc3b 0 : \ud835\udf0f\ud835\udefd  \ud835\udc56\ud835\udc56\udc57  = 0  for all  \ud835\udc56, \ud835\udc56\udc57 ;  \ud835\udc3b 1 : \ud835\udc4e\ud835\udc5f\udc61 \ud835\udc59\ud835\udc52\ud835\udc4e\ud835\udc5f\udc60\ud835\udc5f\udc61 1 (\ud835\udf0f\ud835\udefd) \ud835\udc56\ud835\udc56\udc57 \u2260 0",
+          "position": {
+            "page": 20,
+            "paragraph_index": 2,
+            "rect": [
+              19.607999801635742,
+              235.78855895996094,
+              635.7650146484375,
+              460.6518249511719
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "ANOVA for factorial design\n\u2022 The effects model is given by\n\u2022 Testing hypothesis for equality of row treatments\n\ud835\udc3b0:  \ud835\udf0f1 = \ud835\udf0f2 = \u22ef = \ud835\udf0f\ud835\udc4e = 0  ;  \ud835\udc3b1: \ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd \ud835\udc59\ud835\udc52\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd 1 \ud835\udf0f\ud835\udc56 \u2260 0\n\u2022 Testing hypothesis for equality of column treatments\n\ud835\udc3b0:  \ud835\udefd1 = \ud835\udefd2 = \u22ef = \ud835\udefd\ud835\udc4e\ufffd\ufffd\ufffd = 0; \ud835\udc3b1: \ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd \ud835\udc59\ud835\udc52\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd 1 \ud835\udefd\ud835\udc56\ufffd\ufffd\ufffd \u2260 0\n\u2022 Testing hypothesis for interactions\n\ud835\udc3b0: \ud835\udf0f\ud835\udefd \ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd = 0 for all \ud835\udc56, \ud835\udc56\ufffd\ufffd\ufffd; \ud835\udc3b1: \ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd \ud835\udc59\ud835\udc52\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd 1 (\ud835\udf0f\ud835\udefd)\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\u2260 0\n"
+    },
+    {
+      "page_number": 22,
+      "paragraphs": [
+        {
+          "text": "2 Factor Factorial Design ANOVA",
+          "position": {
+            "page": 21,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              590.9666748046875,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Source SS Dof MS F F_crit",
+          "position": {
+            "page": 21,
+            "paragraph_index": 1,
+            "rect": [
+              46.31999969482422,
+              109.8599853515625,
+              650.7802734375,
+              127.8599853515625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "A SSA a-1 SSA/(a-1) MSA/MSE F(0.95,a-1,ab(n-1))",
+          "position": {
+            "page": 21,
+            "paragraph_index": 2,
+            "rect": [
+              65.63999938964844,
+              144.27999877929688,
+              690.3391723632812,
+              164.3199920654297
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "B SSB b-1 SSB/(b-1) MSB/MSE F(0.95,b-1, ab(n-1))",
+          "position": {
+            "page": 21,
+            "paragraph_index": 3,
+            "rect": [
+              66.12000274658203,
+              196.97000122070312,
+              692.7691650390625,
+              224.99000549316406
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "AB SSAB (a-1)(b-1) SSAB/((a-1)(b-1)) MSAB/MSE",
+          "position": {
+            "page": 21,
+            "paragraph_index": 4,
+            "rect": [
+              60.0,
+              289.82000732421875,
+              544.4008178710938,
+              309.8600158691406
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "F(0.95, (a-1)(b-1)",
+          "position": {
+            "page": 21,
+            "paragraph_index": 5,
+            "rect": [
+              575.1799926757812,
+              272.2400207519531,
+              684.6594848632812,
+              288.20001220703125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": ", ab(n-1))",
+          "position": {
+            "page": 21,
+            "paragraph_index": 6,
+            "rect": [
+              600.1400146484375,
+              291.44000244140625,
+              659.7391967773438,
+              307.3999938964844
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Error SSError ab(n-1) SSError/ab(n-1)",
+          "position": {
+            "page": 21,
+            "paragraph_index": 7,
+            "rect": [
+              51.0,
+              352.19000244140625,
+              423.02655029296875,
+              372.2300109863281
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Total SSTotal abn-1",
+          "position": {
+            "page": 21,
+            "paragraph_index": 8,
+            "rect": [
+              51.47999954223633,
+              379.9900207519531,
+              255.4169921875,
+              400.030029296875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "For  2 2  design, a=2, b=2 \ud835\udc46\ud835\udc46 \ud835\udc47  = \ud835\udc46\ud835\udc46 \ud835\udc34  + \ud835\udc46\ud835\udc46 \ud835\udc34\udc35  + \ud835\udc46\ud835\udc46 \ud835\udc34\ud835\udc34\udc35  + \ud835\udc46\ud835\udc46 \ud835\udc38",
+          "position": {
+            "page": 21,
+            "paragraph_index": 9,
+            "rect": [
+              31.823999404907227,
+              446.9320373535156,
+              346.3080749511719,
+              505.343994140625
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "2 Factor Factorial Design ANOVA\nSource\nSS\nDof\nMS\nF\nF_crit\nA\nSSA\na-1\nSSA/(a-1)\nMSA/MSE\nF(0.95,a-1,ab(n-1))\nB\nSSB\nb-1\nSSB/(b-1)\nMSB/MSE\nF(0.95,b-1, ab(n-1))\nAB\nSSAB\n(a-1)(b-1)\nSSAB/((a-1)(b-1))\nMSAB/MSE\nF(0.95, (a-1)(b-1)\n, ab(n-1))\nError\nSSError\nab(n-1)\nSSError/ab(n-1)\nTotal\nSSTotal\nabn-1\nFor 22 design, a=2, b=2\n\ud835\udc46\ud835\udc46\ud835\udc47 = \ud835\udc46\ud835\udc46\ud835\udc34 + \ud835\udc46\ud835\udc46\ud835\udc34\ufffd\ufffd\ufffd + \ud835\udc46\ud835\udc46\ud835\udc34\ud835\udc34\ufffd\ufffd\ufffd + \ud835\udc46\ud835\udc46\ud835\udc38\n"
+    },
+    {
+      "page_number": 23,
+      "paragraphs": [
+        {
+          "text": "Calculations",
+          "position": {
+            "page": 22,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              232.4687957763672,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Calculations\n"
+    },
+    {
+      "page_number": 24,
+      "paragraphs": [
+        {
+          "text": "Estimators",
+          "position": {
+            "page": 23,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              205.45755004882812,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \u0ddc\ud835\udf07 = \u0d24\ud835\udc65\udc66 \u2026 \u2022  \u01b8\ud835\udf0f \ud835\udc56  = \u0d24\ud835\udc65\udc66 \ud835\udc56 . . \u2212\u0d24\ud835\udc65\udc66 \u2026   for  \ud835\udc56 = 1, . . , \ud835\udc4e",
+          "position": {
+            "page": 23,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              91.03855895996094,
+              373.27734375,
+              168.52182006835938
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022   \u1218 \ud835\udefd \ud835\udc56\udc57  = \u0d24\ud835\udc65\udc66 .\ud835\udc56\udc57.  \u2212 \u0d24\ud835\udc65\udc66 \u2026   for  \ud835\udc56\udc57 = 1, . . , \ud835\udc4e\udc4f",
+          "position": {
+            "page": 23,
+            "paragraph_index": 2,
+            "rect": [
+              19.607999801635742,
+              172.24180603027344,
+              380.232177734375,
+              212.20181274414062
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022   \u0de2 \ud835\udf0f\ud835\udefd \ud835\udc56\ud835\udc56\udc57  = \u0d24\ud835\udc65\udc66 \ud835\udc56\ud835\udc56\udc57.  \u2212 \u0d24\ud835\udc65\udc66 \ud835\udc56..  \u2212 \u0d24\ud835\udc65\udc66 .\ud835\udc56\udc57.  + \u0d24\ud835\udc65\udc66 \u2026",
+          "position": {
+            "page": 23,
+            "paragraph_index": 3,
+            "rect": [
+              19.607999801635742,
+              217.1518096923828,
+              367.20458984375,
+              257.11181640625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "for  \ud835\udc56 = 1, . . , \ud835\udc4e   ,  \ud835\udc56\udc57 = 1, . . , \ud835\udc4e\udc4f",
+          "position": {
+            "page": 23,
+            "paragraph_index": 4,
+            "rect": [
+              19.607999801635742,
+              265.1518249511719,
+              323.2121887207031,
+              293.8899841308594
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Fitted  value  \u0ddc\ud835\udc65\udc66 \ud835\udc56\ud835\udc56\udc57\ud835\udc56\udc58  = \u0ddc\ud835\udf07 + \u01b8\ud835\udf0f \ud835\udc56  +  \u1218 \ud835\udefd \ud835\udc56\udc57  +  \u0de2 \ud835\udf0f\ud835\udefd \ud835\udc56\ud835\udc56\udc57  =  \u0d24\ud835\udc65\udc66 \ud835\udc56\ud835\udc56\udc57 .",
+          "position": {
+            "page": 23,
+            "paragraph_index": 5,
+            "rect": [
+              19.607999801635742,
+              302.4718322753906,
+              529.9772338867188,
+              342.43182373046875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Residual  \ud835\udc65\udc66 \ud835\udc56\ud835\udc56\udc57\ud835\udc56\udc58  \u2212 \u0ddc\ud835\udc65\udc66 \ud835\udc56\ud835\udc56\udc57\ud835\udc56\udc58",
+          "position": {
+            "page": 23,
+            "paragraph_index": 6,
+            "rect": [
+              19.607999801635742,
+              351.33184814453125,
+              244.16880798339844,
+              421.7099914550781
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Estimators\n\u2022 \u0ddc\ud835\udf07 = \u0d24\ud835\udc65\ufffd\ufffd\ufffd \u2026\n\u2022 \u01b8\ud835\udf0f\ud835\udc56 = \u0d24\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56. . \u2212\u0d24\ud835\udc65\ufffd\ufffd\ufffd \u2026  for \ud835\udc56 = 1, . . , \ud835\udc4e\n\u2022 \u1218\ud835\udefd\ud835\udc56\ufffd\ufffd\ufffd = \u0d24\ud835\udc65\ufffd\ufffd\ufffd.\ud835\udc56\ufffd\ufffd\ufffd. \u2212 \u0d24\ud835\udc65\ufffd\ufffd\ufffd \u2026  for \ud835\udc56\ufffd\ufffd\ufffd = 1, . . , \ud835\udc4e\ufffd\ufffd\ufffd\n\u2022 \u0de2\n\ud835\udf0f\ud835\udefd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd = \u0d24\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd. \u2212 \u0d24\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56.. \u2212 \u0d24\ud835\udc65\ufffd\ufffd\ufffd.\ud835\udc56\ufffd\ufffd\ufffd. + \u0d24\ud835\udc65\ufffd\ufffd\ufffd \u2026\nfor \ud835\udc56 = 1, . . , \ud835\udc4e  , \ud835\udc56\ufffd\ufffd\ufffd = 1, . . , \ud835\udc4e\ufffd\ufffd\ufffd\nFitted  value \u0ddc\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd = \u0ddc\ud835\udf07 + \u01b8\ud835\udf0f\ud835\udc56 + \u1218\ud835\udefd\ud835\udc56\ufffd\ufffd\ufffd + \u0de2\n\ud835\udf0f\ud835\udefd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd = \u0d24\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd. \nResidual \ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd \u2212 \u0ddc\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd\ud835\udc56\ufffd\ufffd\ufffd\n \n"
+    },
+    {
+      "page_number": 25,
+      "paragraphs": [
+        {
+          "text": "Advantages of Factorial Designs (FD)",
+          "position": {
+            "page": 24,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              659.3656616210938,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  FDs are more efficient than one factor at a time",
+          "position": {
+            "page": 24,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              90.91856384277344,
+              582.3229370117188,
+              123.22000885009766
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "experiments",
+          "position": {
+            "page": 24,
+            "paragraph_index": 2,
+            "rect": [
+              37.63199996948242,
+              125.5,
+              178.77723693847656,
+              153.4600067138672
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  FDs can reveal interaction effects, to avoid deriving",
+          "position": {
+            "page": 24,
+            "paragraph_index": 3,
+            "rect": [
+              19.607999801635742,
+              161.4785614013672,
+              621.2153930664062,
+              193.78001403808594
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "misleading conclusions",
+          "position": {
+            "page": 24,
+            "paragraph_index": 4,
+            "rect": [
+              37.63199996948242,
+              196.0419921875,
+              297.9423522949219,
+              224.0260009765625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  FDs allow the effects of a factor to be estimated at several",
+          "position": {
+            "page": 24,
+            "paragraph_index": 5,
+            "rect": [
+              19.607999801635742,
+              231.9485626220703,
+              701.4605102539062,
+              264.25
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "levels of the other factors, yielding conclusions that are  valid over a range of experimental conditions",
+          "position": {
+            "page": 24,
+            "paragraph_index": 6,
+            "rect": [
+              37.63199996948242,
+              266.5299987792969,
+              670.1172485351562,
+              324.72998046875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  FDs make the regression model fitting  easy",
+          "position": {
+            "page": 24,
+            "paragraph_index": 7,
+            "rect": [
+              19.607999801635742,
+              332.6485900878906,
+              530.2769775390625,
+              364.95001220703125
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Advantages of Factorial Designs (FD)\n\u2022 FDs are more efficient than one factor at a time \nexperiments\n\u2022 FDs can reveal interaction effects, to avoid deriving \nmisleading conclusions\n\u2022 FDs allow the effects of a factor to be estimated at several \nlevels of the other factors, yielding conclusions that are \nvalid over a range of experimental conditions\n\u2022 FDs make the regression model fitting  easy\n"
+    },
+    {
+      "page_number": 26,
+      "paragraphs": [
+        {
+          "text": "2 2  Design",
+          "position": {
+            "page": 25,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              16.41626739501953,
+              193.3360137939453,
+              68.5459976196289
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "22 Design\n"
+    },
+    {
+      "page_number": 27,
+      "paragraphs": [
+        {
+          "text": "2 2  Design with n Replicates",
+          "position": {
+            "page": 26,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              16.41626739501953,
+              502.0126037597656,
+              68.5459976196289
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "22 Design with n Replicates\n"
+    },
+    {
+      "page_number": 28,
+      "paragraphs": [
+        {
+          "text": "2 3  Design",
+          "position": {
+            "page": 27,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              16.41626739501953,
+              193.3360137939453,
+              68.5459976196289
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Design and Analysis of Experiments, D.C. Montgomery Ch 6.",
+          "position": {
+            "page": 27,
+            "paragraph_index": 3,
+            "rect": [
+              418.989990234375,
+              103.44000244140625,
+              709.7068481445312,
+              115.44000244140625
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "23 Design\nDesign and Analysis of Experiments, D.C. Montgomery Ch 6.\n"
+    },
+    {
+      "page_number": 29,
+      "paragraphs": [
+        {
+          "text": "Orthogonality",
+          "position": {
+            "page": 28,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              264.5121154785156,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1. Except column I, every column has equal number of + and -.",
+          "position": {
+            "page": 28,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              357.1199951171875,
+              641.5985717773438,
+              381.1199951171875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2. The sum of products of any 2 columns is 0.",
+          "position": {
+            "page": 28,
+            "paragraph_index": 2,
+            "rect": [
+              19.607999801635742,
+              390.1199951171875,
+              473.60272216796875,
+              414.1199951171875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "3. The product of any 2 columns results another column of the table",
+          "position": {
+            "page": 28,
+            "paragraph_index": 3,
+            "rect": [
+              19.607999801635742,
+              423.1199951171875,
+              697.861572265625,
+              447.1199951171875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  ## All of these are implied by  Orthogonality",
+          "position": {
+            "page": 28,
+            "paragraph_index": 4,
+            "rect": [
+              19.607999801635742,
+              452.49169921875,
+              465.13421630859375,
+              480.2460021972656
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Orthogonality\n1.\nExcept column I, every column has equal number of + and -.\n2.\nThe sum of products of any 2 columns is 0.\n3.\nThe product of any 2 columns results another column of the table\n\u2022 ## All of these are implied by Orthogonality\n"
+    },
+    {
+      "page_number": 30,
+      "paragraphs": [
+        {
+          "text": "ANOVA",
+          "position": {
+            "page": 29,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              148.20774841308594,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Sum of squares of  2 \ud835\udc56\udc58  designs can be calculated by",
+          "position": {
+            "page": 29,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              90.96356201171875,
+              617.568603515625,
+              124.06000518798828
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc46\ud835\udc46 \ud835\udc38\udc39\ud835\udc4e\ud835\udc4e\udc50\ud835\udc5f\udc61\ud835\udc5a\udc5c\ud835\udc5f  =",
+          "position": {
+            "page": 29,
+            "paragraph_index": 2,
+            "rect": [
+              19.607999801635742,
+              146.6818084716797,
+              503.5281066894531,
+              180.40182495117188
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc34\udc36\ud835\udc5a\udc5c\ud835\udc5a\udc5b\ud835\udc5f\udc61\ud835\udc5f\ud835\udc4e\ud835\udc5f\udc60\ud835\udc5f\udc61   2",
+          "position": {
+            "page": 29,
+            "paragraph_index": 3,
+            "rect": [
+              519.719970703125,
+              131.48240661621094,
+              627.8914184570312,
+              156.522216796875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 \ud835\udc57\udc58 \ud835\udc5a\udc5b",
+          "position": {
+            "page": 29,
+            "paragraph_index": 4,
+            "rect": [
+              551.4199829101562,
+              163.2824249267578,
+              588.1880493164062,
+              187.00222778320312
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc38\ud835\udc52\udc53\ud835\udc52\udc53\ud835\udc52\ud835\udc4e\udc50\ud835\udc5f\udc61 =",
+          "position": {
+            "page": 29,
+            "paragraph_index": 5,
+            "rect": [
+              19.607999801635742,
+              201.6231689453125,
+              501.14599609375,
+              230.38601684570312
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 \ud835\udc34\udc36\ud835\udc5a\udc5c\ud835\udc5a\udc5b\ud835\udc5f\udc60\ud835\udc5f\udc61\ud835\udc5f\ud835\udc4e\ud835\udc5f\udc60\ud835\udc5f\udc61",
+          "position": {
+            "page": 29,
+            "paragraph_index": 6,
+            "rect": [
+              508.9200134277344,
+              191.08224487304688,
+              628.1868896484375,
+              211.48223876953125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5a\udc5b2 \ud835\udc57\udc58",
+          "position": {
+            "page": 29,
+            "paragraph_index": 7,
+            "rect": [
+              554.5399780273438,
+              218.2237548828125,
+              590.7907104492188,
+              241.99221801757812
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "ANOVA\n\u2022 Sum of squares of 2\ud835\udc56\ufffd\ufffd\ufffd designs can be calculated by  \n                                                      \ud835\udc46\ud835\udc46\ud835\udc38\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f =\n\ud835\udc34\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd 2\n2\ud835\udc57\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\n \n \n \n \n \n\ud835\udc38\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd =\n2 \ud835\udc34\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\n\ud835\udc5a\ufffd\ufffd\ufffd2\ud835\udc57\ufffd\ufffd\ufffd\n"
+    },
+    {
+      "page_number": 31,
+      "paragraphs": [
+        {
+          "text": "Variance",
+          "position": {
+            "page": 30,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              171.3265380859375,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  If there are  \ud835\udc59\udc5b  replicates in each of the  2 \ud835\udc56\udc58  runs, and if",
+          "position": {
+            "page": 30,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              90.96356201171875,
+              640.8023681640625,
+              124.06000518798828
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc65\udc66 \ud835\udc561 , \ud835\udc65\udc66 \ud835\udc562  \u2026 , \ud835\udc65\udc66 \ud835\udc56\ud835\udc5a\udc5b  are the observations of the  \ud835\udc56 \ud835\udc5f\udc61\u210e  run, then  estimated variance of  \ud835\udc56 \ud835\udc5f\udc61\u210e  run is:",
+          "position": {
+            "page": 30,
+            "paragraph_index": 2,
+            "rect": [
+              37.63199996948242,
+              121.72222137451172,
+              666.4346313476562,
+              185.62001037597656
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc46 \ud835\udc56",
+          "position": {
+            "page": 30,
+            "paragraph_index": 3,
+            "rect": [
+              19.607999801635742,
+              205.94314575195312,
+              46.70395278930664,
+              239.23223876953125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2  =",
+          "position": {
+            "page": 30,
+            "paragraph_index": 4,
+            "rect": [
+              42.19200134277344,
+              194.66314697265625,
+              84.09801483154297,
+              233.92713928222656
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1",
+          "position": {
+            "page": 30,
+            "paragraph_index": 5,
+            "rect": [
+              105.91000366210938,
+              195.4022216796875,
+              117.71371459960938,
+              215.80221557617188
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5a\udc5b\u22121   \u03c3 \ud835\udc56\udc57=1",
+          "position": {
+            "page": 30,
+            "paragraph_index": 6,
+            "rect": [
+              91.75199890136719,
+              204.7431640625,
+              193.6737060546875,
+              247.9971466064453
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5a\udc5b \ud835\udc65\udc66 \ud835\udc56\ud835\udc56\udc57  \u2212 \u0d25\ud835\udc65\udc66 \ud835\udc56",
+          "position": {
+            "page": 30,
+            "paragraph_index": 7,
+            "rect": [
+              156.5500030517578,
+              200.44223022460938,
+              294.8919372558594,
+              239.71714782714844
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2   for  \ud835\udc56 = 1, . . , 2 \ud835\udc56\udc58",
+          "position": {
+            "page": 30,
+            "paragraph_index": 8,
+            "rect": [
+              309.4599914550781,
+              193.24221801757812,
+              505.31610107421875,
+              234.70599365234375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Overall variance estimate is given by:",
+          "position": {
+            "page": 30,
+            "paragraph_index": 9,
+            "rect": [
+              19.607999801635742,
+              288.46856689453125,
+              456.40509033203125,
+              320.7699890136719
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc46 2   = 1",
+          "position": {
+            "page": 30,
+            "paragraph_index": 10,
+            "rect": [
+              161.8300018310547,
+              335.4918212890625,
+              294.4617614746094,
+              384.5718078613281
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 \ud835\udc56\udc58 (\ud835\udc59\udc5b \u2212 1)  \u0dcd",
+          "position": {
+            "page": 30,
+            "paragraph_index": 11,
+            "rect": [
+              227.6199951171875,
+              356.61181640625,
+              387.68609619140625,
+              403.2918395996094
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56=1",
+          "position": {
+            "page": 30,
+            "paragraph_index": 12,
+            "rect": [
+              351.82000732421875,
+              398.1322326660156,
+              386.4437255859375,
+              418.5322265625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 \ud835\udc57\udc58",
+          "position": {
+            "page": 30,
+            "paragraph_index": 13,
+            "rect": [
+              357.4599914550781,
+              316.19244384765625,
+              380.0353088378906,
+              341.23223876953125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u0dcd",
+          "position": {
+            "page": 30,
+            "paragraph_index": 14,
+            "rect": [
+              392.3999938964844,
+              356.61181640625,
+              429.4660949707031,
+              384.5718078613281
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc56\udc57=1",
+          "position": {
+            "page": 30,
+            "paragraph_index": 15,
+            "rect": [
+              392.3999938964844,
+              398.1322326660156,
+              429.5237121582031,
+              418.5322265625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5a\udc5b",
+          "position": {
+            "page": 30,
+            "paragraph_index": 16,
+            "rect": [
+              404.1600036621094,
+              320.8322448730469,
+              417.4080505371094,
+              341.23223876953125
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc65\udc66 \ud835\udc56\ud835\udc56\udc57  \u2212 \u0d25\ud835\udc65\udc66 \ud835\udc56",
+          "position": {
+            "page": 30,
+            "paragraph_index": 17,
+            "rect": [
+              442.20001220703125,
+              356.61181640625,
+              530.7319946289062,
+              390.3318176269531
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2",
+          "position": {
+            "page": 30,
+            "paragraph_index": 18,
+            "rect": [
+              545.2999877929688,
+              343.8922424316406,
+              557.1036987304688,
+              364.292236328125
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Variance\n\u2022 If there are \ud835\udc59\ufffd\ufffd\ufffd replicates in each of the 2\ud835\udc56\ufffd\ufffd\ufffd runs, and if \n\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc561, \ud835\udc65\ufffd\ufffd\ufffd\ud835\udc562 \u2026 , \ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc5a\ufffd\ufffd\ufffd are the observations of the \ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\u210e run, then \nestimated variance of \ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd\u210e run is:\n \ud835\udc46\ud835\udc56\n2 =\n1\n\ud835\udc5a\ufffd\ufffd\ufffd\u22121 \u03c3\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc5a\ufffd\ufffd\ufffd\n\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd \u2212 \u0d25\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\n2  for \ud835\udc56 = 1, . . , 2\ud835\udc56\ufffd\ufffd\ufffd\n\u2022 Overall variance estimate is given by:\n\ud835\udc462 =\n1\n2\ud835\udc56\ufffd\ufffd\ufffd(\ud835\udc59\ufffd\ufffd\ufffd \u2212 1) \u0dcd\n\ud835\udc56=1\n2\ud835\udc57\ufffd\ufffd\ufffd\n\u0dcd\n\ud835\udc56\ufffd\ufffd\ufffd=1\n\ud835\udc5a\ufffd\ufffd\ufffd\n\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\ud835\udc56\ufffd\ufffd\ufffd \u2212 \u0d25\ud835\udc65\ufffd\ufffd\ufffd\ud835\udc56\n2\n"
+    },
+    {
+      "page_number": 32,
+      "paragraphs": [
+        {
+          "text": "Variance",
+          "position": {
+            "page": 31,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              171.3265380859375,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Variance of each effect estimate:",
+          "position": {
+            "page": 31,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              90.91856384277344,
+              408.87310791015625,
+              123.22000885009766
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc49 \ud835\udc38\ud835\udc52\udc53\ud835\udc52\udc53\ud835\udc52\ud835\udc4e\udc50\ud835\udc5f\udc61 = \ud835\udc49",
+          "position": {
+            "page": 31,
+            "paragraph_index": 2,
+            "rect": [
+              19.607999801635742,
+              142.60182189941406,
+              208.2386474609375,
+              171.3400115966797
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc34\udc36\ud835\udc5a\udc5c\ud835\udc5a\udc5b\ud835\udc5f\udc61\ud835\udc5f\ud835\udc4e\ud835\udc5f\udc60\ud835\udc5f\udc61",
+          "position": {
+            "page": 31,
+            "paragraph_index": 3,
+            "rect": [
+              227.6199951171875,
+              132.042236328125,
+              316.5319519042969,
+              152.44223022460938
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5a\udc5b2 \ud835\udc57\udc58\u22121 =",
+          "position": {
+            "page": 31,
+            "paragraph_index": 4,
+            "rect": [
+              242.6199951171875,
+              142.60182189941406,
+              359.6280822753906,
+              182.9222412109375
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "1",
+          "position": {
+            "page": 31,
+            "paragraph_index": 5,
+            "rect": [
+              405.8399963378906,
+              132.042236328125,
+              417.6437072753906,
+              152.44223022460938
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5a\udc5b2 \ud835\udc57\udc58\u22121 2  \ud835\udc49(\ud835\udc36\ud835\udc59\udc5c\ud835\udc59\udc5b\ud835\udc5f\udc61\ud835\udc5f\ud835\udc4e\ud835\udc5f\udc60\ud835\udc5f\udc61)",
+          "position": {
+            "page": 31,
+            "paragraph_index": 6,
+            "rect": [
+              376.55999755859375,
+              142.60182189941406,
+              614.864501953125,
+              187.36221313476562
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \ud835\udc49 \ud835\udc36\ud835\udc59\udc5c\ud835\udc59\udc5b\ud835\udc5f\udc61\ud835\udc5f\ud835\udc4e\ud835\udc5f\udc60\ud835\udc5f\udc61 = \ud835\udc59\udc5b2 \ud835\udc56\udc58 \ud835\udf0e 2",
+          "position": {
+            "page": 31,
+            "paragraph_index": 7,
+            "rect": [
+              19.607999801635742,
+              195.4022216796875,
+              304.10369873046875,
+              227.68714904785156
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  \ud835\udf0e 2  is estimated by  \ud835\udc46 2",
+          "position": {
+            "page": 31,
+            "paragraph_index": 8,
+            "rect": [
+              19.607999801635742,
+              235.63223266601562,
+              280.3437194824219,
+              268.69000244140625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  Standard error of effect:",
+          "position": {
+            "page": 31,
+            "paragraph_index": 9,
+            "rect": [
+              19.607999801635742,
+              276.46856689453125,
+              311.9916687011719,
+              308.7699890136719
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc46\ud835\udc38 \ud835\udc38\ud835\udc52\udc53\ud835\udc52\udc53\ud835\udc52\ud835\udc4e\udc50\ud835\udc5f\udc61 = 2\ud835\udc46",
+          "position": {
+            "page": 31,
+            "paragraph_index": 10,
+            "rect": [
+              237.82000732421875,
+              305.2318115234375,
+              464.67913818359375,
+              354.3171691894531
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc59\udc5b2 \ud835\udc56\udc58",
+          "position": {
+            "page": 31,
+            "paragraph_index": 11,
+            "rect": [
+              435.9599914550781,
+              348.4522399902344,
+              480.46160888671875,
+              378.93182373046875
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Variance\n\u2022 Variance of each effect estimate:\n \ud835\udc49 \ud835\udc38\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udc49\n\ud835\udc34\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5a\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\n\ud835\udc5a\ufffd\ufffd\ufffd2\ud835\udc57\ufffd\ufffd\ufffd\u22121\n=\n1\n\ud835\udc5a\ufffd\ufffd\ufffd2\ud835\udc57\ufffd\ufffd\ufffd\u22121 2 \ud835\udc49(\ud835\udc36\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd)\n\u2022 \ud835\udc49 \ud835\udc36\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udc59\ufffd\ufffd\ufffd2\ud835\udc56\ufffd\ufffd\ufffd\ud835\udf0e2\n\u2022 \ud835\udf0e2 is estimated by \ud835\udc462\n\u2022 Standard error of effect:\n\ud835\udc46\ud835\udc38 \ud835\udc38\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd =\n2\ud835\udc46\n\ud835\udc59\ufffd\ufffd\ufffd2\ud835\udc56\ufffd\ufffd\ufffd\n"
+    },
+    {
+      "page_number": 33,
+      "paragraphs": [
+        {
+          "text": "Test of Significance of Effect",
+          "position": {
+            "page": 32,
+            "paragraph_index": 0,
+            "rect": [
+              19.607999801635742,
+              24.122013092041016,
+              509.626708984375,
+              68.1860122680664
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\u2022  To test the significance of estimated effects:",
+          "position": {
+            "page": 32,
+            "paragraph_index": 1,
+            "rect": [
+              19.607999801635742,
+              90.91856384277344,
+              534.7490234375,
+              123.22000885009766
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc5f\udc61 0  = \ud835\udc38\ud835\udc52\udc53\ud835\udc52\udc53\ud835\udc52\ud835\udc4e\udc50\ud835\udc5f\udc61",
+          "position": {
+            "page": 32,
+            "paragraph_index": 2,
+            "rect": [
+              258.3399963378906,
+              120.52180480957031,
+              432.65185546875,
+              175.36181640625
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc46\ud835\udc38 \ud835\udc38\ud835\udc52\udc53\ud835\udc52\udc53\ud835\udc52\ud835\udc4e\udc50\ud835\udc5f\udc61",
+          "position": {
+            "page": 32,
+            "paragraph_index": 3,
+            "rect": [
+              318.3399963378906,
+              160.36180114746094,
+              449.47186279296875,
+              188.32180786132812
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "Compare the test-statistic with  \ud835\udc5f\udc61 \ud835\udc4e\udc50\ud835\udc5f\ud835\udc56\ud835\udc5f\udc61  = \ud835\udc5f\udc61 \ud835\udefc",
+          "position": {
+            "page": 32,
+            "paragraph_index": 4,
+            "rect": [
+              19.607999801635742,
+              238.0318145751953,
+              484.77655029296875,
+              271.7518310546875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "2 ,\ud835\udc41\u2212\ud835\udc5a\udc5d",
+          "position": {
+            "page": 32,
+            "paragraph_index": 5,
+            "rect": [
+              473.760009765625,
+              254.23223876953125,
+              532.6796875,
+              284.03240966796875
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc41 = \ud835\udc46\udc47\ud835\udc59\udc5c\ud835\udc5f\udc61\ud835\udc4e\ud835\udc59 \ud835\udc59\udc5b\ud835\udc5f\udc62\ud835\udc59\udc5a\ud835\udc4e\udc4f\ud835\udc52\ud835\udc5f \ud835\udc59\udc5c\ud835\udc52\udc53 \ud835\udc5f\ud835\udc5f\udc62\ud835\udc59\udc5b\ud835\udc5f\udc60",
+          "position": {
+            "page": 32,
+            "paragraph_index": 6,
+            "rect": [
+              193.6300048828125,
+              280.2718505859375,
+              525.7221069335938,
+              308.2318420410156
+            ],
+            "is_ocr": false
+          }
+        },
+        {
+          "text": "\ud835\udc59\udc5d = \ud835\udc46\udc47\ud835\udc59\udc5c\ud835\udc5f\udc61\ud835\udc4e\ud835\udc59 \ud835\udc59\udc5b\ud835\udc5f\udc62\ud835\udc59\udc5a\ud835\udc4e\udc4f\ud835\udc52\ud835\udc5f \ud835\udc59\udc5c\ud835\udc52\udc53 \ud835\udc59\udc5d\ud835\udc4e\ud835\udc5f\ud835\udc4e\ud835\udc59\udc5a\ud835\udc52\ud835\udc5f\udc61\ud835\udc52\ud835\udc5f\ud835\udc5f\udc60",
+          "position": {
+            "page": 32,
+            "paragraph_index": 7,
+            "rect": [
+              148.02999877929688,
+              310.4931640625,
+              572.1024780273438,
+              338.4771728515625
+            ],
+            "is_ocr": false
+          }
+        }
+      ],
+      "full_text": "Test of Significance of Effect\n\u2022 To test the significance of estimated effects:\n\ud835\udc5f\ufffd\ufffd\ufffd0 =\n\ud835\udc38\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\n\ud835\udc46\ud835\udc38 \ud835\udc38\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\nCompare the test-statistic with \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc5f\ud835\udc56\ud835\udc5f\ufffd\ufffd\ufffd = \ud835\udc5f\ufffd\ufffd\ufffd\ud835\udefc\n2,\ud835\udc41\u2212\ud835\udc5a\ufffd\ufffd\ufffd\n\ud835\udc41 = \ud835\udc46\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc59 \ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc5f \ud835\udc59\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd \ud835\udc5f\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\n\ud835\udc59\ufffd\ufffd\ufffd = \ud835\udc46\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc59 \ud835\udc59\ufffd\ufffd\ufffd\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc4e\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc5f \ud835\udc59\ufffd\ufffd\ufffd\ud835\udc52\ufffd\ufffd\ufffd \ud835\udc59\ufffd\ufffd\ufffd\ud835\udc4e\ud835\udc5f\ud835\udc4e\ud835\udc59\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc5f\ufffd\ufffd\ufffd\ud835\udc52\ud835\udc5f\ud835\udc5f\ufffd\ufffd\ufffd \n"
+    }
+  ],
+  "metadata": {
+    "filename": "Module06_FactorialDesign.pdf",
+    "content_type": "application/pdf",
+    "file_size": 1014933,
+    "upload_date": "2025-05-22T23:04:28.926504",
+    "author": null,
+    "document_date": null,
+    "document_type": "pdf",
+    "processing_status": "indexing_failed",
+    "segment_count": 0,
+    "page_count": 33
+  }
+}
